@@ -1,0 +1,50 @@
+simulation:
+  sat_k: 3
+  sat_group_name: "weather"
+  gs_k: 2
+  tasks_k: 15
+  seed: 42
+
+payload:
+  sensors_pool:
+    - VIS
+    - SAR
+    - TIR
+  sensor_weights: [0.7, 0.2, 0.1]
+  
+  bands_config:
+    X:
+      weight: 0.6
+      min_elevation_deg: 10.0
+    S:
+      weight: 0.2
+      min_elevation_deg: 5.0
+    Ka:
+      weight: 0.2
+      min_elevation_deg: 15.0
+
+  min_sensors_per_sat: 1
+  max_sensors_per_sat: 2
+
+task_generation:
+  polygon_ratio: 0.6
+  min_area_deg: 0.05
+  max_area_deg: 0.20
+  min_duration: 5
+  max_duration: 30
+  min_release_delay: 0
+  max_release_delay: 600
+  min_lifetime: 1800
+  max_lifetime: 7200
+  priority_weights: [0.45, 0.25, 0.15, 0.10, 0.05]
+  
+  bounding_boxes:
+    - name: "colombia_andina"
+      lat_envelope: [2.0, 8.0]
+      lon_envelope: [-77.0, -72.0]
+    - name: "panama_canal"
+      lat_envelope: [7.5, 9.5]
+      lon_envelope: [-80.5, -78.5]
+
+paths:
+  gs_file_path: "data/ground_station.csv"

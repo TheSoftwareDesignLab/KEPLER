@@ -1,0 +1,16 @@
+# ==============================================================================
+# KEPLER - DatasetFactory Dependency Registry
+# Core Requirements for Phase 1 (Data Collection) & Phase 2 (Physics Propagation)
+# ==============================================================================
+
+# --- Core Orbital Mechanics & Mathematics ---
+sgp4==2.23          # Analytical SGP4 propagation framework for NORAD TLE state vectors
+numpy==1.26.4       # Linear algebra and topocentric AER coordinates calculations
+
+# --- Infrastructure & Data Serialization ---
+pyyaml==6.0.1       # Unified config.yaml parser for system-wide initialization
+pyproj==3.6.1       # Cartographic transformations and WGS84 ellipsoidal geometry
+
+# --- Network & Data Processing (Optional / Ecosystem Compatibility) ---
+# requests==2.31.0   # Standard client layer if fetching CelesTrak over raw HTTP
+# pandas==2.2.2      # Vectorized processing if manipulating heavy ground_station data pools
