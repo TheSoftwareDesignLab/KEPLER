@@ -3,6 +3,5 @@
 .venv/
 .idea/
 .vscode/
-data/
 *.bsp
 *.tle

@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "generated_at_utc": "2026-06-17 22:22:20",
+    "simulation_start_utc": "2026-06-15 12:00:00",
+    "simulation_end_utc": "2026-06-16 12:00:00",
+    "total_satellites": 3,
+    "total_ground_stations": 2,
+    "total_targets": 3,
+    "compiled_infrastructure_passes": 23,
+    "compiled_target_passes": 2
+  },
+  "infrastructure_passes": [
+    {
+      "satellite_id": 58661,
+      "ground_station_id": "goonhilly_ghy6",
+      "aos_utc": "2026-06-15 13:59:39",
+      "tmax_utc": "2026-06-15 14:03:20",
+      "los_utc": "2026-06-15 14:06:40",
+      "max_el_deg": 63.82569915482188,
+      "range_aos_km": 1649.1344539999595,
+      "range_los_km": 1636.090522563692,
+      "duration_s": 420
+    },
+    {
+      "satellite_id": 58661,
+      "ground_station_id": "goonhilly_ghy6",
+      "aos_utc": "2026-06-15 15:34:13",
+      "tmax_utc": "2026-06-15 15:35:40",
+      "los_utc": "2026-06-15 15:37:23",
+      "max_el_deg": 12.580567478525207,
+      "range_aos_km": 1648.8877493085931,
+      "range_los_km": 1643.9495401822703,
+      "duration_s": 189
+    },
+    {
+      "satellite_id": 58661,
+      "ground_station_id": "goonhilly_ghy6",
+      "aos_utc": "2026-06-16 00:37:25",
+      "tmax_utc": "2026-06-16 00:40:40",
+      "los_utc": "2026-06-16 00:44:11",
+      "max_el_deg": 46.98461555777436,
+      "range_aos_km": 1622.5908917984177,
+      "range_los_km": 1641.6344959226053,
+      "duration_s": 405
+    },
+    {
+      "satellite_id": 58661,
+      "ground_station_id": "goonhilly_ghy6",
+      "aos_utc": "2026-06-16 02:12:12",
+      "tmax_utc": "2026-06-16 02:14:20",
+      "los_utc": "2026-06-16 02:16:08",
+      "max_el_deg": 14.256350307062482,
+      "range_aos_km": 1625.1712852435153,
+      "range_los_km": 1636.4777607311644,
+      "duration_s": 236
+    },
+    {
+      "satellite_id": 39260,
+      "ground_station_id": "goonhilly_ghy6",
+      "aos_utc": "2026-06-15 13:37:22",
+      "tmax_utc": "2026-06-15 13:42:20",
+      "los_utc": "2026-06-15 13:47:10",
+      "max_el_deg": 17.055336837922,
+      "range_aos_km": 2859.481710014931,
+      "range_los_km": 2878.273147688257,
+      "duration_s": 587
+    },
+    {
+      "satellite_id": 39260,
+      "ground_station_id": "goonhilly_ghy6",
+      "aos_utc": "2026-06-15 15:15:33",
+      "tmax_utc": "2026-06-15 15:22:00",
+      "los_utc": "2026-06-15 15:28:32",
+      "max_el_deg": 83.96674433999365,
+      "range_aos_km": 2850.4650217064022,
+      "range_los_km": 2877.9578055593233,
+      "duration_s": 778
+    },
+    {
+      "satellite_id": 39260,
+      "ground_station_id": "goonhilly_ghy6",
+      "aos_utc": "2026-06-15 16:58:16",
+      "tmax_utc": "2026-06-15 17:03:20",
+      "los_utc": "2026-06-15 17:08:14",
+      "max_el_deg": 16.652731367689604,
+      "range_aos_km": 2851.943929368943,
+      "range_los_km": 2874.3068393165904,
+      "duration_s": 598
+    },
+    {
+      "satellite_id": 39260,
+      "ground_station_id": "goonhilly_ghy6",
+      "aos_utc": "2026-06-16 03:31:11",
+      "tmax_utc": "2026-06-16 03:37:00",
+      "los_utc": "2026-06-16 03:42:52",
+      "max_el_deg": 26.448057194144724,
+      "range_aos_km": 2889.23798631366,
+      "range_los_km": 2884.971237154385,
+      "duration_s": 700
+    },
+    {
+      "satellite_id": 39260,
+      "ground_station_id": "goonhilly_ghy6",
+      "aos_utc": "2026-06-16 05:11:27",
+      "tmax_utc": "2026-06-16 05:18:00",
+      "los_utc": "2026-06-16 05:24:16",
+      "max_el_deg": 54.86615146155509,
+      "range_aos_km": 2889.8816524869067,
+      "range_los_km": 2886.3779479723403,
+      "duration_s": 769
+    },
+    {
+      "satellite_id": 39260,
+      "ground_station_id": "goonhilly_ghy6",
+      "aos_utc": "2026-06-16 06:53:13",
+      "tmax_utc": "2026-06-16 06:57:20",
+      "los_utc": "2026-06-16 07:01:18",
+      "max_el_deg": 11.764708532279581,
+      "range_aos_km": 2888.8792269473543,
+      "range_los_km": 2890.2279642140434,
+      "duration_s": 484
+    },
+    {
+      "satellite_id": 29522,
+      "ground_station_id": "goonhilly_ghy6",
+      "aos_utc": "2026-06-15 16:36:20",
+      "tmax_utc": "2026-06-15 16:41:20",
+      "los_utc": "2026-06-15 16:46:11",
+      "max_el_deg": 36.297965035307804,
+      "range_aos_km": 2449.5984595760483,
+      "range_los_km": 2462.1151218575696,
+      "duration_s": 590
+    },
+    {
+      "satellite_id": 29522,
+      "ground_station_id": "goonhilly_ghy6",
+      "aos_utc": "2026-06-15 18:16:39",
+      "tmax_utc": "2026-06-15 18:21:40",
+      "los_utc": "2026-06-15 18:26:52",
+      "max_el_deg": 40.59983211352673,
+      "range_aos_km": 2445.420947223711,
+      "range_los_km": 2459.971186452671,
+      "duration_s": 613
+    },
+    {
+      "satellite_id": 29522,
+      "ground_station_id": "goonhilly_ghy6",
+      "aos_utc": "2026-06-16 06:31:56",
+      "tmax_utc": "2026-06-16 06:37:20",
+      "los_utc": "2026-06-16 06:42:45",
+      "max_el_deg": 61.55618967050377,
+      "range_aos_km": 2466.3754378144367,
+      "range_los_km": 2458.632869234683,
+      "duration_s": 649
+    },
+    {
+      "satellite_id": 29522,
+      "ground_station_id": "goonhilly_ghy6",
+      "aos_utc": "2026-06-16 08:13:06",
+      "tmax_utc": "2026-06-16 08:17:40",
+      "los_utc": "2026-06-16 08:21:55",
+      "max_el_deg": 25.726134808737147,
+      "range_aos_km": 2465.925161264893,
+      "range_los_km": 2461.59901112724,
+      "duration_s": 528
+    },
+    {
+      "satellite_id": 58661,
+      "ground_station_id": "allan_park_teleport",
+      "aos_utc": "2026-06-15 18:43:30",
+      "tmax_utc": "2026-06-15 18:47:00",
+      "los_utc": "2026-06-15 18:50:13",
+      "max_el_deg": 41.21313151390392,
+      "range_aos_km": 1645.4811871235734,
+      "range_los_km": 1633.1110740525528,
+      "duration_s": 402
+    },
+    {
+      "satellite_id": 58661,
+      "ground_station_id": "allan_park_teleport",
+      "aos_utc": "2026-06-15 20:17:49",
+      "tmax_utc": "2026-06-15 20:19:40",
+      "los_utc": "2026-06-15 20:21:24",
+      "max_el_deg": 13.49317819354592,
+      "range_aos_km": 1644.7043214698283,
+      "range_los_km": 1638.9742927556208,
+      "duration_s": 214
+    },
+    {
+      "satellite_id": 58661,
+      "ground_station_id": "allan_park_teleport",
+      "aos_utc": "2026-06-16 05:19:07",
+      "tmax_utc": "2026-06-16 05:21:40",
+      "los_utc": "2026-06-16 05:24:21",
+      "max_el_deg": 20.074116829064586,
+      "range_aos_km": 1622.3194898577499,
+      "range_los_km": 1636.4515984070704,
+      "duration_s": 314
+    },
+    {
+      "satellite_id": 58661,
+      "ground_station_id": "allan_park_teleport",
+      "aos_utc": "2026-06-16 06:51:44",
+      "tmax_utc": "2026-06-16 06:54:40",
+      "los_utc": "2026-06-16 06:57:39",
+      "max_el_deg": 25.29201840557615,
+      "range_aos_km": 1617.7586628607783,
+      "range_los_km": 1633.6407150783855,
+      "duration_s": 354
+    },
+    {
+      "satellite_id": 39260,
+      "ground_station_id": "allan_park_teleport",
+      "aos_utc": "2026-06-15 18:42:12",
+      "tmax_utc": "2026-06-15 18:46:20",
+      "los_utc": "2026-06-15 18:50:09",
+      "max_el_deg": 11.622929354506468,
+      "range_aos_km": 2857.361715671865,
+      "range_los_km": 2872.1794395701763,
+      "duration_s": 477
+    },
+    {
+      "satellite_id": 39260,
+      "ground_station_id": "allan_park_teleport",
+      "aos_utc": "2026-06-15 20:19:18",
+      "tmax_utc": "2026-06-15 20:25:40",
+      "los_utc": "2026-06-15 20:32:12",
+      "max_el_deg": 73.04224441206874,
+      "range_aos_km": 2847.7214378451213,
+      "range_los_km": 2873.947664654832,
+      "duration_s": 774
+    },
+    {
+      "satellite_id": 39260,
+      "ground_station_id": "allan_park_teleport",
+      "aos_utc": "2026-06-15 22:01:59",
+      "tmax_utc": "2026-06-15 22:06:40",
+      "los_utc": "2026-06-15 22:11:38",
+      "max_el_deg": 15.554681946696707,
+      "range_aos_km": 2849.9394038787027,
+      "range_los_km": 2869.816955637057,
+      "duration_s": 579
+    },
+    {
+      "satellite_id": 39260,
+      "ground_station_id": "allan_park_teleport",
+      "aos_utc": "2026-06-16 08:38:05",
+      "tmax_utc": "2026-06-16 08:44:00",
+      "los_utc": "2026-06-16 08:49:57",
+      "max_el_deg": 28.611659228459082,
+      "range_aos_km": 2888.7101968095994,
+      "range_los_km": 2884.4690457354864,
+      "duration_s": 712
+    },
+    {
+      "satellite_id": 39260,
+      "ground_station_id": "allan_park_teleport",
+      "aos_utc": "2026-06-16 10:18:25",
+      "tmax_utc": "2026-06-16 10:24:40",
+      "los_utc": "2026-06-16 10:30:52",
+      "max_el_deg": 41.51800222936527,
+      "range_aos_km": 2888.927981636025,
+      "range_los_km": 2885.6094840377646,
+      "duration_s": 747
+    }
+  ],
+  "target_passes": [
+    {
+      "satellite_id": 29522,
+      "task_id": "TASK_GEN_001",
+      "region_tag": "colombia_andina",
+      "aos_utc": "2026-06-15 12:06:06",
+      "los_utc": "2026-06-15 12:12:32",
+      "max_el_deg": 15.952415678376752,
+      "duration_s": 385,
+      "is_feasible": true
+    },
+    {
+      "satellite_id": 29522,
+      "task_id": "TASK_GEN_003",
+      "region_tag": "colombia_andina",
+      "aos_utc": "2026-06-15 12:04:56",
+      "los_utc": "2026-06-15 12:11:58",
+      "max_el_deg": 17.227684968153042,
+      "duration_s": 422,
+      "is_feasible": true
+    }
+  ]
+}

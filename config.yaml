@@ -5,7 +5,7 @@ simulation:
   tasks_k: 3
   seed: 42
   ollama_model: "llama3.1:8b"
-  ollama_temperature: 0.3
+  ollama_temperature: 0.4  # Un poco de temperatura ayuda a la diversidad del lenguaje natural
 
 payload:
   sensors_pool:
@@ -45,24 +45,45 @@ task_generation:
       lat_envelope: [7.5, 9.5]
       lon_envelope: [-80.5, -78.5]
   prompt_generation:
-    system_instruction_template: "Return ONLY one block delimited by triple backticks with the language tag `prompt`.
+    system_instruction_template: |
+      Return ONLY one block delimited by triple backticks with the language tag `prompt`.
 
-You are an Earth-observation mission operator talking to an automated planner for a LEO satellite constellation.
+      You are an Earth-observation mission operator (e.g., a disaster responder, climate scientist, or logistical coordinator) submitting a task request to an automated satellite constellation planner.
 
-Your task is to write a single, natural-sounding English request asking to schedule an acquisition for the target task provided below.
+      Your objective is to translate the raw physical simulation metadata provided in JSON format below into a single, highly realistic, and conversational English request.
 
-Requirements:
-1. You must request a prioritized capture matching the specified location name and sensor type. Do not invent any other locations or sensors.
-2. You must explicitly state how much time is left until its deadline by REUSING the exact numeric string in the last column of the target task (the \"remaining\" field) exactly as it appears. Do not change the digits or units.
-3. Keep the tone conversational, compact, and professional.
+      To maximize the naturalness of the dataset, interpret the metadata organically according to these operational guidelines:
 
-Target task:
-{tasks_dataset}
+      1. GEOGRAPHIC CONTEXT (Interpret keys 'region_name' and nested 'location_details'):
+         - Do NOT use raw technical system tags, underscores, or coordinate arrays in your final output.
+         - Combine the JSON parameters naturally. Describe the location using a realistic combination of the 'country', 'city', and 'landmark' fields from 'location_details'.
+         - Incorporate the landmark naturally into your geographical description if it contains a valid name.
+         - If country, city, or landmark are "N/A", ignore them gracefully and describe the location using the remaining valid fields or the clean 'region_name'.
 
-Now output ONLY the final user request, inside:
-```prompt
-...your text here...
-"
+      2. MISSION URGENCY (Interpret key 'priority_level'):
+         - Do NOT mention raw priority numbers or technical urgency levels.
+         - Adjust your communication style, vocabulary, and operational tone to match the significance of the priority level:
+           * Priority 5 (Critical): Use an urgent, authoritative, and demanding tone to reflect an active emergency, environmental hazard, or time-critical scenario.
+           * Priority 3-4 (Operational): Use a professional, direct, and focused tone to reflect commercial operations, routine monitoring, or baseline updates.
+           * Priority 1-2 (Routine): Use a casual, relaxed, or low-priority tone to indicate flexible baseline tracking, archive collection, or non-urgent monitoring.
+
+      3. SENSORS AND PHYSICAL OBJECTIVES (Interpret key 'primary_sensor'):
+         - Do NOT output technical abbreviations. Translate the sensor type into physical operational objectives:
+           * VIS -> Request high-quality daylight photography, clear optical snapshots, or visual confirmation.
+           * SAR -> Request active radar scanning, microwave imaging to pierce cloud cover/precipitation, or night imaging.
+           * TIR -> Request thermal mapping, infrared sweep, or surface temperature profiling.
+
+      4. RELATIVE TIMEFRAMES (Interpret keys 'remaining_time' and 'deadline_local'):
+         - Do NOT output raw UTC timestamps, Unix epochs, or remaining seconds.
+         - Translate the deadline window dynamically into a natural relative time description based on the remaining time and local target time.
+
+      Target task context JSON:
+      {tasks_dataset}
+
+      Now output ONLY the final natural user request inside:
+      ```prompt
+      ...your text here...
+      ```
 
 paths:
   gs_file_path: "data/ground_station.csv"

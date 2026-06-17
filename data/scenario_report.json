@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "total_satellites": 3,
+    "total_ground_stations": 2,
+    "total_target_tasks": 3
+  },
+  "satellites": [
+    {
+      "norad_id": 58661,
+      "name": "TIANMU-1 20",
+      "tle_line1": "1 58661U 23208B   26168.58581992  .00006440  00000+0  20592-3 0  9995",
+      "tle_line2": "2 58661  97.4452 285.5230 0005984 332.2747  27.8175 15.32769336137486",
+      "assigned_band": "X",
+      "assigned_sensors": [
+        "SAR"
+      ]
+    },
+    {
+      "norad_id": 39260,
+      "name": "FENGYUN 3C",
+      "tle_line1": "1 39260U 13052A   26168.60920267  .00000068  00000+0  55493-4 0  9999",
+      "tle_line2": "2 39260  98.4987 142.4646 0015239  26.4572 333.7378 14.15755084658621",
+      "assigned_band": "S",
+      "assigned_sensors": [
+        "SAR"
+      ]
+    },
+    {
+      "norad_id": 29522,
+      "name": "DMSP 5D-3 F17 (USA 191)",
+      "tle_line1": "1 29522U 06050A   26168.59396407 -.00000012  00000+0  16059-4 0  9995",
+      "tle_line2": "2 29522  98.7378 175.1558 0011155  58.3497 301.8763 14.14993092 12480",
+      "assigned_band": "X",
+      "assigned_sensors": [
+        "VIS"
+      ]
+    }
+  ],
+  "ground_stations": [
+    {
+      "id": "goonhilly_ghy6",
+      "name": "Goonhilly GHY-6",
+      "latitude": 50.0481728,
+      "longitude": -5.1810449,
+      "elevation_m": 109.0,
+      "bands_supported": [
+        "Ka",
+        "S",
+        "X"
+      ]
+    },
+    {
+      "id": "allan_park_teleport",
+      "name": "Allan Park Teleport",
+      "latitude": 44.1791715,
+      "longitude": -80.9343922,
+      "elevation_m": 292.0,
+      "bands_supported": [
+        "Ka"
+      ]
+    }
+  ],
+  "targets": [
+    {
+      "task_id": "TASK_GEN_001",
+      "region_tag": "colombia_andina",
+      "priority": 2,
+      "task_type": "point",
+      "release_time_s": 25,
+      "deadline_s": 4078,
+      "coordinates": [
+        [
+          3.469351122820857,
+          -76.30231035737428
+        ]
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_002",
+      "region_tag": "panama_canal",
+      "priority": 2,
+      "task_type": "polygon",
+      "release_time_s": 432,
+      "deadline_s": 2492,
+      "coordinates": [
+        [
+          7.707077104543069,
+          -80.19446527248327
+        ],
+        [
+          7.707077104543069,
+          -79.9309828283023
+        ],
+        [
+          7.412111773209212,
+          -79.9309828283023
+        ],
+        [
+          7.412111773209212,
+          -80.19446527248327
+        ],
+        [
+          7.707077104543069,
+          -80.19446527248327
+        ]
+      ]
+    },
+    {
+      "task_id": "TASK_GEN_003",
+      "region_tag": "colombia_andina",
+      "priority": 1,
+      "task_type": "polygon",
+      "release_time_s": 284,
+      "deadline_s": 2137,
+      "coordinates": [
+        [
+          6.7464261636096206,
+          -76.30219259988243
+        ],
+        [
+          6.7464261636096206,
+          -76.10121423634865
+        ],
+        [
+          6.359262241947586,
+          -76.10121423634865
+        ],
+        [
+          6.359262241947586,
+          -76.30219259988243
+        ],
+        [
+          6.7464261636096206,
+          -76.30219259988243
+        ]
+      ]
+    }
+  ]
+}
