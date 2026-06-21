@@ -1,5 +1,6 @@
 import sys
 import pathlib
+import json
 from datetime import datetime, timezone
 yaml_available = True
 try:
@@ -24,15 +25,26 @@ def load_config(config_path: str) -> dict:
     return config
 
 
+def load_semantic_categories(categories_path: str) -> dict:
+    p = pathlib.Path(categories_path)
+    if not p.exists():
+        raise FileNotFoundError(f"Semantic categories JSON file not found at: {categories_path}")
+    with p.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 def main():
     print("==================================================")
     print("Launching DatasetFactory Bulk Generation Pipeline...")
     print("==================================================")
     
     CONFIG_FILE = "config.yaml"
+    CATEGORIES_FILE = "semantic_categories.json"
     
     try:
         cfg = load_config(CONFIG_FILE)
+        sem_categories = load_semantic_categories(CATEGORIES_FILE)
+        
         sim_cfg = cfg.get("simulation", {})
         pay_cfg = cfg.get("payload", {})
         task_cfg = cfg.get("task_generation", {})
@@ -102,7 +114,6 @@ def main():
             prompt_cfg = task_cfg.get("prompt_generation", {})
             ollama_model = sim_cfg.get("ollama_model", "llama3.1:8b")
             ollama_temp = sim_cfg.get("ollama_temperature", 0.3)
-            yaml_sensors = prompt_cfg.get("sensor_categories", {})
             
             prompt_factory_main(
                 targets=context.targets,
@@ -110,7 +121,10 @@ def main():
                 output_dir=str(scenario_dir),  
                 model_name=ollama_model,
                 temperature=ollama_temp,
-                sensor_categories=yaml_sensors  
+                sensor_categories=sem_categories.get("sensor_categories"),
+                priority_categories=sem_categories.get("priority_categories"),
+                days_categories=sem_categories.get("days_categories"),
+                hours_categories=sem_categories.get("hours_categories")
             )
             
             print("\nExecuting Phase 2: Physics Matrix Propagation & Target Intersection...")

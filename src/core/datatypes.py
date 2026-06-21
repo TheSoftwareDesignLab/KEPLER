@@ -24,7 +24,7 @@ class TargetTask:
     task_id: str
     region_tag: str
     priority: int
-    task_type: str                   # "point" or "polygon"
+    task_type: str                 
     coordinates: List[Tuple[float, float]] 
     required_sensors: List[str]
     release_time: int               

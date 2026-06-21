@@ -5,14 +5,17 @@
 
 # --- Core Orbital Mechanics & Mathematics ---
 sgp4==2.23          # Analytical SGP4 propagation framework for NORAD TLE state vectors
-numpy==1.26.4       # Linear algebra and topocentric AER coordinates calculations
+numpy==1.26.4       # Linear algebra, topocentric AER coordinates, and vector validation operations
 
-# --- Infrastructure & Data Serialization ---
+# --- Infrastructure, Serialization & Geolocation ---
 pyyaml==6.0.1       # Unified config.yaml parser for system-wide initialization
 pyproj==3.6.1       # Cartographic transformations and WGS84 ellipsoidal geometry
+geopy==2.4.1        # High-level geocoding interface for lat/lon address extraction via Nominatim
 
-# --- Network & Data Processing (Optional / Ecosystem Compatibility) ---
- requests==2.31.0   # Standard client layer if fetching CelesTrak over raw HTTP
- pandas==2.2.2      # Vectorized processing if manipulating heavy ground_station data pools
+# --- Network, AI Inferences & Data Processing ---
+requests==2.31.0    # Standard HTTP client layer for CelesTrak TLEs and local Ollama API endpoints
+urllib3==2.2.1      # Connection pooling engine with fallback support for insecure request bypasses
+pandas==2.2.2       # Vectorized processing if manipulating heavy ground_station data pools
 
- skyfield==1.42        # High-precision ephemeris calculations for validation and cross-checking
+# --- High-Precision Ephemerides & Cross-Checking ---
+skyfield==1.42      # High-precision ephemeris calculations for validation and cross-checking

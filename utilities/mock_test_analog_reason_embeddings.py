@@ -124,8 +124,21 @@ def run_bench_test():
     for tag, vector in zip(tags_list, sensor_embeddings):
         sensor_dict[tag] = np.array(vector)
 
-    sample_sentence = "We need to conduct a thermal mapping survey over Panamá in the next four days. The deadline is slightly flexible, so we can work within that timeframe to ensure we capture the necessary data for our baseline tracking."
-    
+    time_vocabulary = ["morning", "afternoon", "evening", "night", "none"]
+    time_dict = {}
+    time_embeddings = get_ollama_embeddings(time_vocabulary, "mxbai-embed-large")
+    for word, vector in zip(time_vocabulary, time_embeddings):
+        time_dict[word] = np.array(vector)
+
+    urgency_vocabulary = ["low", "medium", "high"]
+    urgency_dict = {}
+    urgency_embeddings = get_ollama_embeddings(urgency_vocabulary, "mxbai-embed-large")
+    for word, vector in zip(urgency_vocabulary, urgency_embeddings):
+        urgency_dict[word] = np.array(vector)
+
+    sample_sentence = "Translate this thermal infrared (TIR) mission to map heat emissions and surface temperature distributions across the region of Panamá, with a focus on capturing high-resolution imagery of the thermal signatures and heat dissipation anomalies. This is an absolute institutional priority, as per our contractual agreement, and requires an urgent operational execution within the next 48 hours, specifically by June 20th at 11:55 PM (-05). The mission must be executed without delay or preemption to ensure a critical payload capture."
+    sample_sentence = "at the beginning of the day"
+
     print(f"Analyzing sentence: '{sample_sentence}'")
     print("-" * 60)
     
@@ -139,6 +152,11 @@ def run_bench_test():
     for i, (tag, similarity) in enumerate(sensor_matches[:1]):
         print(f"  Top Match: {tag} (Cosine Similarity: {similarity:.4f})")
         print(f"  Profile Context: '{sensor_candidates[tag]}'")
+
+    print("[TEST 3] Time Classification:")
+    time_matches = find_closest_matches_for_sentence(sample_sentence, time_dict)
+    for i, (word, similarity) in enumerate(time_matches[:1]):
+        print(f"  Top Match: '{word}' (Cosine Similarity: {similarity:.4f})")
 
 if __name__ == "__main__":
     run_bench_test()

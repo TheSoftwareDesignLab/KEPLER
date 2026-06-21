@@ -34,7 +34,6 @@ def _is_strict_leo(tle_line2: str, min_mean_motion: float = 11.0) -> bool:
     NORAD TLE format (Line 2, characters 52-63) to isolate LEO orbits.
     """
     try:
-        # Standard TLE structural column slice for Mean Motion
         mean_motion_str = tle_line2[52:63].strip()
         mean_motion_val = float(mean_motion_str)
         return mean_motion_val >= min_mean_motion
@@ -76,7 +75,6 @@ def load_and_sample_satellites(
     else:
         raise ValueError("User must explicitly provide either 'custom_satellites', 'file_path', or 'group_name'.")
 
-    # Strict LEO filtering layer via Mean Motion validation
     final_pool = [sat for sat in raw_pool if _is_strict_leo(sat.tle_line2)]
 
     if k is None:

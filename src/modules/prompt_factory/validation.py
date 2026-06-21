@@ -8,15 +8,21 @@ class SemanticValidator:
     def __init__(
         self, 
         sensor_categories: Dict[str, str], 
-        urgency_categories: List[str], 
+        priority_categories: List[str], 
+        days_categories: List[str],
+        hours_categories: List[str],
         embedding_model: str = "mxbai-embed-large"
     ):
         self.sensor_categories = sensor_categories
-        self.urgency_categories = urgency_categories
+        self.priority_categories = priority_categories
+        self.days_categories = days_categories
+        self.hours_categories = hours_categories
         self.model_name = embedding_model
         
         self.sensor_dict = self._initialize_category_dict(self.sensor_categories)
-        self.urgency_dict = self._initialize_list_dict(self.urgency_categories)
+        self.priority_dict = self._initialize_list_dict(self.priority_categories)
+        self.days_dict = self._initialize_list_dict(self.days_categories)
+        self.hours_dict = self._initialize_list_dict(self.hours_categories)
 
     def _get_ollama_embeddings(self, input_data: Any) -> List[List[float]]:
         raw_url = os.getenv("OLLAMA_URL", "http://127.0.0.1:11434")
@@ -59,8 +65,8 @@ class SemanticValidator:
         embeddings = self._get_ollama_embeddings(categories)
         
         category_dict = {}
-        for word, vector in zip(categories, embeddings):
-            category_dict[word] = np.array(vector)
+        for text_anchor, vector in zip(categories, embeddings):
+            category_dict[text_anchor] = np.array(vector)
         return category_dict
 
     def _find_closest_tag(self, target_vector: np.ndarray, embeddings_dict: Dict[str, np.ndarray]) -> Tuple[str, float]:
@@ -89,11 +95,17 @@ class SemanticValidator:
         sentence_vector = np.array(embeddings[0])
         
         predicted_sensor, sensor_sim = self._find_closest_tag(sentence_vector, self.sensor_dict)
-        predicted_urgency, urgency_sim = self._find_closest_tag(sentence_vector, self.urgency_dict)
+        predicted_priority, priority_sim = self._find_closest_tag(sentence_vector, self.priority_dict)
+        predicted_day, day_sim = self._find_closest_tag(sentence_vector, self.days_dict)
+        predicted_hour, hour_sim = self._find_closest_tag(sentence_vector, self.hours_dict)
         
         return {
             "predicted_sensor": predicted_sensor,
             "sensor_similarity": sensor_sim,
-            "predicted_urgency": predicted_urgency,
-            "urgency_similarity": urgency_sim
+            "predicted_priority": predicted_priority,
+            "priority_similarity": priority_sim,
+            "predicted_day": predicted_day,
+            "day_similarity": day_sim,
+            "predicted_hour": predicted_hour,
+            "hour_similarity": hour_sim
         }

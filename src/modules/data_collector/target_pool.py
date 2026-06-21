@@ -43,7 +43,6 @@ def generate_dynamic_tasks(
         else:
             priority = rng.randint(1, 5)
         
-        # RELATIVE TEMPORAL ENGINE (t0 = 0 seconds baseline)
         release_time = rng.randint(min_release_delay, max_release_delay)
         task_lifetime = rng.randint(min_lifetime, max_lifetime)
         deadline = release_time + task_lifetime

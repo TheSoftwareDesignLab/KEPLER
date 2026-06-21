@@ -4,9 +4,9 @@ simulation:
   sat_k: 3
   sat_group_name: "weather"
   gs_k: 2
-  tasks_k: 10
-  seed: 2026
-  ollama_model: "llama3.1:8b"
+  tasks_k: 5
+  seed: 1029182
+  ollama_model: "deepseek-r1:32b"
   ollama_temperature: 0.4 
 
 payload:
@@ -59,38 +59,36 @@ task_generation:
     system_instruction_template: |
       Return ONLY one block delimited by triple backticks with the language tag `prompt`.
 
-      You are an Earth-observation mission operator (e.g., a disaster responder, climate scientist, or logistical coordinator) submitting a task request to an automated satellite constellation planner.
-
+      You are an Earth-observation mission operator submitting a task request to an automated satellite constellation planner.
       Your objective is to translate the raw physical simulation metadata provided in JSON format below into a single, highly realistic, and conversational English request.
 
-      To maximize the naturalness of the dataset, interpret the metadata organically according to these operational guidelines:
+      To maximize the naturalness and validation accuracy of the dataset, interpret the metadata organically according to these operational guidelines:
 
       1. GEOGRAPHIC CONTEXT (Interpret keys 'region_name' and nested 'location_details'):
          - Do NOT use raw technical system tags, underscores, or coordinate arrays in your final output.
          - Combine the JSON parameters naturally. Describe the location using a realistic combination of the 'country', 'city', and 'landmark' fields from 'location_details'.
-         - Incorporate the landmark naturally into your geographical description if it contains a valid name.
          - If country, city, or landmark are "N/A", ignore them gracefully and describe the location using the remaining valid fields or the clean 'region_name'.
 
       2. MISSION ALLOCATION PRIORITY (Interpret key 'priority_level'):
-         - Do NOT mention raw priority numbers or technical urgency levels.
-         - Understand that priority indicates mission importance and scheduling hierarchy (which tasks to drop or defend if the constellation suffers from data bottlenecks, high orbital load, or conflicting visibility passes). This is NOT a time urgency or a metric of how close the deadline is.
-         - Adjust the operational tone, vocabulary, and assertiveness to reflect this ranking:
-           * Priority 3 (High Importance): Use an authoritative, explicit, and commanding tone. The language must signal that this collection is an institutional priority, a binding contract requirement, or a critical payload capture that cannot be preempted or deferred for other overlapping tasks.
-           * Priority 2 (Medium Importance): Use a professional, direct, and standard operational tone. Reflect standard commercial tasking, baseline pipeline tracking, or routine mission updates that have fixed parameters but normal operational status.
-           * Priority 1 (Low Importance): Use a casual, highly flexible, or opportunistic tone. The phrasing should indicate that this is a filler task, archive background capture, or non-essential testbed tracking that can be gracefully dropped or rescheduled at the satellite's convenience if a higher-priority task contends for the same slot.
+         - Do NOT mention raw priority numbers or technical priority levels.
+         - Priority indicates mission allocation authority and asset contractual value, NOT how close the deadline is. You must integrate specific operational phrases to reflect this structural hierarchy:
+           * Priority 3 (High Importance): Use an authoritative, explicit, and commanding tone. Frame this as an "absolute institutional priority" or a "binding contract requirement" involving a "critical payload capture" or "mandatory directive". The language must heavily imply an "urgent operational execution" and an "un-preemptable mission lock".
+           * Priority 2 (Medium Importance): Use a professional, direct, and standard operational tone. Describe this request as a "standard operational tasking", "commercial tasking", or "routine monitoring" part of a "baseline pipeline tracking" setup with "fixed parameters" representing "normal operational status" or a standard "workflow update".
+           * Priority 1 (Low Importance): Use a casual, highly flexible, or opportunistic tone. Explicitly frame this as a "low priority importance" request with a "flexible schedule" for "opportunistic capture". Label it as a "non-essential background filler task" where the operator explicitly notes to "drop or reschedule at convenience", treating it as a "background survey" or "testbed tracking task".
 
       3. SENSORS AND PHYSICAL OBJECTIVES (Interpret key 'primary_sensor'):
          - Do NOT output technical abbreviations or acronyms (e.g., do NOT write VIS, SAR, TIR, VNIR, NIR).
-         - Translate the core asset into human operational objectives by describing what physical phenomenon needs to be observed:
-           * VIS: Implies standard visual spectrum verification. Explain the objective as capturing high-fidelity daylight features, clear optical imagery, or true-color visual documentation that relies on solar illumination.
-           * SAR: Implies microwave active radar profiling. Explain the objective as piercing heavy weather, capturing ground geometry through dense cloud cover/precipitation, or acquiring surface backscatter imagery regardless of day or night conditions.
-           * TIR: Implies long-wave thermal infrared profiling. Explain the objective as mapping heat emissions, surveying surface temperature distributions, or tracking thermal signatures and heat dissipation anomalies.
-           * VNIR: Implies visible and near-infrared boundary bands. Explain the objective as evaluating surface reflectance changes, analyzing agricultural or vegetative health signatures, or capturing vegetation indices.
-           * NIR: Implies pure near-infrared collection. Explain the objective as discriminating soil moisture gradients, mapping water bodies and coastlines clearly, or capturing high-contrast land-water boundaries.
+         - Naturally weave the following operational objectives and descriptors into your request to explain the physical phenomenon to be observed:
+           * VIS -> Explain the goal as a "high-resolution optical snapshot" for "daylight photography", "clear optical imagery", or "true-color visual documentation".
+           * SAR -> Explain the goal as an "active radar scan" using "microwave surface imaging" for "cloud-penetrating capture", piercing heavy weather or capturing ground geometry.
+           * TIR -> Explain the goal as "thermal mapping" to capture a "heat signature", "surface temperature profile", or for "thermal anomaly detection" and mapping heat emissions.
+           * VNIR -> Explain the goal as "multispectral vegetation analysis" to assess "chlorophyll absorption level" or calculate a vegetation "NDVI index" and surface reflectance.
+           * NIR -> Explain the goal as "near-infrared reflection" for "water body boundary mapping" or "soil moisture assessment" to discriminate gradients.
 
       4. RELATIVE TIMEFRAMES (Interpret keys 'remaining_time' and 'deadline_local'):
-         - Do NOT output raw UTC timestamps, Unix epochs, or remaining seconds.
-         - Translate the deadline window dynamically into a natural relative time description based on the remaining time and local target time.
+         - Do NOT under any circumstances output raw UTC timestamps, Unix epochs, digits, raw numbers, or countdown metrics.
+         - Do NOT use composite time expressions that sum hours and days (e.g., do NOT write phrases like "in 3 days and 5 hours", "with 12 hours remaining", or "48 hours from now"). This is strictly forbidden.
+         - You must deliver the temporal constraint using single, fluid, human-centric relative phrasing. Fuse the macro day and the local diurnal hour into a single colloquial block. Speak naturally like an operator on a radio link: integrate time expressions by rounding the constraint into a clean target window such as "tomorrow morning", "this afternoon", "the day after tomorrow, specifically overnight", "in three days during the evening", or "sometime today around mid-day". Let the language flow without structural or robotic rigidity.
 
       Target task context JSON:
       {tasks_dataset}

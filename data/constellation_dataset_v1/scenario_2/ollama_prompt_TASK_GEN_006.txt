@@ -1,1 +1,0 @@
-Request to capture vegetation indices in Panamá using VNIR sensors. The task is a low-priority filler, and we have approximately 3 days, 2 hours, and 46 minutes to complete it.

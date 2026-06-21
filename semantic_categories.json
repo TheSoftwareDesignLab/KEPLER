@@ -1,0 +1,29 @@
+{
+  "sensor_categories": {
+    "TIR": "thermal mapping heat signature surface temperature profile thermal anomaly detection",
+    "VNIR": "multispectral vegetation analysis chlorophyll absorption level NDVI index",
+    "SAR": "active radar scan microwave surface imaging cloud-penetrating capture radar scan",
+    "NIR": "near-infrared reflection water body boundary mapping soil moisture assessment",
+    "VISUAL": "high-resolution optical snapshot daylight photography RGB true-color imagery clear visual optical snapshot",
+    "VIS": "high-resolution optical snapshot daylight photography RGB true-color imagery clear visual optical snapshot"
+  },
+  "priority_categories": [
+    "low priority background survey filler task flexible schedule",
+    "medium priority standard operational tasking routine monitoring monitoring",
+    "high priority absolute institutional priority binding contract urgent execution mandatory"
+  ],
+  "days_categories": [
+    "today execute now current date",
+    "tomorrow next calendar day upcoming",
+    "day after tomorrow subsequent pass",
+    "in three days later timeframe",
+    "in four days later timeframe"
+  ],
+  "hours_categories": [
+    "morning dawn early AM pass morning window",
+    "mid-day noon solar zenith illumination mid-day around",
+    "afternoon post-noon tracking afternoon window during",
+    "evening twilight dusk shift evening window",
+    "overnight tonight night pass midnight dark overnight specifically"
+  ]
+}

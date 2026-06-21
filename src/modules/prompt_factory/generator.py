@@ -2,26 +2,22 @@ import os
 import json
 import requests
 import time
-import ssl 
 import urllib3 
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from typing import List, Dict, Any, Optional
-from geopy.geocoders import Nominatim
 from src.core.datatypes import TargetTask
 
 __all__ = ["generate_ollama_semantic_prompt", "build_single_task_string"]
 
 
 def _get_geocoded_info(lat: Optional[float], lon: Optional[float]) -> Dict[str, str]:
-    
     if lat is None or lon is None:
         return {"country": "N/A", "city": "N/A", "landmark": "N/A"}
     
-    time.sleep(1.2)
+    time.sleep(1.2)  
     
     try:
-       
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
         
         url = "https://nominatim.openstreetmap.org/reverse"
@@ -40,7 +36,6 @@ def _get_geocoded_info(lat: Optional[float], lon: Optional[float]) -> Dict[str, 
         raw_data = response.json()
         
         if raw_data and "address" in raw_data:
-            
             address = raw_data["address"]
             country = address.get("country", "N/A")
             
@@ -66,7 +61,6 @@ def _get_geocoded_info(lat: Optional[float], lon: Optional[float]) -> Dict[str, 
                 )
             )
             
-            
             return {
                 "country": country,
                 "city": city,
@@ -81,39 +75,44 @@ def _get_geocoded_info(lat: Optional[float], lon: Optional[float]) -> Dict[str, 
     return {"country": "N/A", "city": "N/A", "landmark": "N/A"}
 
 
-def _format_remaining_time(deadline_utc: datetime, now_utc: datetime) -> str:
-    delta = deadline_utc - now_utc
-    seconds = int(delta.total_seconds())
-    if seconds <= 0:
-        return "past due"
-    days, remainder = divmod(seconds, 86400)
-    hours, remainder = divmod(remainder, 3600)
-    minutes, _ = divmod(remainder, 60)
-    parts = []
-    if days:
-        parts.append(f"{days}d")
-    if hours:
-        parts.append(f"{hours}h")
-    if minutes or not parts:
-        parts.append(f"{minutes}m")
-    return " ".join(parts)
-
-
 def build_single_task_string(task: TargetTask, now_utc: datetime) -> str:
     local_tz = ZoneInfo("America/Bogota")
-    clean_name = task.region_tag.replace("_", " ")
-    primary_sensor = task.required_sensors[0] if task.required_sensors else "VIS"
+    primary_sensor = task.required_sensors[0] if task.required_sensors else "VISUAL"
     
+    # --- CÁLCULO MATEMÁTICO TEMPORAL EN PYTHON ---
     raw_deadline = getattr(task, "deadline", getattr(task, "deadline_s", 0))
-
     deadline_epoch = now_utc.timestamp() + raw_deadline
-        
     task_deadline_utc = datetime.fromtimestamp(deadline_epoch, tz=timezone.utc)
     task_deadline_local = task_deadline_utc.astimezone(local_tz)
-    remaining_str = _format_remaining_time(task_deadline_utc, now_utc)
     
+    release_time = getattr(task, 'release_time', 0)
+    remaining_hours = (raw_deadline - release_time) / 3600.0
+
+    # Clasificación robusta de días (Macro Targets)
+    if remaining_hours < 12:
+        day_tag = "today"
+    elif remaining_hours < 36:
+        day_tag = "tomorrow"
+    elif remaining_hours < 60:
+        day_tag = "the day after tomorrow"
+    elif remaining_hours < 84:
+        day_tag = "in three days"
+    else:
+        day_tag = "in four days"
+
+    local_hour = task_deadline_local.hour
+    if 6 <= local_hour < 11:
+        hour_tag = "in the morning"
+    elif 11 <= local_hour < 14:
+        hour_tag = "around mid-day"
+    elif 14 <= local_hour < 18:
+        hour_tag = "during the afternoon"
+    elif 18 <= local_hour < 23:
+        hour_tag = "in the evening"
+    else:
+        hour_tag = "overnight"
+
     lat, lon = None, None
-    
     coords = getattr(task, "coordinates", None)
     if coords and isinstance(coords, (list, tuple)) and len(coords) > 0:
         valid_coords = [c for c in coords if isinstance(c, (list, tuple)) and len(c) >= 2]
@@ -145,21 +144,18 @@ def build_single_task_string(task: TargetTask, now_utc: datetime) -> str:
                 lat = sum(lat_env) / len(lat_env)
                 lon = sum(lon_env) / len(lon_env)
             
-    
     geo_info = _get_geocoded_info(lat, lon)
-    priority = getattr(task, "priority", getattr(task, "priority_level", 3))
+    priority = getattr(task, "priority", getattr(task, "priority_level", 1))
     
     task_json_data = {
         "primary_sensor": primary_sensor,
-        "deadline_utc": task_deadline_utc.strftime('%Y-%m-%dT%H:%M:%SZ'),
-        "deadline_local": task_deadline_local.strftime('%Y-%m-%d %H:%M (%Z)'),
-        "remaining_time": remaining_str,
         "location_details": {
             "country": geo_info['country'],
-            "city": geo_info['city'],
-            "landmark": geo_info['landmark']
+            "city": geo_info['city'] if geo_info['city'] != "N/A" else task.region_tag.split('_')[-1].capitalize()
         },
-        "priority_level": priority
+        "priority_level": priority,
+        "target_day": day_tag,
+        "target_diurnal_period": hour_tag
     }
     
     return json.dumps(task_json_data, indent=2, ensure_ascii=False)
@@ -169,7 +165,7 @@ def generate_ollama_semantic_prompt(
     targets: List[TargetTask],
     system_instruction_template: str,
     model_name: str = "llama3.1:8b",
-    temperature: float = 0.3,
+    temperature: float = 0.4,
     num_predict: int = 700,
     repeat_penalty: float = 1.05
 ) -> Dict[str, str]:

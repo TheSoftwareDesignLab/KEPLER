@@ -1,5 +1,0 @@
-Let's translate the raw physical simulation metadata into a single, highly realistic, and conversational English request.
-
-We need to collect thermal infrared imagery of the region, specifically focusing on mapping heat emissions and surveying surface temperature distributions. We're targeting the area around Panama City, Panama, which is located in the country of Panama. The collection is considered a low-priority task, so we can be flexible with the schedule.
-
-The deadline for this task is two days and ten hours from now, at 11:39 AM local time.
