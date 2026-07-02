@@ -1,2 +1,0 @@
-Tomorrow, around midday in La Arenosa o El Limite, Panamá, I need a standard operational tasking for an active radar scan using microwave surface imaging. This is part of our routine monitoring to capture ground geometry and penetrate heavy weather conditions. Please schedule this within the local afternoon hours as it aligns with our baseline pipeline tracking setup.
-```

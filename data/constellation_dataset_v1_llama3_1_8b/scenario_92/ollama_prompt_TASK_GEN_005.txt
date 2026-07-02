@@ -1,1 +1,0 @@
-We have a low priority importance request for an opportunistic capture of Sabana Larga in Venezuela using active radar scan with microwave surface imaging for cloud-penetrating capture, specifically overnight tomorrow. This is a non-essential background filler task where we can drop or reschedule at convenience, treating it as a background survey or testbed tracking task.

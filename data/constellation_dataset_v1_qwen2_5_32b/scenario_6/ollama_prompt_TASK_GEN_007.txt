@@ -1,1 +1,0 @@
-Hey, we've got a standard operational tasking coming up. We need to capture a high-resolution optical snapshot of Zipaquirá, Colombia, during the afternoon in four days. This is part of our baseline pipeline tracking with fixed parameters, so let's make sure it gets done as scheduled.

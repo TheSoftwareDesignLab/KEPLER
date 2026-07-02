@@ -1,3 +1,0 @@
-Hello, I have a low-priority task to submit for your satellite constellation planner. We're looking at capturing some opportunistic radar imagery over Llano Grande in Panamá. The main goal is an active radar scan using microwave surface imaging to achieve cloud-penetrating capture and map the ground geometry effectively.
-
-This is a non-essential background filler task, so please feel free to drop or reschedule it at your convenience. We're aiming for this to be done sometime the day after tomorrow during the afternoon. Thank you!

@@ -1,1 +1,0 @@
-We need to schedule a routine VNIR multispectral vegetation analysis over Santa Rosa del Sur, Colombia. This is part of our standard operational tasking with fixed parameters for monitoring vegetation health. The mission should be executed three days from now during the morning to capture optimal daylight conditions for accurate surface reflectance measurements.

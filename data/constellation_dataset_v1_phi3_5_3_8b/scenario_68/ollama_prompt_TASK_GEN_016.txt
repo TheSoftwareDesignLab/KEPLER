@@ -1,2 +1,0 @@
-Tomorrow morning, I need a thermal mapping over Panama's Colón city to capture surface temperature profiles and detect any heat anomalies. This is part of our routine monitoring schedule for baseline pipeline tracking. Please ensure this task aligns with the standard operational parameters we use for similar assessments. The completion date should be set accordingly, keeping in mind our regular workflow updates. Let's aim to have this done by then without disrupting our current mission allocations.
-```

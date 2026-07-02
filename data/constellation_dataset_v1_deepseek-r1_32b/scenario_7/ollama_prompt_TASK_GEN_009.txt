@@ -1,1 +1,0 @@
-We've got a low-priority thermal mapping request over Peque, Colombia. It's an opportunistic capture for surface temperature data. Target is the day after tomorrow morning. Feel free to adjust if needed.

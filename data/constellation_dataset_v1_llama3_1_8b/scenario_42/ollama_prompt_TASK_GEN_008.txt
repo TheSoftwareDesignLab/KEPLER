@@ -1,3 +1,0 @@
-Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request:
-
-We require an absolute institutional priority for thermal mapping to capture a heat signature, surface temperature profile, or for thermal anomaly detection and mapping heat emissions in the Republic of Panamá, specifically in the Canal region. This critical payload capture must be executed by the day after tomorrow, in the morning, as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.

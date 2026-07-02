@@ -1,1 +1,0 @@
-We need to execute a standard operational tasking for a high-resolution optical snapshot over Puerto Lleras, Colombia. This is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. We're looking to capture this imagery in four days during the evening.

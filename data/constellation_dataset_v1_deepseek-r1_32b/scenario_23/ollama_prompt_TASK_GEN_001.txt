@@ -1,1 +1,0 @@
-We need to schedule an NIR imaging operation to capture near-infrared reflection data over the area near Simití, Colombia. This is a standard operational tasking, so please allocate resources accordingly. The imagery should be acquired four days from now, specifically around midday, to ensure optimal lighting conditions.

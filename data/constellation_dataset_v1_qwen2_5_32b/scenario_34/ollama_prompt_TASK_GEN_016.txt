@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking for a commercial client. The mission involves an active radar scan of the Panama Canal area in Panamá. This is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We're looking to capture this data the day after tomorrow around mid-day.

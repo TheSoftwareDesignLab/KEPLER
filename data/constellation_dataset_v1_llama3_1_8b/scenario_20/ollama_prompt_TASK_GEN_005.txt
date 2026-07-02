@@ -1,2 +1,0 @@
-Tasking Request: 
-We require a routine monitoring tasking for a commercial operation, part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We need to conduct a near-infrared reflection capture for water body boundary mapping and soil moisture assessment in Colombia, specifically in the city of Puerto Boyacá. This is a standard operational tasking with a deadline set for sometime in three days during the evening.

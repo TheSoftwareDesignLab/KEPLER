@@ -1,3 +1,0 @@
-Hello, I have a task for our satellite constellation planner. We're looking to conduct a low-priority importance mission over Silos, Colombia, with a flexible schedule that allows for opportunistic capture. This is essentially a non-essential background filler task, so please feel free to drop or reschedule it at your convenience. 
-
-The objective is to perform near-infrared reflection imaging to map water body boundaries and assess soil moisture levels. We're targeting the day after tomorrow, specifically in the morning. This will serve as a background survey or testbed tracking task. Thank you!

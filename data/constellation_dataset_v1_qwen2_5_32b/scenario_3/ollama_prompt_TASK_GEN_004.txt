@@ -1,1 +1,0 @@
-We need to schedule a routine monitoring task for Caimitillo, Panamá. This is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The goal is to capture near-infrared reflection for water body boundary mapping in the area. We're looking to execute this task the day after tomorrow in the evening.

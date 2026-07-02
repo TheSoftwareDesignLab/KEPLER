@@ -1,1 +1,0 @@
-We need to execute a standard operational tasking for an active radar scan over Toabré, Panamá. This is part of our baseline pipeline tracking with fixed parameters, so we're looking at capturing a cloud-penetrating image overnight tomorrow as per the routine monitoring setup.

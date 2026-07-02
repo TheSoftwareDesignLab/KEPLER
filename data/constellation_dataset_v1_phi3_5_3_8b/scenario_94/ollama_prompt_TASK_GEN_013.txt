@@ -1,2 +1,0 @@
-Tomorrow afternoon, as part of our routine monitoring in Tadó, Colombia, please schedule a multispectral vegetation analysis focusing on near-infrared reflection to assess soil moisture gradients. This standard operational tasking is aligned with our baseline pipeline tracking and should be executed within the specified timeframe for optimal data collection.
-```

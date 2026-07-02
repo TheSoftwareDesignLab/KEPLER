@@ -1,1 +1,0 @@
-We need to set up a standard operational tasking for thermal mapping over Nechí, Colombia. This is part of our baseline pipeline tracking with fixed parameters, so we're looking at capturing the surface temperature profile in the morning tomorrow as per our normal operational status.

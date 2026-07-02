@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking for a commercial client. The mission involves capturing a cloud-penetrating radar scan over El Retorno, Colombia. This is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. Please ensure this active radar scan is completed overnight in three days.

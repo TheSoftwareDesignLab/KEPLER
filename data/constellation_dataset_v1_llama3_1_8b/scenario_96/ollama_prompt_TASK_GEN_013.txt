@@ -1,7 +1,0 @@
-Tasking Request for Opportunistic NIR Data Capture in Colombia
-
-We have a low priority importance request for an opportunistic capture of near-infrared reflection data over the region of Chigorodó, Colombia. This flexible schedule task is considered a non-essential background filler task and can be dropped or rescheduled at convenience.
-
-Our objective is to conduct a near-infrared reflection survey to assess soil moisture levels and discriminate gradients in this area. We aim to capture a high-resolution optical snapshot for daylight photography, clear optical imagery, or true-color visual documentation during the evening of the day after tomorrow.
-
-Please allocate resources accordingly, considering this as a background survey task with a flexible schedule.

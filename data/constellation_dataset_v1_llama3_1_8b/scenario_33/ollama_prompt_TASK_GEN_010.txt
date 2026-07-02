@@ -1,5 +1,0 @@
-Tasking Request: Opportunistic NIR Vegetation Analysis in Panama Canal Region
-
-We require a low-priority importance task for opportunistic capture, with a flexible schedule for daytime observation. We're interested in conducting a near-infrared reflection survey to assess water body boundary mapping and soil moisture assessment in the Panama Canal region. Specifically, we want to target the area around the city of Canal in Panamá sometime today around mid-day.
-
-This task is considered a non-essential background filler task, and we'd like to drop or reschedule it at convenience if needed. It's part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.

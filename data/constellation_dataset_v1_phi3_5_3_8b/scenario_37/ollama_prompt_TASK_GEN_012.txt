@@ -1,2 +1,0 @@
-Tomorrow evening, as part of our routine monitoring over Canal in Panama, I need a multispectral vegetation analysis using near-infrared reflection to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance. This standard operational tasking is scheduled within our baseline pipeline tracking setup with fixed parameters representing normal operational status. Please ensure this is included in today's satellite pass schedule.
-```

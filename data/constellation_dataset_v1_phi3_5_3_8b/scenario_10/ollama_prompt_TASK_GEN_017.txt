@@ -1,1 +1,0 @@
-Request for satellite tasking, team. We've got a standard operational tasking on Cerro Azul in Colombia with VNIR multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index. This is part of our routine monitoring pipeline tracking scheduled for tomorrow night. Let's ensure we maintain our baseline workflow update without delay.

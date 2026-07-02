@@ -1,7 +1,0 @@
-Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for an Earth-observation mission.
-
-The task involves translating the provided JSON metadata into a natural request. The goal is to create a realistic and conversational request that accurately reflects the operational guidelines.
-
-Here's the translation of the given JSON metadata into a natural user request:
-
-"Capture a high-resolution optical snapshot of the vegetation in Sabanalarga, Colombia, using multispectral analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index. This is an absolute institutional priority, involving a critical payload capture and mandatory directive for urgent operational execution. The mission must be executed within the next four days, specifically during the evening hours."

@@ -1,1 +1,0 @@
-We need to schedule a standard operational tasking for multispectral vegetation analysis over Panama City, Panama. The goal is to capture detailed chlorophyll absorption levels and NDVI index data. This needs to be done three days from now, specifically around midday.

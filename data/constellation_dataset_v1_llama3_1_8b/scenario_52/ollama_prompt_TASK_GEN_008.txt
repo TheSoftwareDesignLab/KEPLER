@@ -1,5 +1,0 @@
-Tasking Request for Satellite Constellation Planner
-
-We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. This is a commercial tasking involving the capture of an active radar scan using microwave surface imaging for cloud-penetrating capture in the region of Panamá, specifically in the city of Arraiján.
-
-The mission allocation authority and asset contractual value indicate that this is a standard operational tasking with no special urgency or priority. We expect the data to be captured within the next three days during the morning hours. Please execute this task as part of your routine monitoring schedule and provide us with the required data.

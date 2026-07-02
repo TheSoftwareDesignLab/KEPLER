@@ -1,1 +1,0 @@
-I need to schedule a routine monitoring task for Yopal, Colombia. This involves a near-infrared reflection mission aimed at water body boundary mapping and soil moisture assessment. It's part of our baseline pipeline tracking with fixed parameters, representing a standard operational status update. Please ensure this is captured in three days during the evening.

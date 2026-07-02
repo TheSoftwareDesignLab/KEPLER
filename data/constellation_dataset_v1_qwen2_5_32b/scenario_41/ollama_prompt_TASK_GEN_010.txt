@@ -1,1 +1,0 @@
-We need a standard operational tasking for an active radar scan over Chepo, Panamá. This is part of our baseline pipeline tracking setup with fixed parameters. We're looking to capture the area overnight on the day after tomorrow.

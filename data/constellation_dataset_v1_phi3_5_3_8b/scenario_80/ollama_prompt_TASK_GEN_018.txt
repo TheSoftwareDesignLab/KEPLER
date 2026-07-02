@@ -1,1 +1,0 @@
-Tomorrow, please schedule a routine monitoring task for Mandi Yala in Panama. We need to assess soil moisture by capturing near-infrared reflection during the afternoon hours. This should be integrated into our standard operational pipeline tracking as part of the baseline workflow update with fixed parameters representing normal operational status.

@@ -1,1 +1,0 @@
-We have a standard operational tasking request for near-infrared imagery over Venadillo, Colombia. This is a routine monitoring request requiring soil moisture assessment or water body boundary mapping. The capture must be executed tomorrow overnight as part of our baseline pipeline tracking. Please prioritize accordingly within the workflow.

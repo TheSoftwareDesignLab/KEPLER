@@ -1,1 +1,0 @@
-I need to schedule a routine monitoring task for an active radar scan over Colón, Panamá. The objective is to perform microwave surface imaging that can penetrate clouds and capture ground geometry. This is part of our baseline pipeline tracking with fixed parameters, reflecting normal operational status. Please ensure this task is lined up for the evening in three days.

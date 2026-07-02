@@ -1,1 +1,0 @@
-Request for a routine monitoring task to capture near-infrared reflection over Santa Rosa del Sur, Colombia, as part of our baseline pipeline tracking. This standard operational tasking is scheduled for tomorrow morning and will assist in water body boundary mapping and soil moisture assessment. Please ensure this gets integrated into the workflow update accordingly.

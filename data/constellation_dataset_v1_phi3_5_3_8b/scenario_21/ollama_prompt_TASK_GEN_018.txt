@@ -1,1 +1,0 @@
-Tomorrow evening, we need to conduct a standard operational tasking for multispectral vegetation analysis in Mamardub, Panama. This routine monitoring will assess the chlorophyll absorption level and calculate the NDVI index for surface reflectance as part of our baseline pipeline tracking. Please ensure this is scheduled into our workflow update accordingly.

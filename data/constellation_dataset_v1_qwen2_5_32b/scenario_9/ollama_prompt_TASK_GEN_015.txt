@@ -1,1 +1,0 @@
-Hey, we've got a low priority importance task that's flexible and can be opportunistic. We need to do a multispectral vegetation analysis over Girardot, Colombia, specifically for assessing chlorophyll absorption levels. This should be captured sometime tomorrow around mid-day. Feel free to drop or reschedule at convenience if something more pressing comes up.

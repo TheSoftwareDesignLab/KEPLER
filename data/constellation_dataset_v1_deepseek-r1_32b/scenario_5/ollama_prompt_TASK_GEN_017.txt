@@ -1,1 +1,0 @@
-We need to acquire an active radar scan over the region around Maní, Colombia, to capture microwave surface imaging for cloud-penetrating observations. This is a standard operational tasking with fixed parameters, part of our baseline pipeline tracking. Please schedule this for three days from now overnight.

@@ -1,3 +1,0 @@
-I need to schedule a standard operational tasking for our satellite constellation. We're looking at conducting a multispectral vegetation analysis over Tame, Colombia, focusing on assessing chlorophyll absorption levels and calculating the NDVI index. This is part of our baseline pipeline tracking with fixed parameters, representing normal operational status.
-
-The task should be completed tomorrow during the afternoon. Please ensure this is integrated into our routine monitoring schedule.

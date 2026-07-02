@@ -1,4 +1,0 @@
-```
-prompt
-We require an active radar scan using microwave surface imaging to capture a cloud-penetrating snapshot of the ground geometry in the region of Panama, specifically in the city of Canal. This is an absolute institutional priority, as it involves a critical payload capture and mandatory directive for urgent operational execution. The mission must be executed tomorrow during the afternoon.
-```

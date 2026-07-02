@@ -1,1 +1,0 @@
-We need a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. Specifically, we require a high-resolution near-infrared reflection capture for water body boundary mapping to discriminate gradients in Canal, Panamá, sometime today around mid-day.

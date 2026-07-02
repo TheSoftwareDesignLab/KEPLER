@@ -1,1 +1,0 @@
-We need to schedule a standard operational tasking for a high-resolution optical snapshot over the Panama Canal area. This should be part of our baseline pipeline tracking setup with fixed parameters. The capture needs to occur in three days during the overnight period.

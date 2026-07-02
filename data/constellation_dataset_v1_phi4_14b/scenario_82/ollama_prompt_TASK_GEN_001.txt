@@ -1,1 +1,0 @@
-I need to schedule a standard operational tasking for thermal mapping over Sevilla, Colombia. The objective is to capture a heat signature and surface temperature profile using thermal imaging. This is part of our baseline pipeline tracking with fixed parameters, representing a normal operational status update. Please ensure the mission is executed tomorrow evening.

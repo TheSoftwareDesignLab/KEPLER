@@ -1,1 +1,0 @@
-I need to schedule a standard operational tasking for thermal mapping over Aipe, Colombia. The objective is to capture a heat signature or surface temperature profile using thermal imaging. This is part of our baseline pipeline tracking and involves fixed parameters for normal operational status. Please ensure this routine monitoring is set up for the evening tomorrow. Thank you.

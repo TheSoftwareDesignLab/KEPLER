@@ -1,5 +1,0 @@
-Hello, I'd like to submit a task request for an Earth-observation mission with a low priority importance. This is a flexible schedule request for opportunistic capture, so please feel free to drop or reschedule it at your convenience. We're looking to conduct a non-essential background filler task in the region of Istmina, Colombia.
-
-The objective is to obtain a high-resolution optical snapshot using visible light imaging. We're aiming for clear optical imagery and true-color visual documentation during daylight photography. This task is part of a routine monitoring effort and should be treated as a background survey or testbed tracking task.
-
-Could you please schedule this observation sometime in four days during the evening? Thank you!

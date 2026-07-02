@@ -1,5 +1,6 @@
 from dataclasses import dataclass, field
 from typing import List, Tuple, Optional, Dict
+from datetime import datetime
 
 @dataclass
 class SatelliteConfig:
@@ -40,3 +41,4 @@ class CollectedContext:
     satellites: List[SatelliteConfig] = field(default_factory=list)
     ground_stations: List[GroundStationConfig] = field(default_factory=list)
     targets: List[TargetTask] = field(default_factory=list)
+    tle_epoch_utc: Optional[datetime] = None

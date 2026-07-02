@@ -1,1 +1,0 @@
-I need to schedule a standard operational tasking for a high-resolution optical snapshot over Pásiga, Panamá. This is part of our routine monitoring and baseline pipeline tracking, so please ensure it's set with fixed parameters in the normal workflow update. The task should be completed during the afternoon, three days from now.

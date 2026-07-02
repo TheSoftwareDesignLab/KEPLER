@@ -1,7 +1,7 @@
 import sys
 import pathlib
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 yaml_available = True
 try:
     import yaml
@@ -33,6 +33,35 @@ def load_semantic_categories(categories_path: str) -> dict:
         return json.load(f)
 
 
+def validate_config_bounds_sanity(task_cfg: dict) -> None:
+    """
+    Validates structural bounds configuration parameters to avoid out-of-boundary mathematical values.
+    
+    Args:
+        task_cfg: Dictionary containing task generation parameters.
+    """
+    min_release = task_cfg.get("min_release_delay")
+    max_release = task_cfg.get("max_release_delay")
+    min_lifetime = task_cfg.get("min_lifetime")
+    max_lifetime = task_cfg.get("max_lifetime")
+
+    for name, val in [("min_release_delay", min_release), ("max_release_delay", max_release), 
+                      ("min_lifetime", min_lifetime), ("max_lifetime", max_lifetime)]:
+        if val is None:
+            raise ValueError(f"CRITICAL CONFIG ERROR: Parameter '{name}' is missing in task_generation block.")
+        if not isinstance(val, (int, float)) or val < 0:
+            raise ValueError(f"CRITICAL CONFIG ERROR: Parameter '{name}' must be a non-negative number. Got: {val}")
+
+    if min_release > max_release:
+        raise ValueError(f"CRITICAL CONFIG ERROR: 'min_release_delay' ({min_release}s) cannot be greater than 'max_release_delay' ({max_release}s).")
+
+    if min_lifetime > max_lifetime:
+        raise ValueError(f"CRITICAL CONFIG ERROR: 'min_lifetime' ({min_lifetime}s) cannot be greater than 'max_lifetime' ({max_lifetime}s).")
+
+    if max_lifetime == 0:
+        raise ValueError("CRITICAL CONFIG ERROR: 'max_lifetime' cannot be zero. Tasks would expire instantly.")
+
+
 def main():
     print("==================================================")
     print("Launching DatasetFactory Bulk Generation Pipeline...")
@@ -50,14 +79,22 @@ def main():
         task_cfg = cfg.get("task_generation", {})
         path_cfg = cfg.get("paths", {})
         
+        validate_config_bounds_sanity(task_cfg)
+        
         dataset_name = sim_cfg.get("dataset_name", "dataset_output")
         num_scenarios = sim_cfg.get("num_scenarios", 1)
         base_seed = sim_cfg.get("seed", 42)
+        semantic_enabled = sim_cfg.get("semantic_enabled", True)
         
         bands_config = pay_cfg.get("bands_config", {})
         
+        max_release_delay = task_cfg["max_release_delay"]
+        max_lifetime = task_cfg["max_lifetime"]
+        total_required_duration_s = max_release_delay + max_lifetime
+        
         print(f"[DATASET] Parent Dataset Directory: 'data/{dataset_name}'")
-        print(f"[DATASET] Total iterations to generate: {num_scenarios}\n")
+        print(f"[DATASET] Total iterations to generate: {num_scenarios}")
+        print(f"[CONFIG] Semantic Prompt Phase Enabled: {semantic_enabled}\n")
 
         for idx in range(1, num_scenarios + 1):
             scenario_folder_name = f"scenario_{idx}"
@@ -85,9 +122,11 @@ def main():
                 "min_area_deg": task_cfg.get("min_area_deg", 0.05),
                 "max_area_deg": task_cfg.get("max_area_deg", 0.20),
                 "min_release_delay": task_cfg.get("min_release_delay", 0),
-                "max_release_delay": task_cfg.get("max_release_delay", 3600),
+                "max_release_delay": max_release_delay,
                 "min_lifetime": task_cfg.get("min_lifetime", 1800),
-                "max_lifetime": task_cfg.get("max_lifetime", 7200),
+                "max_lifetime": max_lifetime,
+                "min_duration": task_cfg.get("min_duration", 5),
+                "max_duration": task_cfg.get("max_duration", 30),
                 "gs_file_path": path_cfg.get("gs_file_path", "data/ground_station.csv"),
                 "available_sensors": pay_cfg.get("sensors_pool"),
                 "sensor_weights": pay_cfg.get("sensor_weights"),
@@ -95,7 +134,7 @@ def main():
                 "storage_capacity_pool_mb": pay_cfg.get("storage_capacity_pool_mb"),
                 "sensor_generation_rates": pay_cfg.get("sensor_generation_rates"),
                 "min_sensors_per_sat": pay_cfg.get("min_sensors_per_sat", 1),
-                "max_sensors_per_sat": pay_cfg.get("max_sensors_per_sat", 1),
+                "max_sensors_per_sat": pay_cfg.get("max_sensors_per_sat", 2),
                 "priority_weights": task_cfg.get("priority_weights"),  
                 "seed": current_seed,
                 "output_path": str(scenario_report_path)
@@ -108,30 +147,37 @@ def main():
                 
             context = data_collector_main(**collector_kwargs)
             
+            t0 = context.tle_epoch_utc if getattr(context, "tle_epoch_utc", None) else datetime.now(timezone.utc)
+            tf = t0 + timedelta(seconds=total_required_duration_s)
+            
             print(f"Phase 1 SUCCESSFUL. Generated {len(context.targets)} Targets for current iteration.")
+            print(f"[TIME] Dynamic SGP4 Alignment: SUCCESS (t0 anchored to TLE Epoch)")
+            print(f"[TIME] Simulation Start (t0): {t0.strftime('%Y-%m-%d %H:%M:%S %Z')}")
+            print(f"[TIME] Calculated Simulation End (tf): {tf.strftime('%Y-%m-%d %H:%M:%S %Z')}")
+            print(f"[TIME] Active Planning Horizon Window: {total_required_duration_s / 3600:.2f} hours")
             
-            print("\nExecuting Semantic Prompt Generation Phase (Ollama Inferences & Semantic Embedding Validation)...")
-            
-            prompt_cfg = task_cfg.get("prompt_generation", {})
-            ollama_model = sim_cfg.get("ollama_model", "llama3.1:8b")
-            ollama_temp = sim_cfg.get("ollama_temperature", 0.3)
-            
-            prompt_factory_main(
-                targets=context.targets,
-                prompt_config=prompt_cfg,
-                output_dir=str(scenario_dir),  
-                model_name=ollama_model,
-                temperature=ollama_temp,
-                sensor_categories=sem_categories.get("sensor_categories"),
-                priority_categories=sem_categories.get("priority_categories"),
-                days_categories=sem_categories.get("days_categories"),
-                hours_categories=sem_categories.get("hours_categories")
-            )
+            if semantic_enabled:
+                print("\nExecuting Semantic Prompt Generation Phase (Ollama Inferences & Semantic Embedding Validation)...")
+                
+                prompt_cfg = task_cfg.get("prompt_generation", {})
+                ollama_model = sim_cfg.get("ollama_model", "llama3.1:8b")
+                ollama_temp = sim_cfg.get("ollama_temperature", 0.3)
+                
+                prompt_factory_main(
+                    targets=context.targets,
+                    prompt_config=prompt_cfg,
+                    output_dir=str(scenario_dir),  
+                    model_name=ollama_model,
+                    temperature=ollama_temp,
+                    sensor_categories=sem_categories.get("sensor_categories"),
+                    priority_categories=sem_categories.get("priority_categories"),
+                    days_categories=sem_categories.get("days_categories"),
+                    hours_categories=sem_categories.get("hours_categories")
+                )
+            else:
+                print("\n[SKIP] Semantic Prompt Generation Phase disabled via configuration.")
             
             print("\nExecuting Phase 2: Physics Matrix Propagation & Target Intersection...")
-            
-            t0 = datetime(2026, 6, 15, 12, 0, 0, tzinfo=timezone.utc)
-            tf = datetime(2026, 6, 16, 12, 0, 0, tzinfo=timezone.utc)
             
             physics_report_path = scenario_dir / "physics_passes_report.json"
             
@@ -141,7 +187,9 @@ def main():
                 simulation_start_utc=t0,
                 simulation_end_utc=tf,
                 output_path=str(physics_report_path), 
-                step_seconds=20
+                step_seconds=20,
+                min_duration=collector_kwargs["min_duration"],
+                max_duration=collector_kwargs["max_duration"]
             )
             
             print(f"Iteration '{scenario_folder_name}' processed and isolated.")

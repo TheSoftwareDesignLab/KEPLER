@@ -1,7 +1,0 @@
-Tasking Request for High-Resolution Optical Snapshot
-
-We require a standard operational tasking with commercial parameters for routine monitoring as part of our baseline pipeline tracking setup. The objective is to capture high-resolution optical snapshots for daylight photography in the region of Panamá, specifically targeting the city of Canal.
-
-This task is a standard operational requirement and should be treated as a normal workflow update. We need this imagery to be captured within the next three days during the evening hours.
-
-Please allocate necessary assets and resources to ensure timely execution of this mission.

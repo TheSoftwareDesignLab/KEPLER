@@ -1,3 +1,0 @@
-Tasking Request: Opportunistic Background Filler Task for SAR Active Radar Scan in Colombia
-
-We require a low-priority importance task with a flexible schedule for opportunistic capture of an active radar scan using microwave surface imaging for cloud-penetrating capture. The target location is Rosas, Colombia, and we aim to execute this task sometime today around mid-day.

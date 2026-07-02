@@ -1,1 +1,0 @@
-We need to schedule a multispectral vegetation analysis over the Cuevas area in Colombia using VNIR imaging. This is a low-priority task with a flexible schedule, so feel free to drop or reschedule at convenience. The target window is tomorrow overnight for an opportunistic capture.

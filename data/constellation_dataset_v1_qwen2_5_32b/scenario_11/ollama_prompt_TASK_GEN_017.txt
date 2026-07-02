@@ -1,1 +1,0 @@
-We need to execute a standard operational tasking for a commercial tasking request. The mission is to perform an active radar scan over Yondó, Colombia, capturing cloud-penetrating imagery. This should be completed as part of our baseline pipeline tracking setup with fixed parameters. The capture needs to happen the day after tomorrow, specifically overnight.

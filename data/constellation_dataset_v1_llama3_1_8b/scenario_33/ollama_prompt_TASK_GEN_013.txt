@@ -1,4 +1,0 @@
-```
-prompt
-We need to conduct an active radar scan using microwave surface imaging for cloud-penetrating capture in Puerto López, Colombia, sometime today around mid-day as a low priority importance request with a flexible schedule for opportunistic capture. This is a non-essential background filler task where we can drop or reschedule at convenience, treating it as a background survey.
-```

@@ -1,1 +1,0 @@
-We need to schedule a standard operational tasking for an active radar scan over Santander de Quilichao, Colombia. This is part of our baseline pipeline tracking setup and should be executed as a fixed parameter in the normal operational status. The capture needs to take place in three days during the overnight period.

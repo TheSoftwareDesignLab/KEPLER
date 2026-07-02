@@ -1,2 +1,0 @@
-Request for routine monitoring tasking: 
-We need a multispectral vegetation analysis using a high-resolution optical snapshot to assess chlorophyll absorption levels and calculate the NDVI index for the region of Colombia, specifically in the city of Sipí. This is a low priority importance request with a flexible schedule for opportunistic capture. Please execute this task as a background survey sometime today around mid-day.

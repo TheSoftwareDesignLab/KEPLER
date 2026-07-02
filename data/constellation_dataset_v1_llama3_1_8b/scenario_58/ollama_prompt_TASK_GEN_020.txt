@@ -1,1 +1,0 @@
-Please conduct a thermal mapping task over Panamá, focusing on the Canal region. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. Capture a heat signature and surface temperature profile using active thermal imaging in the evening of the day after tomorrow.

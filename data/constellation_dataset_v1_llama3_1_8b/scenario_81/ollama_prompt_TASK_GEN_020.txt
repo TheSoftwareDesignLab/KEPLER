@@ -1,5 +1,0 @@
-Tasking Request: Opportunistic NIR Water Body Boundary Mapping in Panama Canal Area
-
-We require a low-priority importance task for opportunistic capture of near-infrared reflection data in the Panama Canal area. This flexible schedule task should be considered a non-essential background filler task, and we note that it can be dropped or rescheduled at convenience if necessary. The goal is to conduct a background survey using near-infrared reflection to assess water body boundaries and discriminate gradients.
-
-We require this task to be executed sometime today around mid-day, with a flexible schedule for opportunistic capture. This is a low-priority importance request, and we do not have any specific deadline or time constraint for its completion.

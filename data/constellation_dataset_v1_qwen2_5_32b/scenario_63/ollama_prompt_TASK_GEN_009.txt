@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking today around mid-day over Turbo, Colombia. The objective is to perform multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index for the area. This is part of our baseline pipeline tracking setup with fixed parameters, so please ensure it’s added to the routine monitoring schedule.

@@ -1,7 +1,0 @@
-Tasking Request: Low Priority Importance Opportunistic Capture
-
-We're requesting a flexible schedule for an opportunistic capture of a high-resolution optical snapshot using multispectral vegetation analysis to assess chlorophyll absorption level and calculate a vegetation NDVI index and surface reflectance. The target location is in Colombia, specifically in Guadalupe.
-
-This tasking is a non-essential background filler task where we can drop or reschedule at convenience. We're looking for a baseline pipeline tracking setup with fixed parameters representing normal operational status or a standard workflow update. The target capture window is sometime today around mid-day.
-
-Please note that this is a low priority importance request, and we'll treat it as a background survey or testbed tracking task.

@@ -1,1 +1,0 @@
-We need to capture a high-resolution optical snapshot over the Panama Canal area as part of our routine monitoring. This is a standard operational tasking with fixed parameters, so we're looking to execute this overnight tomorrow.

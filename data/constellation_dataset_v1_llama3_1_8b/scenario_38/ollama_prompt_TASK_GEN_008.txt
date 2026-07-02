@@ -1,4 +1,0 @@
-```
-prompt
-I'd like to schedule a low priority importance task for an opportunistic capture with a flexible schedule, treating this as a background survey or testbed tracking task. We'll be focusing on high-resolution optical snapshots for daylight photography in the region of Panamá, specifically in the city of Unión Santeña. This should be captured sometime today around mid-day.
-```

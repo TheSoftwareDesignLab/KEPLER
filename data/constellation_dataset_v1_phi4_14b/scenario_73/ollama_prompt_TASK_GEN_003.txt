@@ -1,1 +1,0 @@
-I need to schedule a standard operational tasking for a multispectral vegetation analysis over Coello, Colombia. This involves assessing chlorophyll absorption levels and calculating the NDVI index, as part of our baseline pipeline tracking. The task should be executed tomorrow morning, adhering to our fixed parameters for routine monitoring.

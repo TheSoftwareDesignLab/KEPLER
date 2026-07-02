@@ -1,1 +1,0 @@
-We need a standard operational tasking for today around mid-day over Chaparral, Colombia. The objective is to capture a thermal mapping of the area to get a surface temperature profile. This is part of our baseline pipeline tracking with fixed parameters, so ensure it's completed as scheduled.

@@ -1,1 +1,0 @@
-We have a low-priority request for a multispectral vegetation analysis over the area around Canal, Panamá. This is an opportunistic capture task to assess chlorophyll absorption levels and calculate the NDVI index. The window is three days from now, specifically overnight. Please treat this as a background survey that can be dropped or rescheduled at convenience.

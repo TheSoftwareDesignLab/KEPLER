@@ -1,1 +1,0 @@
-We need a standard operational tasking for tomorrow around mid-day to conduct multispectral vegetation analysis in Ciricito, Panamá. This is part of our baseline pipeline tracking setup with fixed parameters, focusing on assessing chlorophyll absorption levels and calculating the NDVI index. Please ensure this routine monitoring task is scheduled accordingly.

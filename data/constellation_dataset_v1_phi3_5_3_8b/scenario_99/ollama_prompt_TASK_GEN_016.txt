@@ -1,2 +1,0 @@
-Tomorrow night, I need a multispectral vegetation analysis focused on near-infrared reflection to assess soil moisture and discriminate gradients in Salud, Panamá. This is part of our routine monitoring within the baseline pipeline tracking setup, so please ensure it's slotted into our schedule accordingly.
-```

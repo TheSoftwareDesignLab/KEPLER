@@ -1,5 +1,0 @@
-Tasking Request: Colombia Villavieja Vegetation Analysis
-
-We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. This involves a commercial tasking for multispectral vegetation analysis to assess chlorophyll absorption level and calculate a vegetation NDVI index and surface reflectance in Villavieja, Colombia.
-
-This request is scheduled for tomorrow morning, specifically during the morning hours. Please ensure timely execution of this task as part of our standard workflow update.

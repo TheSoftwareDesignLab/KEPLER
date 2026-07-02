@@ -1,2 +1,0 @@
-Tomorrow night, let's take a multispectral vegetation analysis over Cimitarra in Colombia. We're looking to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance. This is a low priority task; please drop or reschedule at your convenience as it can serve as an opportunistic background filler.
-```

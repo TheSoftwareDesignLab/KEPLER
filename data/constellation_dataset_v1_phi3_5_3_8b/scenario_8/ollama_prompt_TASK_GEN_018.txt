@@ -1,2 +1,0 @@
-Tomorrow morning, I need a standard operational tasking to perform multispectral vegetation analysis in Canal, Panamá. This is part of our baseline pipeline tracking and should be executed with the usual flow within our normal operational status parameters. Please ensure this routine monitoring aligns with tomorrow's schedule for optimal data collection.
-```

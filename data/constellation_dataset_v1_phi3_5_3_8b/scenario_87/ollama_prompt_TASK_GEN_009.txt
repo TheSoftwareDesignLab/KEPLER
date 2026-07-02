@@ -1,1 +1,0 @@
-Request for today's operation, Rio Blanco in Colombia. Please conduct a standard operational tasking with VNIR multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index around this afternoon's clear skies. This is part of our regular baseline pipeline tracking setup.

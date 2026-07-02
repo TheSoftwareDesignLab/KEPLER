@@ -1,2 +1,0 @@
-Request Earth Observation Mission Planner: We're looking to schedule a multispectral vegetation analysis over Segovia, Colombia for tomorrow night. This is a low priority task where we aim to assess the chlorophyll absorption level and surface reflectance using near-infrared reflection capabilities. The timing should be flexible; please drop or reschedule at your convenience within that evening window.
-```

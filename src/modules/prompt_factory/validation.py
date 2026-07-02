@@ -2,6 +2,7 @@ import os
 import json
 import urllib.request
 import numpy as np
+import re
 from typing import List, Dict, Tuple, Any
 
 class SemanticValidator:
@@ -29,7 +30,6 @@ class SemanticValidator:
         clean_url = raw_url.replace("[", "").replace("]", "").split("(")[0].strip()
         target_endpoint = f"{clean_url}/api/embed"
         
-        # Forzamos que el input sea siempre una lista para estandarizar la respuesta de la API
         if isinstance(input_data, str):
             input_data = [input_data]
             
@@ -50,7 +50,6 @@ class SemanticValidator:
                 result = json.loads(response.read().decode("utf-8"))
                 return result["embeddings"]
         except Exception as e:
-            # Fallback seguro en caso de error de red con Ollama en ejecuciones masivas
             print(f"[OLLAMA EMBED ERROR] Telemetry recovery failed: {e}")
             return []
 
@@ -62,7 +61,7 @@ class SemanticValidator:
         
         embeddings = self._get_ollama_embeddings(phrases)
         if not embeddings:
-            return {tag: np.zeros(1024) for tag in tags} # mxbai-embed-large usa 1024 dims
+            return {tag: np.zeros(1024) for tag in tags}
             
         category_dict = {}
         for tag, vector in zip(tags, embeddings):
@@ -103,24 +102,50 @@ class SemanticValidator:
         best_index = int(np.argmax(all_similarities))
         return valid_keys[best_index], float(all_similarities[best_index])
 
-    def validate_generated_request(self, generated_text: str) -> Dict[str, Any]:
-        embeddings = self._get_ollama_embeddings(generated_text)
-        
-        # Validación defensiva ante payloads corruptos o vacíos del LLM
+    def _to_vector(self, embeddings: Any) -> np.ndarray:
         if not embeddings or not isinstance(embeddings, list):
-            sentence_vector = np.zeros(1024)
-        else:
-            # Control estricto de dimensionalidad del array devuelto
-            first_element = embeddings[0]
-            if isinstance(first_element, list):
-                sentence_vector = np.array(first_element)
-            else:
-                sentence_vector = np.array(embeddings)
+            return np.zeros(1024)
+        first_element = embeddings[0]
+        if isinstance(first_element, list):
+            return np.array(first_element)
+        return np.array(embeddings)
+
+    def validate_generated_request(self, generated_text: str) -> Dict[str, Any]:
+        if not generated_text or len(generated_text.strip()) == 0:
+            return {
+                "predicted_sensor": "N/A", "sensor_similarity": 0.0,
+                "predicted_priority": "N/A", "priority_similarity": 0.0,
+                "predicted_day": "N/A", "day_similarity": 0.0,
+                "predicted_hour": "N/A", "hour_similarity": 0.0
+            }
+
+        day_pattern = r'\b(today|tomorrow|after\s+tomorrow|three\s+later|four\s+later)\b'
+        hour_pattern = r'\b(morning|mid-day|noon|afternoon|evening|overnight|tonight|night)\b'
+
+        day_found = re.search(day_pattern, generated_text, re.IGNORECASE)
+        hour_found = re.search(hour_pattern, generated_text, re.IGNORECASE)
+
+        day_token = day_found.group(0).strip() if day_found else ""
+        hour_token = hour_found.group(0).strip() if hour_found else ""
+
+        time_snippets = []
+        if day_token:
+            time_snippets.append(day_token)
+        if hour_token:
+            time_snippets.append(hour_token)
+
+        time_snippet = " ".join(time_snippets) if time_snippets else generated_text
+
+        full_text_embeddings = self._get_ollama_embeddings(generated_text)
+        time_text_embeddings = self._get_ollama_embeddings(time_snippet)
+
+        global_vector = self._to_vector(full_text_embeddings)
+        temporal_vector = self._to_vector(time_text_embeddings)
         
-        predicted_sensor, sensor_sim = self._find_closest_tag(sentence_vector, self.sensor_dict)
-        predicted_priority, priority_sim = self._find_closest_tag(sentence_vector, self.priority_dict)
-        predicted_day, day_sim = self._find_closest_tag(sentence_vector, self.days_dict)
-        predicted_hour, hour_sim = self._find_closest_tag(sentence_vector, self.hours_dict)
+        predicted_sensor, sensor_sim = self._find_closest_tag(global_vector, self.sensor_dict)
+        predicted_priority, priority_sim = self._find_closest_tag(global_vector, self.priority_dict)
+        predicted_day, day_sim = self._find_closest_tag(temporal_vector, self.days_dict)
+        predicted_hour, hour_sim = self._find_closest_tag(temporal_vector, self.hours_dict)
         
         return {
             "predicted_sensor": predicted_sensor,

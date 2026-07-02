@@ -1,1 +1,0 @@
-Tomorrow morning, we're scheduled to conduct a routine monitoring of Norcasia in Colombia using multispectral vegetation analysis. This standard operational tasking will assess the chlorophyll absorption level and calculate the NDVI index for surface reflectance, enssuring our baseline pipeline tracking is up to date with fixed parameters representing normal operational status.

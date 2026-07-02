@@ -1,1 +1,0 @@
-This is a standard operational tasking for today, with an emphasis on multispectral vegetation analysis in El Playón, Colombia. We're aiming to assess the chlorophyll absorption level and calculate the NDVI index around mid-day to monitor surface reflectance and moisture gradients.

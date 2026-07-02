@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking for a high-resolution optical snapshot over Acuadub, Panamá. This is part of our baseline pipeline tracking setup with fixed parameters, so it's important but can be scheduled around other critical tasks. We're looking to capture this overnight on the day after tomorrow.

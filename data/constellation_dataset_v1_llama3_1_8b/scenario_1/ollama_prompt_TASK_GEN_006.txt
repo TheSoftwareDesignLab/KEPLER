@@ -1,7 +1,0 @@
-Tasking Request for Opportunistic NIR Capture in Panamá
-
-We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. This request is a commercial tasking with a flexible schedule for opportunistic capture, and it is not an absolute institutional priority or binding contract requirement.
-
-Our objective is to conduct a near-infrared reflection survey to assess soil moisture levels and discriminate gradients in the region of Toabré, Panamá. We aim to capture high-quality data during the afternoon of the day after tomorrow, specifically focusing on the water body boundary mapping and surface reflectance.
-
-Please allocate necessary assets for this task and ensure timely execution according to our operational parameters.

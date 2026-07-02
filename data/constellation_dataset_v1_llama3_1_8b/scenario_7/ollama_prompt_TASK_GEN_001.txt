@@ -1,1 +1,0 @@
-We need to schedule a low priority importance task for opportunistic capture, with a flexible schedule. The mission objective is a multispectral vegetation analysis to assess chlorophyll absorption level and calculate a vegetation NDVI index and surface reflectance. We're targeting Foraquira in Colombia, and we'd like to capture this data sometime today around mid-day.

@@ -1,1 +1,0 @@
-We need to set up a standard operational tasking for thermal mapping over La Chorrera, Panama. This is part of our baseline pipeline tracking with fixed parameters, so it's business as usual. We're looking to capture the surface temperature profile overnight in three days.

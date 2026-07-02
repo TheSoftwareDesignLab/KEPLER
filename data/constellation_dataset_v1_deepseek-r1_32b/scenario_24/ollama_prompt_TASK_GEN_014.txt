@@ -1,1 +1,0 @@
-Requesting an active radar scan over the Panama Canal area to capture microwave surface imaging for cloud-penetrating capture and ground geometry. This is a standard operational tasking part of our baseline pipeline tracking with fixed parameters. Need this completed tomorrow overnight.

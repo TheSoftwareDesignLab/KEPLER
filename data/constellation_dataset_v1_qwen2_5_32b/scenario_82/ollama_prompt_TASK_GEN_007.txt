@@ -1,1 +1,0 @@
-We need to schedule a standard operational tasking for an active radar scan over Piedecuesta, Colombia. This is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. The capture should be executed in three days during the overnight period.

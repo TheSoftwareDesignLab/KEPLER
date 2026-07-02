@@ -1,1 +1,0 @@
-We need to schedule a low priority importance task for opportunistic capture, with a flexible schedule. We're looking for near-infrared reflection for water body boundary mapping or soil moisture assessment to discriminate gradients. We want to do this in the region of Colombia, specifically in Santa Rosa del Sur, sometime today around mid-day.

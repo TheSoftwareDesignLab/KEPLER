@@ -1,1 +1,0 @@
-Request for an SAR active radar scan in Villa Rica, Colombia, targeting around mid-day three days from now. This is a low priority importance task, with the flexibility to drop or reschedule at our convenience. It's essentially a background survey aimed at capturing ground geometry through microwave surface imaging, especially useful for cloud-penetrating opportunities.

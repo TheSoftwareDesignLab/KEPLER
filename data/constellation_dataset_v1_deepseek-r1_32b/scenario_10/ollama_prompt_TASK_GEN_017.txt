@@ -1,1 +1,0 @@
-Standard operational tasking for multispectral vegetation analysis over Cerro Azul, Colombia. Capture high-resolution VNIR data to assess chlorophyll absorption levels and NDVI index. Target window is three days from now during the afternoon.

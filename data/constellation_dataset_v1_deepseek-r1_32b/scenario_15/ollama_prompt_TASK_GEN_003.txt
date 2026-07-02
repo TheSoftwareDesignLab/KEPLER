@@ -1,1 +1,0 @@
-We need to schedule an active radar scan over Segovia, Colombia, using microwave surface imaging to capture cloud-piercing data. This is a standard operational tasking with fixed parameters for routine monitoring, part of our baseline pipeline tracking. The mission must be executed the day after tomorrow during the afternoon.

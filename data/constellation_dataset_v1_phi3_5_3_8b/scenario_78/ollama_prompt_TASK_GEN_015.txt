@@ -1,1 +1,0 @@
-Request for today's satellite pass over La Macarena, Colombia, to conduct a multispectral vegetation analysis in the morning hours. This standard operational tasking is part of our routine monitoring pipeline tracking and will help us assess chlorophyll absorption levels or calculate the NDVI index for surface reflectance measurements.

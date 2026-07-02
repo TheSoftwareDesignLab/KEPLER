@@ -1,4 +1,0 @@
-```
-prompt
-Please execute a standard operational tasking for routine monitoring, part of a baseline pipeline tracking setup with fixed parameters representing normal operational status. We are targeting Ancón, Panamá, specifically focusing on a near-infrared reflection to assess water body boundary mapping and soil moisture assessment. This request is due sometime today around mid-day.
-```

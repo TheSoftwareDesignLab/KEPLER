@@ -1,1 +1,0 @@
-We need to acquire radar imagery over Valdivia, Colombia, using an active radar scan to capture microwave surface imaging. This is a low-priority background survey task with a flexible schedule, so feel free to adjust as needed. The target window is the day after tomorrow around mid-day.

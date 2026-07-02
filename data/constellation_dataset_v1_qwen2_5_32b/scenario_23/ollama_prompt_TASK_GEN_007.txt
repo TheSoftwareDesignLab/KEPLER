@@ -1,1 +1,0 @@
-We need to perform a standard operational tasking for a commercial client. The mission involves conducting an active radar scan over La Cumbre, Colombia, to capture cloud-penetrating imagery. This is part of our baseline pipeline tracking setup with fixed parameters and represents normal operational status. We aim to execute this task in four days during the overnight period.

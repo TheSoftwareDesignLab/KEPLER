@@ -1,1 +1,0 @@
-As a standard operational tasking, we need to schedule a routine imaging request for the area around the Panama Canal in Panama. The objective is to capture near-infrared imagery for soil moisture assessment or water body boundary mapping. This needs to be executed the day after tomorrow, specifically overnight.

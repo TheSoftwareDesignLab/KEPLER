@@ -1,1 +1,0 @@
-We need to execute a standard operational tasking for a commercial client. The mission is to perform an active radar scan over Panamá, specifically in the region of La Arenosa o El Limite. This is part of our baseline pipeline tracking setup with fixed parameters, so it's important we maintain normal operational status. We're targeting this task for tomorrow during the afternoon.

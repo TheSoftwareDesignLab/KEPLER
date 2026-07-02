@@ -1,1 +1,0 @@
-We need an active radar scan over El Coco, Panamá, for a low-priority SAR task. This is a non-essential background filler task that can be dropped or rescheduled at convenience. The target window is four days from now in the morning. It’s a routine monitoring request with flexible scheduling parameters, so prioritize accordingly.

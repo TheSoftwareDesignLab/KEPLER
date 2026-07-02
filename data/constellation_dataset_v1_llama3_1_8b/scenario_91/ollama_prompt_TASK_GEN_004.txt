@@ -1,1 +1,0 @@
-We need to schedule a low priority importance task for opportunistic capture with a flexible schedule. The objective is to take a high-resolution optical snapshot for daylight photography using the VIS sensor in Donoso, Panamá sometime today around mid-day as part of a background survey.

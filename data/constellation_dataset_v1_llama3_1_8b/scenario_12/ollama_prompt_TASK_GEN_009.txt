@@ -1,1 +1,0 @@
-Please conduct a routine monitoring tasking with fixed parameters as part of our baseline pipeline tracking setup for normal operational status. We require a high-resolution optical snapshot using near-infrared reflection for water body boundary mapping and soil moisture assessment to discriminate gradients over Sabana de Torres in Colombia sometime today around mid-day.

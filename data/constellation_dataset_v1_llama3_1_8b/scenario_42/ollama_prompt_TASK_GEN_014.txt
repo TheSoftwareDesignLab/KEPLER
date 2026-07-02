@@ -1,1 +1,0 @@
-We require a standard operational tasking for baseline pipeline tracking with fixed parameters representing normal operational status, part of a routine monitoring setup. Please conduct a multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index and surface reflectance in Taboga, Panamá, sometime this afternoon.

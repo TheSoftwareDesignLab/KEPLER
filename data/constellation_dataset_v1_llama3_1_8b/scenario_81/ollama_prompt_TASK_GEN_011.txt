@@ -1,2 +1,0 @@
-Task Request: 
-We have a low priority importance request for a baseline pipeline tracking setup with fixed parameters representing normal operational status, specifically a workflow update. We would like to conduct a multispectral vegetation analysis using VNIR for assessing chlorophyll absorption level and calculating a vegetation NDVI index and surface reflectance over Tausa in Colombia sometime today around mid-day tomorrow morning.

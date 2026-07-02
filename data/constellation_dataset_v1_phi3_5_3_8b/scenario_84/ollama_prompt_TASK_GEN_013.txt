@@ -1,2 +1,0 @@
-Tomorrow afternoon, I need to schedule a standard operational tasking for San José del Guaviare in Colombia. The objective is an active radar scan using microwave surface imaging to capture ground geometry and penetrate through any adverse weather conditions. This will be part of our routine monitoring as we maintain baseline pipeline tracking with fixed parameters, enssuring normal operational status continues uninterrupted. Please align this task within the day after tomorrow's mid-day window for execution.
-```

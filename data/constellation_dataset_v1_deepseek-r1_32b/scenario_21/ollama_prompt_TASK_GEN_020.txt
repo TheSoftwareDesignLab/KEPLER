@@ -1,1 +1,0 @@
-Could you schedule a low-priority VNIR observation over Caimitillo, Panama? We need to capture multispectral data for vegetation analysis, specifically looking at chlorophyll levels and NDVI indices. This is a background task, so feel free to adjust timing as needed. The ideal window would be sometime four days from now, specifically during the afternoon.

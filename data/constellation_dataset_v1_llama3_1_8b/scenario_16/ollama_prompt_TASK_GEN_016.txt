@@ -1,4 +1,0 @@
-```
-prompt
-We need to conduct a low priority importance task with a flexible schedule for opportunistic capture. The objective is to perform a multispectral vegetation analysis using a high-resolution optical snapshot for daylight photography and true-color visual documentation in the region of Panamá, specifically in the city of Toabré. This is a non-essential background filler task where we can drop or reschedule at convenience, treating it as a background survey or testbed tracking task. We aim to capture this data sometime today around mid-day.
-```

@@ -1,1 +1,0 @@
-We need to conduct a low priority importance task for thermal mapping using an active thermal sensor, capturing a heat signature and surface temperature profile in Segovia, Colombia sometime today around mid-day as part of a background survey.

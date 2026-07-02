@@ -1,1 +1,0 @@
-Tomorrow afternoon, I need a multispectral vegetation analysis in Cerrito, Colombia. This standard operational tasking is part of our routine monitoring pipeline tracking and requires us to assess the chlorophyll absorption level or calculate the NDVI index for surface reflectance. Please ensure this gets scheduled accordingly within tomorrow's mid-day window.

@@ -1,1 +1,0 @@
-Tomorrow morning, we'll be conducting a standard operational tasking for multispectral vegetation analysis in Villa Lourdes, Panamá. Please ensure that the satellite captures high-resolution optical snapshots around mid-day to assess chlorophyll absorption levels and calculate the NDVI index as part of our routine monitoring within the baseline pipeline tracking setup.

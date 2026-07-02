@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking for multispectral vegetation analysis over Tortí, Panamá. This is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We're looking to assess the chlorophyll absorption level and calculate the NDVI index. This needs to be done in four days during the overnight period.

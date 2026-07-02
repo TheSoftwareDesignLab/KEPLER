@@ -1,7 +1,0 @@
-Tasking Request for Low-Importance Background Survey Task
-
-We require a multispectral vegetation analysis using near-infrared reflection to assess chlorophyll absorption levels and calculate a vegetation NDVI index and surface reflectance. This is a standard operational tasking, part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
-
-The target location is the city of Chepo in Panamá. We will conduct this task as a non-essential background filler task with a flexible schedule for opportunistic capture. Please drop or reschedule at convenience if necessary.
-
-We need to complete this task sometime today around mid-day, specifically in the evening.

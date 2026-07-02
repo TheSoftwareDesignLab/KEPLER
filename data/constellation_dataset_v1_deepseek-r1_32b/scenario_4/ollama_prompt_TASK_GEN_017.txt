@@ -1,1 +1,0 @@
-I need an active radar scan over the area around Matanza, Colombia, for a low-priority background task. This is a flexible request that can be dropped or rescheduled as needed. The goal is to capture imagery using microwave surface imaging, particularly useful for cloud-penetrating captures. We're aiming to collect this data in four days, specifically overnight.

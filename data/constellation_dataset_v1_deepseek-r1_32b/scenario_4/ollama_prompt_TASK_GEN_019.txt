@@ -1,1 +1,0 @@
-We need to schedule a routine monitoring task for an active radar scan over San Martín, Colombia. The objective is to capture a cloud-penetrating radar image of the area. This is part of our standard operational pipeline and should be executed tomorrow morning as soon as possible.

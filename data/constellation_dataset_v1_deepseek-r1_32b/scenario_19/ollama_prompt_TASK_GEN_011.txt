@@ -1,1 +1,0 @@
-I need to schedule a low-priority request for capturing near-infrared data over a specific area in Polonia, Colombia. This is part of a routine background survey with flexible scheduling. The task needs to be executed four days from now during the afternoon.

@@ -1,1 +1,0 @@
-We have a low-priority background task to capture an active radar scan over Nilo, Colombia. This is an opportunistic request for microwave surface imaging to penetrate any cloud cover. We need this data in three days during midday hours. Feel free to adjust as needed.

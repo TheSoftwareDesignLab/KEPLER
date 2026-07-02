@@ -1,1 +1,0 @@
-We need to schedule a standard operational tasking for multispectral vegetation analysis over Panamá Canal. This is part of our baseline pipeline tracking with fixed parameters, so it's business as usual. We're looking to capture the chlorophyll absorption levels and get that NDVI index. Let's aim for this in four days, specifically in the morning.

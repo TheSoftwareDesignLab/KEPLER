@@ -1,1 +1,0 @@
-We need to set up a standard operational tasking for a routine monitoring of the Panama Canal area. This is part of our baseline pipeline tracking with fixed parameters, so it's business as usual. We'll be using an active radar scan for cloud-penetrating capture in four days, specifically in the evening. Let's make sure we get that microwave surface imaging done.

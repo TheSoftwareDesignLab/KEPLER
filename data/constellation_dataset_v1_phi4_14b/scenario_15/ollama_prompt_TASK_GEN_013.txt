@@ -1,1 +1,0 @@
-I need to schedule a standard operational tasking for high-resolution optical snapshot imagery over Facatativá, Colombia. This is part of our baseline pipeline tracking with fixed parameters and represents a routine monitoring activity. The task should be executed the day after tomorrow, specifically overnight. Please ensure this fits into our normal workflow update.

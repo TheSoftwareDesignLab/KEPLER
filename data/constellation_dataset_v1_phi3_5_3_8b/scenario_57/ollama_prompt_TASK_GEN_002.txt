@@ -1,1 +1,0 @@
-Request for today's tasking over Canal in Panama, focusing on multispectral vegetation analysis around mid-day to assess chlorophyll absorption levels and calculate the NDVI index. This is a standard operational task within our routine monitoring pipeline tracking setup, aligning with normal diurnal imaging parameters for consistent baseline data collection.

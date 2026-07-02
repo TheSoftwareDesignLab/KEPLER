@@ -1,1 +1,0 @@
-Request VNIR sensor for multispectral vegetation analysis over Santa Cruz de Chinina, Panama. This is a low-priority task with a flexible schedule; feel free to drop or reschedule as needed. Target window is this evening.

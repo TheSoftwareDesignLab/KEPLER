@@ -1,5 +1,0 @@
-Tasking Request: Thermal Mapping in Colombia
-
-We require a thermal mapping task to capture a heat signature and surface temperature profile of the region around Filo de San José in Colombia. This is a low priority importance request with a flexible schedule for opportunistic capture, treating it as a background survey or testbed tracking task. We'd like to conduct this task sometime today around mid-day, ideally during the day when thermal imaging would be most effective.
-
-Please note that this is a non-essential background filler task and can be dropped or rescheduled at convenience.

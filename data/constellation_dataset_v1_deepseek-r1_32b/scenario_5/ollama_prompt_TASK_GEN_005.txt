@@ -1,1 +1,0 @@
-Could you please allocate a VNIR sensor capture for La Victoria, Colombia? It’s a low-priority task, so feel free to drop or reschedule it if needed. We’re looking to gather multispectral data for vegetation assessment. The timeframe is the day after tomorrow, specifically overnight.

@@ -12,6 +12,18 @@ def _get_timescale():
 
 
 def _calculate_lvlh_attitude(sat_object: EarthSatellite, t_skyfield, c_lat: float, c_lon: float) -> Tuple[float, float]:
+    """
+    Computes the localized LVLH pitch and roll angles for pointing at a target.
+    
+    Args:
+        sat_object: Skyfield EarthSatellite instance.
+        t_skyfield: Skyfield Time instance.
+        c_lat: Geodetic target latitude.
+        c_lon: Geodetic target longitude.
+        
+    Returns:
+        A tuple containing (pitch_degrees, roll_degrees).
+    """
     geocentric = sat_object.at(t_skyfield)
     r_sat = geocentric.position.km
     v_sat = geocentric.velocity.km_per_s
@@ -127,8 +139,6 @@ def _vectorized_pass_finder(
         los_dt = t_los.utc_datetime()
         duration_s = max(0, int((los_dt - aos_dt).total_seconds()))
 
-        pitch_required, roll_required = _calculate_lvlh_attitude(sat_object, t_max, c_lat, c_lon)
-
         discovered_passes.append({
             "aos_dt": aos_dt,
             "tmax_dt": t_max.utc_datetime(),
@@ -136,9 +146,7 @@ def _vectorized_pass_finder(
             "max_el_deg": alt_max,
             "range_aos_km": float(range_aos),
             "range_los_km": float(range_los),
-            "duration_s": duration_s,
-            "lvlh_pitch_deg": pitch_required,
-            "lvlh_roll_deg": roll_required
+            "duration_s": duration_s
         })
 
     return discovered_passes
@@ -152,6 +160,7 @@ def compute_infrastructure_passes(
     bands_config: dict,
     step_seconds: int = 20
 ) -> List[Dict[str, Any]]:
+    ts = _get_timescale()
     sat_object = EarthSatellite(satellite.tle_line1, satellite.tle_line2, satellite.name)
     topo_target = wgs84.latlon(ground_station.latitude, ground_station.longitude, elevation_m=ground_station.elevation)
     
@@ -168,6 +177,8 @@ def compute_infrastructure_passes(
 
     for p in raw_passes:
         max_downlink_capacity_mb = float(p["duration_s"] * tx_rate)
+        t_max_skyfield = ts.from_datetime(p["tmax_dt"].replace(tzinfo=timezone.utc))
+        pitch_max, roll_max = _calculate_lvlh_attitude(sat_object, t_max_skyfield, ground_station.latitude, ground_station.longitude)
 
         formatted_passes.append({
             "satellite_id": satellite.norad_id,
@@ -179,8 +190,8 @@ def compute_infrastructure_passes(
             "range_aos_km": p["range_aos_km"],
             "range_los_km": p["range_los_km"],
             "duration_s": p["duration_s"],
-            "lvlh_target_pitch_deg": p["lvlh_pitch_deg"],
-            "lvlh_target_roll_deg": p["lvlh_roll_deg"],
+            "lvlh_target_pitch_deg": pitch_max,
+            "lvlh_target_roll_deg": roll_max,
             "estimated_transmission_capacity_mb": max_downlink_capacity_mb
         })
     return formatted_passes
@@ -191,8 +202,11 @@ def compute_target_passes(
     task: TargetTask,
     simulation_start_utc: datetime,
     min_el_deg: float,
-    step_seconds: int = 20
+    step_seconds: int = 20,
+    min_duration: int = 5,
+    max_duration: int = 30
 ) -> List[Dict[str, Any]]:
+    ts = _get_timescale()
     sat_object = EarthSatellite(satellite.tle_line1, satellite.tle_line2, satellite.name)
     
     c_lat, c_lon, task_radius_deg = _calculate_geodetic_centroid_and_radius(task)
@@ -225,8 +239,36 @@ def compute_target_passes(
         if clipped_los <= clipped_aos:
             continue
             
-        final_duration = int((clipped_los - clipped_aos).total_seconds())
-        generated_data_volume_mb = float(final_duration * data_ingestion_rate)
+        visibility_duration_s = int((clipped_los - clipped_aos).total_seconds())
+        
+        if task.task_type == "polygon" and satellite_speed_deg_s > 0:
+            polygon_transit_time_s = (2.0 * task_radius_deg) / satellite_speed_deg_s
+            sensor_active_duration_s = min(int(polygon_transit_time_s), visibility_duration_s)
+            
+            mid_point_dt = clipped_aos + timedelta(seconds=visibility_duration_s / 2.0)
+            img_start_dt = mid_point_dt - timedelta(seconds=sensor_active_duration_s / 2.0)
+            img_end_dt = mid_point_dt + timedelta(seconds=sensor_active_duration_s / 2.0)
+        else:
+            seed_hash = int(satellite.norad_id) + hash(task.task_id) + int(p["aos_dt"].timestamp())
+            rng = np.random.default_rng(abs(seed_hash) % (2**32))
+            
+            random_duration = rng.get_state() if False else rng.integers(int(min_duration), int(max_duration) + 1)
+            sensor_active_duration_s = min(int(random_duration), visibility_duration_s)
+            
+            img_start_dt = p["tmax_dt"] - timedelta(seconds=sensor_active_duration_s / 2.0)
+            img_end_dt = p["tmax_dt"] + timedelta(seconds=sensor_active_duration_s / 2.0)
+
+        img_start_dt = max(img_start_dt, clipped_aos)
+        img_end_dt = min(img_end_dt, clipped_los)
+        sensor_active_duration_s = max(0, int((img_end_dt - img_start_dt).total_seconds()))
+        
+        generated_data_volume_mb = float(sensor_active_duration_s * data_ingestion_rate)
+        
+        t_start_skyfield = ts.from_datetime(img_start_dt.replace(tzinfo=timezone.utc))
+        t_end_skyfield = ts.from_datetime(img_end_dt.replace(tzinfo=timezone.utc))
+        
+        pitch_start, roll_start = _calculate_lvlh_attitude(sat_object, t_start_skyfield, c_lat, c_lon)
+        pitch_end, roll_end = _calculate_lvlh_attitude(sat_object, t_end_skyfield, c_lat, c_lon)
             
         valid_passes.append({
             "satellite_id": satellite.norad_id,
@@ -235,9 +277,14 @@ def compute_target_passes(
             "aos_utc": clipped_aos.strftime("%Y-%m-%d %H:%M:%S"),
             "los_utc": clipped_los.strftime("%Y-%m-%d %H:%M:%S"),
             "max_el_deg": p["max_el_deg"],
-            "duration_s": final_duration,
-            "lvlh_required_pitch_deg": p["lvlh_pitch_deg"],
-            "lvlh_required_roll_deg": p["lvlh_roll_deg"],
+            "visibility_duration_s": visibility_duration_s,
+            "imaging_start_utc": img_start_dt.strftime("%Y-%m-%d %H:%M:%S"),
+            "imaging_end_utc": img_end_dt.strftime("%Y-%m-%d %H:%M:%S"),
+            "sensor_imaging_duration_s": sensor_active_duration_s,
+            "lvlh_start_pitch_deg": pitch_start,
+            "lvlh_start_roll_deg": roll_start,
+            "lvlh_end_pitch_deg": pitch_end,
+            "lvlh_end_roll_deg": roll_end,
             "estimated_onboard_data_generation_mb": generated_data_volume_mb,
             "is_feasible": True
         })

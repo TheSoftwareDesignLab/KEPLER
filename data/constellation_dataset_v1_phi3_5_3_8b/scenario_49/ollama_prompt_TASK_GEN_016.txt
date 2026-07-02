@@ -1,1 +1,0 @@
-Tomorrow evening, I need to schedule a standard operational tasking for Agua Buena in Panama. The objective is to capture high-resolution optical snapshots during daylight hours for true-color visual documentation as part of our routine monitoring efforts. Please ensure this is slotted into the baseline pipeline tracking with fixed parameters, reflecting normal operation status.

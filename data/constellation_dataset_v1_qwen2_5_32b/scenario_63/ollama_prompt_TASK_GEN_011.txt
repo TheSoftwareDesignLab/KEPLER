@@ -1,1 +1,0 @@
-Hey, we've got a low priority importance task for VNIR multispectral vegetation analysis over Bogotá, Colombia. It's a non-essential background filler task, so feel free to drop or reschedule at convenience. We're looking to capture the chlorophyll absorption levels and calculate the NDVI index. This needs to be done overnight tomorrow. Thanks!

@@ -1,1 +1,0 @@
-Tomorrow night, we're looking to capture near-infrared reflections from water bodies and assess soil moisture gradients in Gobea, Panamá. This routine monitoring task is part of our baseline pipeline tracking setup with fixed parameters. Please ensure this standard operational tasking aligns with the current workflow update schedule.

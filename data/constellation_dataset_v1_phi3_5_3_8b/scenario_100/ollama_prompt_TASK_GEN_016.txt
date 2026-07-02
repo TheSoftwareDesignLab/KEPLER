@@ -1,1 +1,0 @@
-This is a standard operational tasking for an active radar scan using microwave surface imaging over Canal in Panama, to be conducted tomorrow night. Please ensure this fits into our routine pipeline tracking and maintain the fixed parameters as we monitor the area's ground geometry under normal conditions.

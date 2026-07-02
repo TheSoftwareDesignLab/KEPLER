@@ -1,4 +1,0 @@
-```
-prompt
-We need to conduct a low priority importance task with a flexible schedule for opportunistic capture, treating it as a non-essential background filler task that can be dropped or rescheduled at convenience. We're looking for an active radar scan using microwave surface imaging to pierce heavy weather and capture ground geometry in the region of Colombia, specifically in the city of Fuente de Oro. This is a background survey task with fixed parameters representing normal operational status, and we'd like to capture it sometime today around mid-day.
-```

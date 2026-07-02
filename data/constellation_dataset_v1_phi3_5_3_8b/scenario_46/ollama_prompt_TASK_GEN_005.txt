@@ -1,1 +1,0 @@
-As an Earth-observation mission operator, I'm issuing a binding contract requirement for an active radar scan using microwave surface imaging. This critical payload capture must be executed at Aguadas in Colombia within the next three days during the nighttime hours to ensure cloud penetration and precise ground geometry mapping.

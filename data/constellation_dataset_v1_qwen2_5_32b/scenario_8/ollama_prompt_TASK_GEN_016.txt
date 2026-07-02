@@ -1,1 +1,0 @@
-We need to set up a routine monitoring task for Chagres, Panamá. The objective is to capture near-infrared reflection for water body boundary mapping. This is part of our baseline pipeline tracking with fixed parameters, so it's business as usual. We're looking to execute this the day after tomorrow in the morning.

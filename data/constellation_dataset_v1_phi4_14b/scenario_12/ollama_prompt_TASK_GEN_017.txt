@@ -1,1 +1,0 @@
-I would like to schedule a standard operational tasking for an active radar scan over Urrao, Colombia, using microwave surface imaging. This mission involves cloud-penetrating capture to assess ground geometry and is part of our baseline pipeline tracking with fixed parameters. The task should be executed tomorrow around mid-day as part of our routine monitoring activities.

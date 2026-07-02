@@ -1,1 +1,0 @@
-Hey, we need a standard operational tasking for tomorrow evening over Tauramena, Colombia. We're looking to conduct a multispectral vegetation analysis to assess the chlorophyll absorption levels and calculate the NDVI index in that area. This is part of our baseline pipeline tracking with fixed parameters, so please ensure it's captured as per normal operational status.

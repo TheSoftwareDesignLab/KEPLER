@@ -1,1 +1,0 @@
-Hey, we've got a low priority importance task for an opportunistic VNIR capture over Yaguará, Colombia. It’s a non-essential background filler task to assess the chlorophyll absorption level and calculate the NDVI index. We're looking to get this done tomorrow evening, so feel free to drop or reschedule at convenience.

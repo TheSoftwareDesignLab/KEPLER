@@ -1,1 +1,0 @@
-We need to conduct a routine monitoring task in four days, specifically in the evening. The focus is on multispectral vegetation analysis over the Panama Canal area to assess chlorophyll absorption levels and calculate the NDVI index. This is part of our baseline pipeline tracking setup with fixed parameters, representing normal operational status.

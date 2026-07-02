@@ -1,3 +1,0 @@
-Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the automated satellite constellation planner.
-
-We require a thermal mapping task to capture a heat signature and surface temperature profile in Panama's Canal region. This is a standard operational tasking part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We need this thermal anomaly detection and mapping of heat emissions to be executed sometime today around mid-day, specifically overnight, as part of our routine monitoring.

@@ -1,2 +1,0 @@
-Tomorrow night, I need to schedule an active radar scan over Panama City's Canal region. This is a standard operational tasking aimed at cloud-penetrating capture and assessing ground geometry. Please ensure this fits into our baseline pipeline tracking with fixed parameters for routine monitoring. The target window should be specifically during the nighttime hours, aligning with our usual schedule for such operations.
-```

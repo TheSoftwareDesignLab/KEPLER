@@ -1,1 +1,0 @@
-We need to set up a standard operational tasking for an active radar scan over the Panama Canal area. This is part of our baseline pipeline tracking with fixed parameters, so it's important we maintain normal operational status. We're looking to capture this overnight in four days.

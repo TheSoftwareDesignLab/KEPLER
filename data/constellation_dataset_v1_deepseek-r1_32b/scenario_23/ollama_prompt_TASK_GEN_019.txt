@@ -1,1 +1,0 @@
-We have a standard operational tasking for tomorrow afternoon targeting the city of Páez in Colombia. The objective is to acquire thermal mapping data to capture the surface temperature profile. This is part of our baseline pipeline tracking with fixed parameters to ensure normal operational status. Please prioritize this as a routine monitoring activity.

@@ -1,1 +1,0 @@
-We need to set up a routine monitoring task for a standard operational workflow in Villa Unida, Panamá. The objective is to capture near-infrared reflection for water body boundary mapping. This needs to be done in three days during the morning as part of our baseline pipeline tracking setup with fixed parameters.

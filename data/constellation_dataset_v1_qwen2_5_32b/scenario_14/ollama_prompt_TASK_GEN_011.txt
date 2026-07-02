@@ -1,1 +1,0 @@
-Hey, we've got a low priority importance request for a multispectral vegetation analysis over Mapiripán in Colombia. It's part of our non-essential background filler task, so feel free to drop or reschedule at convenience. We're looking to capture the chlorophyll absorption level and calculate the NDVI index. This needs to be done tomorrow around mid-day.

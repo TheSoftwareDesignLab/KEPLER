@@ -1,1 +1,0 @@
-We need a thermal mapping of the area around Onzaga, Colombia. This is part of our standard operational tasking and falls under our baseline pipeline tracking setup with fixed parameters for normal operational status. We're looking to capture the surface temperature profile in three days during the morning.

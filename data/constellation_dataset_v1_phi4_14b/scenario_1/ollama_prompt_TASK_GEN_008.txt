@@ -1,1 +1,0 @@
-We have a standard operational tasking for a high-resolution optical snapshot over Cermeño, Panamá. This is part of our baseline pipeline tracking setup with fixed parameters to ensure normal operational status and a workflow update. We're looking to capture clear optical imagery during daylight photography, specifically in the morning tomorrow.

@@ -1,1 +1,0 @@
-We have a standard operational tasking for multispectral vegetation analysis over Norcasia, Colombia. The objective is to assess chlorophyll absorption levels and calculate the NDVI index. This is part of our routine monitoring with fixed parameters. We need this data captured three days from now during the overnight hours.

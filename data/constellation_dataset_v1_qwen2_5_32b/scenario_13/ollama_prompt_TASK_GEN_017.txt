@@ -1,1 +1,0 @@
-We need to set up a routine monitoring task for San José del Guaviare in Colombia. This is part of our baseline pipeline tracking and involves capturing near-infrared reflection to assess soil moisture conditions. We're looking to execute this overnight in three days. Please ensure the parameters are fixed as per our normal operational status.

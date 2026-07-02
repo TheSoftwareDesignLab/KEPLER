@@ -1,1 +1,0 @@
-We need to task a satellite for a high-resolution optical snapshot over San Martín, Colombia. This is part of our standard operational tasking and falls under our baseline pipeline tracking with fixed parameters. We're looking to capture this imagery in three days during the morning. Please ensure it's scheduled accordingly.

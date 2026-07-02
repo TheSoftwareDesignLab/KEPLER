@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking for multispectral vegetation analysis over Sabana de Torres, Colombia. This is part of our baseline pipeline tracking setup and requires fixed parameters for assessing chlorophyll absorption levels. We're looking to capture this data in three days around mid-day.

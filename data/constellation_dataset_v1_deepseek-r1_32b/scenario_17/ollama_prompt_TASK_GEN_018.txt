@@ -1,1 +1,0 @@
-We need to schedule a VNIR scan over the area around Cañita, Panama, as part of a low-priority tasking request. This is a flexible schedule for opportunistic capture, so feel free to drop or reschedule at convenience. The objective is to gather multispectral data for vegetation assessment in the region. Target window is three days from now overnight.

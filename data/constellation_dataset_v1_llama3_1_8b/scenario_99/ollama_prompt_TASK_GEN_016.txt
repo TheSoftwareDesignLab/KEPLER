@@ -1,7 +1,0 @@
-Tasking Request: Routine Monitoring for Vegetation Analysis in Panamá
-
-We require a standard operational tasking for routine monitoring and baseline pipeline tracking, involving a normal operational status and fixed parameters. This commercial tasking will focus on multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance. The target location is Panamá, with specific interest in the Salud area.
-
-The mission allocation priority for this tasking is standard operational, with a binding contract requirement for a critical payload capture. However, we have some flexibility in scheduling, and the operator should feel free to drop or reschedule at convenience if needed.
-
-The target timeframe for this tasking is the day after tomorrow, specifically during the evening hours. We require a high-resolution near-infrared reflection capture for water body boundary mapping and soil moisture assessment to discriminate gradients.

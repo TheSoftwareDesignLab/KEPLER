@@ -1,3 +1,0 @@
-I'd like to submit a low-priority task for an opportunistic capture using VNIR sensors. This is a flexible schedule request for a non-essential background filler task, so please feel free to drop or reschedule it at your convenience. The objective is to conduct multispectral vegetation analysis in the Canal region of Panamá, focusing on assessing chlorophyll absorption levels and calculating a vegetation NDVI index.
-
-The task should be completed sometime four days from now, specifically in the morning. If you can accommodate this within your workflow, that would be great, but please prioritize other tasks as needed.

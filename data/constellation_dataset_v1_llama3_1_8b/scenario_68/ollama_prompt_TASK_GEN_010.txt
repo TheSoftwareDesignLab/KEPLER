@@ -1,1 +1,0 @@
-We need a low priority importance task to capture thermal mapping data for the region of Llano Abajo in Panamá. This is a non-essential background filler task with a flexible schedule for opportunistic capture, and we can drop or reschedule it at our convenience if needed. We're looking for thermal anomaly detection and heat emissions mapping overnight on the day after tomorrow.

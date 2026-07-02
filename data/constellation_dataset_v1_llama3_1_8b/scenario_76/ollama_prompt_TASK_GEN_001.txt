@@ -1,7 +1,0 @@
-Tasking Request for Colombia La Punta Area
-
-We require a low priority importance task to be executed with a flexible schedule for opportunistic capture. This non-essential background filler task can be dropped or rescheduled at convenience, and is considered a background survey or testbed tracking task.
-
-The objective is to capture a high-resolution optical snapshot of the area using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index and surface reflectance. This will help in understanding the health and density of vegetation in the region.
-
-The location is La Punta, Colombia, and the tasking should be done sometime today around mid-day, specifically during the evening hours.

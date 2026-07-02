@@ -1,1 +1,0 @@
-We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The mission involves a low-resolution near-infrared reflection capture for water body boundary mapping and soil moisture assessment in Puerto López, Colombia, sometime today around mid-day.

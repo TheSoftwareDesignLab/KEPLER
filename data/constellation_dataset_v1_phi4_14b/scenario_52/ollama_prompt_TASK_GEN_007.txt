@@ -1,1 +1,0 @@
-I need a routine monitoring task scheduled for tomorrow morning to capture near-infrared reflection data over Cáceres, Colombia. This is part of our standard operational workflow for assessing soil moisture levels and mapping water body boundaries. Please ensure this fits within the baseline pipeline tracking with fixed parameters as per our commercial tasking requirements.

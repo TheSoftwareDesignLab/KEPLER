@@ -1,1 +1,0 @@
-I need to schedule a low-priority task to capture a high-resolution optical snapshot of the Panamá Canal area. This is an opportunistic request that can be dropped or rescheduled at convenience. The imagery should be acquired three days from now, specifically in the morning.

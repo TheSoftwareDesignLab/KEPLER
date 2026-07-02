@@ -1,1 +1,0 @@
-Tomorrow morning, Rioblanco in Colombia is scheduled for a standard operational tasking with multispectral vegetation analysis. Please ensure this routine monitoring and baseline pipeline tracking setup is executed as part of our regular workflow update to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance.

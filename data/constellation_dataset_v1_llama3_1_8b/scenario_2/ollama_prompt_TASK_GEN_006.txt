@@ -1,2 +1,0 @@
-Request for VNIR multispectral vegetation analysis in Panamá: 
-We need to conduct a low priority importance, opportunistic capture of a high-resolution optical snapshot for daylight photography in the Canal region of Panamá sometime today around mid-day. The flexible schedule allows for a non-essential background filler task where we can drop or reschedule at convenience. This is a background survey to assess chlorophyll absorption levels and calculate a vegetation NDVI index and surface reflectance.

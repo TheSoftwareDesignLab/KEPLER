@@ -1,5 +1,0 @@
-Hello, I'd like to submit a low-priority task for your consideration. We're looking at a flexible schedule for an opportunistic capture over Sabana de Torres in Colombia. This is a non-essential background filler task, so please feel free to drop or reschedule it at your convenience.
-
-The objective is to conduct a multispectral vegetation analysis using the VNIR sensor. We aim to assess chlorophyll absorption levels and calculate a vegetation NDVI index. 
-
-Could we target this for the day after tomorrow, specifically overnight? Thank you!

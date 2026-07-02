@@ -1,1 +1,0 @@
-Tomorrow in the evening, I need a multispectral vegetation analysis over Llano Grande, Panama. This is part of our routine monitoring to assess chlorophyll absorption levels and calculate surface reflectance. Please schedule this as a standard operational tasking within our baseline pipeline tracking setup with fixed parameters representing normal operational status.

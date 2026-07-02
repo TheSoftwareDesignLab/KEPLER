@@ -1,1 +1,0 @@
-I need to schedule a routine monitoring task for multispectral vegetation analysis over Ciricito, Panamá. This is part of our standard operational tasking and involves calculating a vegetation NDVI index and assessing surface reflectance. The imagery should be captured tomorrow during the afternoon. Please ensure this aligns with our baseline pipeline tracking setup.

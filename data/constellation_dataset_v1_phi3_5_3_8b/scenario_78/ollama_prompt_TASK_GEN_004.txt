@@ -1,2 +1,0 @@
-Tomorrow evening, we need to perform a standard operational tasking for multispectral vegetation analysis in Donoso, Panamá. This routine monitoring is part of our baseline pipeline tracking and requires us to assess the chlorophyll absorption level as well as calculate the surface reflectance using near-infrared reflection. Please ensure this operation aligns with our fixed parameters for normal operational status.
-```

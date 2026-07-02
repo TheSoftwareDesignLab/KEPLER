@@ -1,1 +1,0 @@
-We have a routine monitoring task requiring thermal imaging to capture surface temperature profiles over the area around Panama City, specifically near the Panama Canal. This is part of our standard operational pipeline with fixed parameters, so we need this completed tomorrow morning as per our normal tracking schedule.

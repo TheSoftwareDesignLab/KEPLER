@@ -1,1 +1,0 @@
-We need to capture thermal mapping data over Panama City, Panama, specifically targeting heat signatures and surface temperature profiles. This is a standard operational tasking that needs to be executed the day after tomorrow evening as part of our baseline pipeline tracking with fixed parameters.

@@ -1,1 +1,0 @@
-We have a low priority importance request for a thermal mapping task using the TIR sensor. We'd like to capture a heat signature and surface temperature profile in Suratá, Colombia, sometime today around mid-day. This is a non-essential background filler task with a flexible schedule for opportunistic capture, so feel free to drop or reschedule at convenience.

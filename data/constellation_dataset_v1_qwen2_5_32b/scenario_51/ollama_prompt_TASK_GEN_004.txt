@@ -1,1 +1,0 @@
-Hey, we need to get a high-resolution optical snapshot over the Panama Canal area tomorrow morning as part of our routine monitoring. This is a standard operational tasking with fixed parameters, so make sure it's part of the baseline pipeline tracking setup.

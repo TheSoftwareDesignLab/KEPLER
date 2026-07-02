@@ -1,1 +1,0 @@
-We have a standard operational tasking request for a high-resolution optical snapshot over Vista Hermosa, Colombia. This is part of our baseline pipeline tracking setup with fixed parameters. The objective is to capture clear daylight photography during the evening of the day after tomorrow. Please ensure this is executed as a routine monitoring activity.

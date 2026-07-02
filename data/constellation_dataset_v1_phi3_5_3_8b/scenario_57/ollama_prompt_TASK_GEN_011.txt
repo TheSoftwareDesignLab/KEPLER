@@ -1,2 +1,0 @@
-Request Earth-observation mission planner: We need to schedule a thermal mapping over Simacota, Colombia, for multispectral vegetation analysis tomorrow morning. This is part of our routine monitoring and should be integrated into the baseline pipeline tracking with fixed parameters representing normal operational status. Please allocate resources accordingly as this forms a standard operational tasking within our current workflow update.
-```

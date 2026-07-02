@@ -1,1 +1,0 @@
-We have a standard operational tasking for an active radar scan over the Panama Canal area. This is part of our routine monitoring setup with fixed parameters to capture microwave surface imaging. The mission needs to be executed tomorrow overnight as part of our normal operational status.

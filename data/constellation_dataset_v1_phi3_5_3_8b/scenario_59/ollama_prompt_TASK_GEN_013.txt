@@ -1,1 +1,0 @@
-Tomorrow, I need a standard operational tasking for multispectral vegetation analysis in El Retorno, Colombia. This should be part of our routine monitoring to assess the chlorophyll absorption level and calculate surface reflectance indices around mid-day. Please schedule this as a regular update within our baseline pipeline tracking setup.

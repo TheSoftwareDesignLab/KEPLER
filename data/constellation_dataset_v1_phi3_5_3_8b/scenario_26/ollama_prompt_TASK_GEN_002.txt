@@ -1,2 +1,0 @@
-Request Earth-observation team to conduct a standard operational tasking for multispectral vegetation analysis in Portobelo, Panama. This routine monitoring is part of our baseline pipeline tracking and should be executed tomorrow morning with the aim of assessing chlorophyll absorption levels or calculating the NDVI index and surface reflectance to monitor local flora health as per normal operational status.
-```

@@ -1,1 +1,0 @@
-We need to set up a routine monitoring task for tomorrow overnight over Sabanalarga, Colombia. This is part of our baseline pipeline tracking setup using multispectral vegetation analysis to assess the chlorophyll absorption levels and calculate the NDVI index in the area.

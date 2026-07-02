@@ -1,4 +1,0 @@
-```
-prompt
-Please conduct a low priority importance thermal mapping task in Panama, focusing on the Canal region. We're looking for a heat signature and surface temperature profile to assess thermal anomalies and map heat emissions. This is a non-essential background filler task with a flexible schedule for opportunistic capture. Please drop or reschedule at convenience if needed, as this is a background survey. The target window for this task is sometime today around mid-day.
-```

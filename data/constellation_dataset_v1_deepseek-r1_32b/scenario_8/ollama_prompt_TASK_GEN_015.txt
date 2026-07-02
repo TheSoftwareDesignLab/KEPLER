@@ -1,1 +1,0 @@
-We need to capture near-infrared reflection imagery over Andina, Colombia, to assess water body boundaries and soil moisture conditions. This is a standard operational tasking with fixed parameters that needs to be executed as part of our baseline monitoring pipeline. The data must be collected overnight in Andina, Colombia, tomorrow.

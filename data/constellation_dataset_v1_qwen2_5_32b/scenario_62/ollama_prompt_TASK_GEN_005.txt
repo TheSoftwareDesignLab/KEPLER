@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking for routine monitoring in Santa Rosa del Sur, Colombia. The mission involves capturing multispectral vegetation analysis to assess chlorophyll absorption levels and calculate an NDVI index. This should be completed in three days during the evening as part of our baseline pipeline tracking setup with fixed parameters.

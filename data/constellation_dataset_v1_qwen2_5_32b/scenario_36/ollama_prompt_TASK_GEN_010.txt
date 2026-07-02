@@ -1,1 +1,0 @@
-We need to perform a standard operational tasking for a commercial client. The objective is to conduct an active radar scan over Santa Isabel, Panamá, to ensure we capture cloud-penetrating imagery of the area. This should be scheduled in three days during the afternoon as part of our baseline pipeline tracking setup.

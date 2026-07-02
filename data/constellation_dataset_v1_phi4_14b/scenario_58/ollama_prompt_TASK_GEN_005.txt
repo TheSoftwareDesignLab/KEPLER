@@ -1,1 +1,0 @@
-We have a low-priority task that we'd like to slot in, if possible. It's an active radar scan using microwave surface imaging over Cáceres, Colombia. We're looking for cloud-penetrating capture to get ground geometry details. The timing is flexible, so feel free to drop or reschedule this as needed. Ideally, we'd like it done the day after tomorrow, specifically overnight.

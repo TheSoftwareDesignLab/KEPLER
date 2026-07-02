@@ -1,1 +1,0 @@
-Tasking Request: High-resolution optical snapshot for daylight photography in Anapoima, Colombia. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. Please capture true-color visual documentation tomorrow morning.

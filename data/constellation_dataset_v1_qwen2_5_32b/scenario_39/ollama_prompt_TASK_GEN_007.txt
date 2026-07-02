@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking for a multispectral vegetation analysis over Málaga, Colombia. This is part of our baseline pipeline tracking setup and involves capturing the chlorophyll absorption levels and calculating the NDVI index. The mission should be executed the day after tomorrow in the morning as per the fixed parameters.

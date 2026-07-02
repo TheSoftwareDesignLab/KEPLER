@@ -1,1 +1,0 @@
-We need a standard operational tasking for an active radar scan over Puerto Rico, Colombia. This is part of our baseline pipeline tracking with fixed parameters, so it's important we capture this during the overnight period in three days.

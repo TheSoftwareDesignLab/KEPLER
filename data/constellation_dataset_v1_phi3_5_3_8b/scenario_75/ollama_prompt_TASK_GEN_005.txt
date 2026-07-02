@@ -1,1 +1,0 @@
-Request to schedule a SAR radar scan over Puerto Gaitán, Colombia, as part of our routine monitoring. This task is set for tomorrow afternoon and aligns with our standard operational tracking pipeline. Please ensure this becomes a fixed parameter in the upcoming baseline workflow update.

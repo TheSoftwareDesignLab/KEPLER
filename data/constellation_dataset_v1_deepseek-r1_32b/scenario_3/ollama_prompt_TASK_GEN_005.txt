@@ -1,1 +1,0 @@
-Alright, we've got a low-priority task for you. We need to grab some multispectral data over Tauramena, Colombia, using VNIR sensors. This is for checking the vegetation health and calculating the NDVI index. The window is three days from now overnight. It's just a background survey, so if something else comes up, you can drop this one without a problem.

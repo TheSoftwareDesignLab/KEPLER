@@ -1,1 +1,0 @@
-We need to schedule a low-priority importance task for opportunistic capture, with a flexible schedule for daylight photography. We're looking at capturing high-resolution optical snapshots in Unión Santeña, Panamá, sometime today around mid-day. This is a non-essential background filler task where we can drop or reschedule at convenience, treating it as a background survey.

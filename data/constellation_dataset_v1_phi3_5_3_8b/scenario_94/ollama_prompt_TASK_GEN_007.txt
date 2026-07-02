@@ -1,2 +1,0 @@
-Tomorrow night, I need a high-resolution optical snapshot to document San Pablo's true color visual landscape. This is an absolute institutional priority for our multispectral vegetation analysis; we must assess the chlorophyll absorption level and calculate the NDVI index around midnight. Please ensure this critical payload capture aligns with our standard operational tasking schedule, as it's essential for maintaining our environmental monitoring standards.
-```

@@ -1,1 +1,0 @@
-We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup. We need to capture a high-resolution optical snapshot using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index for a region in Colombia, specifically Villa Rica, sometime tomorrow morning.

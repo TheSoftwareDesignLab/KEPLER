@@ -1,1 +1,0 @@
-Hey, we've got a low priority importance request coming in. It's for an opportunistic VNIR capture over El Tambo, Colombia. We're looking to assess the chlorophyll absorption levels and calculate the NDVI index for the area. This is more of a background survey task, so feel free to drop or reschedule it at convenience. The target window is the day after tomorrow in the evening.

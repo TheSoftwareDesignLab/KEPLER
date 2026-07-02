@@ -1,5 +1,0 @@
-Tasking Request: Routine Monitoring and Baseline Pipeline Tracking
-
-We require a standard operational tasking for commercial purposes, utilizing the VNIR sensor to capture high-resolution multispectral vegetation analysis data. The target location is in Colombia, specifically in the city of Baudocito. This tasking is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
-
-The mission allocation priority for this tasking is medium importance, and we expect it to be completed as part of our routine monitoring schedule. We require the data capture to take place sometime today around mid-day.

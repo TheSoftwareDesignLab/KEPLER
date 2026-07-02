@@ -1,1 +1,0 @@
-We need to schedule a routine monitoring task for Quibdó, Colombia. This is part of our baseline pipeline tracking setup and involves capturing near-infrared reflection to assess water body boundaries and soil moisture around the area. We're looking to execute this in four days during the evening as per our normal operational status.

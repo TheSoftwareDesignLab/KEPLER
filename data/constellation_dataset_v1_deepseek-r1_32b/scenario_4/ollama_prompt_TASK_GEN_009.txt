@@ -1,1 +1,0 @@
-We need to schedule a routine vegetation monitoring task over Chigorodó, Colombia, using multispectral analysis to assess chlorophyll absorption and NDVI levels. This is a standard operational request for baseline tracking with fixed parameters. The target window is three days from now overnight.

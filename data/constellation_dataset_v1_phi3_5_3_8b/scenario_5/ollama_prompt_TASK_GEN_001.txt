@@ -1,2 +1,0 @@
-Tomorrow morning, I need a standard operational tasking to conduct multispectral vegetation analysis in Curití, Colombia. This routine monitoring is part of our baseline pipeline tracking and will help us assess the chlorophyll absorption level as well as calculate the NDVI index for surface reflectance. Please ensure this is scheduled within the target day's morning hours to maintain our normal operational status flow.
-```

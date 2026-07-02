@@ -1,7 +1,0 @@
-Tasking Request: Routine Monitoring of Multispectral Vegetation in Panamá Canal Region
-
-We require a high-resolution multispectral vegetation analysis over the region of Panamá, specifically focusing on the Canal area. This tasking is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
-
-The objective is to assess the chlorophyll absorption level and calculate the NDVI index for surface reflectance in this region. We aim to capture a clear optical imagery of the vegetation, using multispectral bands to discriminate gradients and identify areas of interest.
-
-This task has been scheduled for tomorrow around mid-day, allowing us to capture the optimal daylight conditions for true-color visual documentation. Please ensure that the satellite is tasked accordingly and that the data is transmitted in a timely manner.

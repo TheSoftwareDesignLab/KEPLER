@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking tomorrow morning over Puerto Pilón, Panamá. The objective is to capture a thermal mapping of the area to assess the surface temperature profile. This is part of our baseline pipeline tracking setup with fixed parameters, so please ensure it’s included in the normal operational status.

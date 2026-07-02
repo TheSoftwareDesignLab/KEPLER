@@ -1,1 +1,0 @@
-We need to execute a standard operational tasking for a routine monitoring mission over Panama Canal. This involves capturing a cloud-penetrating radar scan overnight tomorrow. It’s part of our baseline pipeline tracking setup with fixed parameters, so ensure it’s handled as normal operational status.

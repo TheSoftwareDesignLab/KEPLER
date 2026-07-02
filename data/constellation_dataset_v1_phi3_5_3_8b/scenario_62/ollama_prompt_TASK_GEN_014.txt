@@ -1,1 +1,0 @@
-Tomorrow evening, we're scheduled to conduct a standard operational tasking for multispectral vegetation analysis in El Llano, Panama. This routine monitoring will assess the chlorophyll absorption level and calculate the NDVI index to monitor surface reflectance as part of our baseline pipeline tracking.

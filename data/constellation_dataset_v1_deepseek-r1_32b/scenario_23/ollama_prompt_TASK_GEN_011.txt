@@ -1,1 +1,0 @@
-I need to schedule a low-priority background survey using multispectral vegetation analysis over Sabana de Torres, Colombia. This task is non-essential and can be dropped or rescheduled as needed. The objective is to capture chlorophyll absorption levels and NDVI index data. We’re targeting the day after tomorrow during the afternoon for this opportunistic capture.

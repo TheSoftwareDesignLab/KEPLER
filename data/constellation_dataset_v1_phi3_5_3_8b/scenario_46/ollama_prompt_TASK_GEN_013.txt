@@ -1,1 +1,0 @@
-As an Earth-observation mission operator, I'm submitting a task today in the morning to capture multispectral vegetation analysis over Ituango, Colombia. This standard operational tasking will assess chlorophyll absorption levels and calculate surface reflectance using VNIR sensors for routine monitoring within our baseline pipeline tracking setup.

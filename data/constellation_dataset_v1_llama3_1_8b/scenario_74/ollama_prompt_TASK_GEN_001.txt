@@ -1,2 +1,0 @@
-Tasking Request: Routine Monitoring for Baseline Pipeline Tracking
-We require a high-resolution optical snapshot using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index and surface reflectance over Sabanalarga, Colombia. This is a standard operational tasking part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The mission should be executed sometime today around mid-day.

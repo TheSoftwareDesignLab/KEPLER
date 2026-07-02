@@ -1,1 +1,0 @@
-We require a low-priority importance task for opportunistic thermal mapping to capture a heat signature and surface temperature profile in Colombia, specifically in Abejorral. This can be scheduled at our convenience, treated as a background survey or testbed tracking task, and dropped or rescheduled if necessary. We'd like this task to be executed sometime today around mid-day.

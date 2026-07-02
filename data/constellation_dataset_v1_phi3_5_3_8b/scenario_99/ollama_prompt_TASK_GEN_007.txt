@@ -1,2 +1,0 @@
-Tomorrow in the evening, I need a thermal mapping of Barrancabermeja, Colombia, as part of our standard operational tasking. This will help us capture the heat signature and surface temperature profile to detect any thermal anomalies within the region. Please ensure this is integrated into our routine monitoring workflow update for continuous environmental analysis.
-```

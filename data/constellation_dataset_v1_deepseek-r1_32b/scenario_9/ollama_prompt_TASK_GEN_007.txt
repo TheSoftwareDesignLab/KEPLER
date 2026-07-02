@@ -1,1 +1,0 @@
-Requesting VNIR sensor deployment over San Gil, Colombia, for a routine vegetation analysis task. Capture chlorophyll levels and NDVI index during the day after tomorrow in the afternoon. This is part of our standard monitoring pipeline.

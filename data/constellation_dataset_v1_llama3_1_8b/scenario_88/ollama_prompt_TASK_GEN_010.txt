@@ -1,2 +1,0 @@
-Tasking Request: 
-Obtain high-resolution optical snapshot for daylight photography over the region of La Chorrera in Panamá. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We require this capture to be completed sometime today around mid-day.

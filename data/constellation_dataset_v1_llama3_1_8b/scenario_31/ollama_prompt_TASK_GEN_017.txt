@@ -1,7 +1,0 @@
-Tasking Request: High-Resolution Optical Snapshot in Salento, Colombia
-
-We require a standard operational tasking for high-resolution optical snapshot capture in Salento, Colombia. This is a commercial tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
-
-The target location is in the country of Colombia, specifically in the city of Salento. We need to capture a clear optical imagery of the area using daylight photography for true-color visual documentation.
-
-This tasking has a standard operational priority and should be executed as part of our routine monitoring setup. The mission allocation is not urgent, but it's essential to complete within the next 24 hours during the afternoon.

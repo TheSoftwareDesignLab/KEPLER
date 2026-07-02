@@ -1,1 +1,0 @@
-I need a standard operational tasking set up for tomorrow overnight over Tame, Colombia. We're looking to conduct a multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index. This is part of our baseline pipeline tracking with fixed parameters, so keep it in the normal operational status workflow.

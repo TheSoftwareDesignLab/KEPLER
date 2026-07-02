@@ -1,5 +1,0 @@
-Tasking Request: Routine Monitoring of Panamá's Natá Region for Near-Infrared Reflection
-
-We require a standard operational tasking for routine monitoring and baseline pipeline tracking. This involves a commercial tasking to capture near-infrared reflection for water body boundary mapping and soil moisture assessment in the region of Natá, Panamá. The mission allocation is a standard operational task, part of our normal workflow update with fixed parameters representing normal operational status.
-
-The target window for this tasking is sometime today around mid-day, specifically during the day after tomorrow's overnight period. This aligns with our baseline pipeline tracking setup and will provide valuable data for our operational needs.

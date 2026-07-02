@@ -1,1 +1,0 @@
-We need to schedule a standard operational tasking for multispectral vegetation analysis over the area around El Litoral del San Juan, Colombia. The goal is to acquire high-quality multispectral data for assessing chlorophyll absorption levels and calculating the NDVI index. This needs to be executed four days from now, specifically during the afternoon.

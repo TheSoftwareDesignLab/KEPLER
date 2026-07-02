@@ -1,9 +1,0 @@
-Tasking Request: High-Resolution Optical Snapshot for Daylight Photography in Panama Canal Area
-
-We require a standard operational tasking for high-resolution optical snapshot capture using daylight photography to document true-color visual details around the Panama Canal area. This is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status, and it's a routine monitoring task that should be executed as per our commercial tasking schedule.
-
-The mission must be completed sometime today around mid-day, specifically during the afternoon hours. This task is a standard operational priority, and we expect the satellite to capture clear optical imagery of the region.
-
-Please ensure that the satellite captures high-resolution images of the Panama Canal area using daylight photography, and that the data is transmitted back to us in a timely manner. We appreciate your prompt attention to this matter.
-
-Thank you.

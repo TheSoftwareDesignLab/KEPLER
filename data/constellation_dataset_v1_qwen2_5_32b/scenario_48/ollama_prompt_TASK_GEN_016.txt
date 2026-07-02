@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking for a multispectral vegetation analysis over Capira, Panamá. This is part of our baseline pipeline tracking setup with fixed parameters and represents normal operational status. We're looking to assess the chlorophyll absorption levels and calculate the NDVI index. This needs to be done overnight tomorrow.

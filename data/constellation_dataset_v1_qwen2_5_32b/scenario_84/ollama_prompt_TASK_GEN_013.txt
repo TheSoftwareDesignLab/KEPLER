@@ -1,1 +1,0 @@
-I need a standard operational tasking to capture an active radar scan over San José del Guaviare in Colombia. This should be part of our baseline pipeline tracking with fixed parameters. We're aiming for the day after tomorrow, specifically in the evening.

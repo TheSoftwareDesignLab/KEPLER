@@ -1,1 +1,0 @@
-We need to schedule a routine monitoring task for multispectral vegetation analysis over the region near San Isidro, Colombia. This is part of our standard operational pipeline with fixed parameters for normal monitoring. The objective is to capture chlorophyll absorption levels and surface reflectance data. We need this completed the day after tomorrow, specifically overnight.

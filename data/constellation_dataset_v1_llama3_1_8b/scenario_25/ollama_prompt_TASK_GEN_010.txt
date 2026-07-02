@@ -1,3 +1,0 @@
-Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for an Earth-observation mission:
-
-We require an absolute institutional priority, a binding contract requirement, to capture a critical thermal signature using high-resolution thermal mapping. The location is Panama, specifically the city of Canal, where we aim to document a heat signature and surface temperature profile. This task is part of a baseline pipeline tracking setup with fixed parameters representing normal operational status. We need this data captured within the day after tomorrow, specifically overnight, during the evening hours.

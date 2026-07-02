@@ -1,1 +1,0 @@
-We need to execute a standard operational tasking for an active radar scan over Unión Santeña, Panamá. This is part of our baseline pipeline tracking setup with fixed parameters and represents normal operational status. The capture should be completed the day after tomorrow during the afternoon.

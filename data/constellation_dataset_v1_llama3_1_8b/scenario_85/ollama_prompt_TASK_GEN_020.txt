@@ -1,3 +1,0 @@
-Tasking Request for Satellite Constellation
-
-We require an active radar scan using microwave surface imaging to capture a cloud-penetrating snapshot of the region around Panama, specifically targeting the Canal area. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We need this data within the day after tomorrow, specifically around mid-day.

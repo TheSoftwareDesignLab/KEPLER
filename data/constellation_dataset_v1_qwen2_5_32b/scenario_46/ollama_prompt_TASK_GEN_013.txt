@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking today around mid-day over Ituango, Colombia. The objective is to perform multispectral vegetation analysis for assessing chlorophyll absorption levels and calculating the NDVI index. This is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.

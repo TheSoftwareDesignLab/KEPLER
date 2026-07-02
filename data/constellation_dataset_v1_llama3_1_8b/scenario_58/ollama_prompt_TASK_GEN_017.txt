@@ -1,1 +1,0 @@
-Request for low-priority importance tasking: We're looking to conduct an opportunistic multispectral vegetation analysis using a flexible schedule, targeting Aipe in Colombia. The goal is to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance. This can be done sometime today around mid-day or at our convenience.

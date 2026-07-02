@@ -1,2 +1,0 @@
-Tomorrow, I need to schedule a standard operational tasking for multispectral vegetation analysis in Puerto López, Colombia. This routine monitoring is part of our baseline pipeline tracking and should be set up with fixed parameters to reflect the normal operational status over mid-day. Please ensure this goes through as it's essential for assessing chlorophyll absorption levels and calculating surface reflectance indices.
-```

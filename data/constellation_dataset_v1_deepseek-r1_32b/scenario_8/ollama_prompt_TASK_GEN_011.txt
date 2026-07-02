@@ -1,1 +1,0 @@
-We need to acquire multispectral vegetation analysis over San Pablo, Colombia, to assess chlorophyll absorption levels and calculate the NDVI index. This is a standard operational tasking with fixed parameters, part of our baseline pipeline tracking for normal operational status. The imaging must be executed four days from now in the morning.

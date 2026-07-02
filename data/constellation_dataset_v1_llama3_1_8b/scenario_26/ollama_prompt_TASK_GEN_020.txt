@@ -1,5 +1,0 @@
-Tasking for the satellite constellation: 
-We require a low-priority importance request with a flexible schedule for opportunistic capture. 
-The objective is to capture a high-resolution optical snapshot of daylight photography in El Espino, Panamá, using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index. 
-This is a non-essential background filler task where the operator explicitly notes to drop or reschedule at convenience, treating it as a background survey or testbed tracking task. 
-The task should be executed sometime today around mid-day.

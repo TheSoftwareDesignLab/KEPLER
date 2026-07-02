@@ -1,1 +1,0 @@
-We need a thermal mapping of Cantagallo, Colombia for the day after tomorrow, specifically overnight. This is part of our routine monitoring and falls under our baseline pipeline tracking setup with fixed parameters, so it's business as usual.

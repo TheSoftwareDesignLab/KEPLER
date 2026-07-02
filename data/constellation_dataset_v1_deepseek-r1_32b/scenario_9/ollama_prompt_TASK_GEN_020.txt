@@ -1,1 +1,0 @@
-I need to schedule a multispectral vegetation analysis over Ciricito, Panama, using VNIR sensors. This is part of our standard operational tasking for routine monitoring. Please prioritize this as a medium importance request and aim to capture the data tomorrow evening.

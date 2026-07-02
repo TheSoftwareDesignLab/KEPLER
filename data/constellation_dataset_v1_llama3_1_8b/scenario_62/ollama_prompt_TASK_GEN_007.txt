@@ -1,1 +1,0 @@
-We need to allocate a low-priority importance task for opportunistic capture, with a flexible schedule, to conduct a near-infrared reflection survey of the water body boundary in San Martín, Colombia, sometime today around mid-day.

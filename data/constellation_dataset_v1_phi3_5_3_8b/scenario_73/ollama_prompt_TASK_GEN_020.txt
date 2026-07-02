@@ -1,2 +1,0 @@
-Tomorrow morning, I'd like to schedule an opportunistic SAR scan in San Carlos, Panamá. This task is of low priority importance; please drop or reschedule at your convenience as it serves as a background survey for our ongoing baseline pipeline tracking. The aim is to capture cloud-penetrating microwave surface imagery and assess ground geometry. Let's keep this flexible with the schedule, but I would appreciate confirmation of receipt so we can adjust accordingly.
-```

@@ -1,1 +1,0 @@
-We need to schedule a low priority importance task for opportunistic capture, with a flexible schedule. We're looking for a high-resolution optical snapshot for daylight photography in Mesetas, Colombia, sometime today around mid-day. This is a non-essential background filler task where we can drop or reschedule at convenience, treating it as a background survey.

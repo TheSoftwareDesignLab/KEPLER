@@ -1,5 +1,0 @@
-Translate the following metadata into a conversational English request for a thermal mapping task to capture a heat signature in Colombia, specifically in the city of Sevilla overnight tomorrow.
-
-The mission allocation priority is standard operational tasking as part of a baseline pipeline tracking setup with fixed parameters representing normal operational status. The primary objective is to conduct thermal mapping using microwave surface imaging for cloud-penetrating capture, piercing heavy weather or capturing ground geometry.
-
-The target timeframe is sometime today around mid-day, but the actual execution will take place overnight tomorrow.

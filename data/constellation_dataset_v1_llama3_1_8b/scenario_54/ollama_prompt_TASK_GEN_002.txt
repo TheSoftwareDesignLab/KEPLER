@@ -1,4 +1,0 @@
-```
-prompt
-We need a standard operational tasking for multispectral vegetation analysis in Panamá, specifically in the Canal region. We're looking for a high-resolution optical snapshot of the area's chlorophyll absorption level and NDVI index to assess vegetation health. This is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We need to capture this data overnight tomorrow.
-```

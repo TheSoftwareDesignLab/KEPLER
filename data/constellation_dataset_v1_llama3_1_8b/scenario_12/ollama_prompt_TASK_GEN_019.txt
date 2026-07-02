@@ -1,1 +1,0 @@
-I'd like to schedule a low priority importance task for opportunistic capture, with a flexible schedule. We're looking to conduct a near-infrared reflection survey in Abejorral, Colombia, sometime today around mid-day, as part of our background survey and testbed tracking task. This is a non-essential background filler task, and we can drop or reschedule at convenience.

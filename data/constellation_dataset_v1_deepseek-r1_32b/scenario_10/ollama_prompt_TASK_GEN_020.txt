@@ -1,1 +1,0 @@
-Requesting an active radar scan over Lajamina, Panama, to capture microwave surface imaging for cloud-penetrating purposes. This is a low-priority background task that can be dropped or rescheduled at convenience. Target window: four days from now overnight.

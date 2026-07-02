@@ -1,2 +1,0 @@
-Tomorrow morning, we'll be conducting a routine thermal mapping over Colombia, specifically in Puerto López. This standard operational task will involve capturing a heat signature to assess surface temperature profiles and detect any thermal anomalies. The request is part of our regular monitoring activities and falls under the medium importance category for mission allocation priority. Please integrate this into our baseline pipeline tracking with fixed parameters representing normal operational status, ensuring that we maintain our usual workflow update schedule.
-```

@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking tomorrow morning over Ciricito, Panamá. This is part of our baseline pipeline tracking setup using multispectral vegetation analysis to assess the chlorophyll absorption level and calculate the NDVI index in the area. Please ensure this routine monitoring is completed as per our normal operational status.

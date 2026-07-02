@@ -1,3 +1,0 @@
-I need to schedule a standard operational tasking for our satellite constellation. The mission involves capturing near-infrared reflection data over the Panama Canal region, specifically focusing on water body boundary mapping and soil moisture assessment. This task is part of our baseline pipeline tracking with fixed parameters, adhering to our normal workflow updates.
-
-The target area is in the city of Canal, Panama, and we aim to execute this task tomorrow during the afternoon. Please ensure that this falls within our routine monitoring schedule as a commercial tasking. Thank you.

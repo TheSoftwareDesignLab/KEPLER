@@ -1,1 +1,0 @@
-Requesting mission allocation for a multispectral vegetation analysis over Topaipí, Colombia. This is a standard operational tasking requiring high-resolution imagery to assess chlorophyll absorption levels and NDVI indices. The target window is tomorrow around mid-day.

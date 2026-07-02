@@ -1,3 +1,0 @@
-Hello, I'd like to submit a low-priority task for our satellite constellation planner. We're interested in capturing some thermal mapping data over Cachipay, Colombia. The goal is to obtain a heat signature or surface temperature profile, which can be useful for thermal anomaly detection and mapping heat emissions.
-
-This task is considered a non-essential background filler task, so please feel free to drop or reschedule it at your convenience. We're looking for an opportunistic capture sometime the day after tomorrow during the afternoon. Thank you!

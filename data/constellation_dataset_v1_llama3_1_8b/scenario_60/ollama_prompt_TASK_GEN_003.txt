@@ -1,1 +1,0 @@
-We require a low priority importance task for opportunistic capture, with a flexible schedule. We're interested in a near-infrared reflection for water body boundary mapping or soil moisture assessment to discriminate gradients, sometime today around mid-day.

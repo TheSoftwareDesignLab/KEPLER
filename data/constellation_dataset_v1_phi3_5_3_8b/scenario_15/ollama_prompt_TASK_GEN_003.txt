@@ -1,1 +1,0 @@
-Tomorrow evening, Segovia in Colombia is scheduled for an active radar scan using microwave surface imaging. This routine monitoring task aims to capture cloud-penetrating images and map the ground geometry. Please ensure this standard operational tasking aligns with our baseline pipeline tracking setup and maintain fixed parameters representing normal operational status.

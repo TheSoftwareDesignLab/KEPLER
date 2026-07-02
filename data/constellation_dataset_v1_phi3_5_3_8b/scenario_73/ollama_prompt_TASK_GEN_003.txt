@@ -1,1 +1,0 @@
-Tomorrow in the evening, I need a standard operational tasking to perform multispectral vegetation analysis over Coello, Colombia. This routine monitoring is part of our baseline pipeline tracking and will help us assess chlorophyll absorption levels using near-infrared reflection for surface reflectance calculations.

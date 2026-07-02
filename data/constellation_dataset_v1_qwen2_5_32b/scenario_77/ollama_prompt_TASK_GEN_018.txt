@@ -1,1 +1,0 @@
-We need to set up a standard operational tasking for thermal mapping over Las Margaritas, Panamá. This is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. We're looking to capture the surface temperature profile overnight in four days.

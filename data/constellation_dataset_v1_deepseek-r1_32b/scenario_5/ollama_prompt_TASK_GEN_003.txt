@@ -1,1 +1,0 @@
-Could you schedule a low-priority SAR imaging task for the area around Coello, Colombia? We need to capture imagery using active radar to penetrate clouds and gather ground geometry data. This should be done four days from now, specifically overnight. It's just a background survey, so feel free to drop or reschedule if necessary.

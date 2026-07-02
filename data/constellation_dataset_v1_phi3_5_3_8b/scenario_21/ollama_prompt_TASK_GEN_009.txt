@@ -1,1 +1,0 @@
-Initiate a standard operational tasking for Güicán, Colombia, aimed at obtaining high-resolution optical snapshots during tomorrow evening's clear sky window. This routine monitoring is part of our baseline pipeline tracking to capture true-color visual documentation and will be executed as scheduled within the next three days.

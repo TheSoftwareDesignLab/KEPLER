@@ -1,3 +1,0 @@
-I need to schedule a standard operational tasking for a commercial satellite mission. The focus is on capturing an active radar scan of the Canal region in Panamá using microwave surface imaging. This will be crucial for cloud-penetrating capture and assessing ground geometry. The task should align with our baseline pipeline tracking for routine monitoring with fixed parameters, reflecting a normal operational status update.
-
-The satellite pass should occur overnight, specifically in four days from now. Please ensure this is integrated into the workflow as a regular part of our operations.

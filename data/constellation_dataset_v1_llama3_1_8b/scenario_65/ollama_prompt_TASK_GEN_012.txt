@@ -1,1 +1,0 @@
-We need to allocate a low priority importance task for opportunistic capture with a flexible schedule. The mission objective is to take a high-resolution optical snapshot for daylight photography in the region of Panamá, specifically around the Canal area, sometime this afternoon.

@@ -42,25 +42,25 @@ def prompt_factory_main(
         priority_categories = [
             "low priority background survey filler task flexible schedule",
             "medium priority standard operational tasking routine monitoring monitoring",
-            "high priority absolute institutional priority binding contract urgent execution mandatory"
+            "high priority absolute institutional priority binding contract requirement urgent execution mandatory"
         ]
 
     if not days_categories:
         days_categories = [
-            "today execute now current date",
-            "tomorrow next calendar day upcoming",
-            "day after tomorrow subsequent pass",
-            "in three days later timeframe",
-            "in four days later timeframe"
+            "today",
+            "tomorrow",
+            "the day after tomorrow",
+            "in three days",
+            "in four days"
         ]
 
     if not hours_categories:
         hours_categories = [
-            "morning early pass dawn daylight",
-            "mid-day noon solar zenith illumination",
-            "afternoon post-noon tracking pass",
-            "evening twilight dusk shift window",
-            "overnight tonight night pass midnight dark"
+            "morning",
+            "mid-day",
+            "afternoon",
+            "evening",
+            "overnight"
         ]
 
     priority_map = {1: priority_categories[0], 2: priority_categories[1], 3: priority_categories[2]}

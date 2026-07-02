@@ -1,1 +1,0 @@
-Hey, we've got a low-priority request coming in for an active radar scan over Restrepo, Colombia. This is part of our routine monitoring setup with flexible scheduling. We need to capture microwave imagery there tomorrow morning.

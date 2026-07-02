@@ -1,2 +1,0 @@
-Tasking Request: 
-We require a standard operational tasking for commercial purposes, involving routine monitoring and baseline pipeline tracking. The mission will utilize multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance in Urrao, Colombia. This is a standard operational tasking with fixed parameters representing normal operational status, part of our routine workflow update. We need this task to be executed sometime today around mid-day.

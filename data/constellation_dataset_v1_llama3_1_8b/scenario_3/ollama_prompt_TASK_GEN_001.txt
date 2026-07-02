@@ -1,1 +1,0 @@
-Please task the satellite to conduct a routine monitoring operation with fixed parameters as part of our baseline pipeline tracking setup. We require a high-resolution optical snapshot using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index in the region of Tame, Colombia, overnight tomorrow.

@@ -1,1 +1,0 @@
-We need to schedule a low priority importance task for opportunistic capture, with a flexible schedule. The mission involves taking a near-infrared reflection snapshot for water body boundary mapping or soil moisture assessment in Prado, Colombia sometime today around mid-day.

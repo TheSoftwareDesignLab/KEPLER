@@ -1,1 +1,0 @@
-We need to set up a routine monitoring task for multispectral vegetation analysis over El Llano, Panamá. This is part of our baseline pipeline tracking with fixed parameters, so it's business as usual. We're looking at capturing the chlorophyll absorption levels and NDVI index for the area. The capture should happen in three days during the overnight period.

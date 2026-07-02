@@ -1,1 +1,0 @@
-We need to set up a standard operational tasking for multispectral vegetation analysis over Puerto Wilches in Colombia. This is part of our baseline pipeline tracking with fixed parameters, so it's business as usual. We're looking to capture the chlorophyll absorption levels and get a good NDVI index reading. Schedule this for around mid-day in three days.

@@ -1,5 +1,0 @@
-Hello there, I'd like to submit a task request for an observation over Caimitillo in Panamá. This is a low-priority importance task with a flexible schedule, so please feel free to drop or reschedule it at your convenience. It's essentially a non-essential background filler task.
-
-The objective here is to perform an active radar scan using microwave surface imaging. The goal is to achieve cloud-penetrating capture, which will help us understand the ground geometry even under heavy weather conditions.
-
-We're looking to complete this observation sometime in four days during the overnight period. Thank you for accommodating this request as part of our background survey and testbed tracking tasks.

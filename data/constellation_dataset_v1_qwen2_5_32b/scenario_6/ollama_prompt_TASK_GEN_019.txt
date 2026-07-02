@@ -1,1 +1,0 @@
-We need to schedule a standard operational tasking for an active radar scan over Yondó, Colombia. This is part of our baseline pipeline tracking with fixed parameters, so it's a normal operational status update. We're looking to capture this overnight tomorrow.

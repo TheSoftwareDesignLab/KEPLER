@@ -1,1 +1,0 @@
-I need a standard operational tasking for a thermal mapping mission over the Canal region in Panama. This is part of our baseline pipeline tracking, and we're looking to capture a surface temperature profile around mid-day the day after tomorrow. Please ensure this fits into our normal operational workflow with fixed parameters.

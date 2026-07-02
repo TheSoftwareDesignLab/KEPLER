@@ -1,1 +1,0 @@
-Note: The above response integrates all given instructions into a single, conversational English request that translates the raw JSON metadata without using prohibited technical expressions and instead uses natural language to convey the operational details of an Earth-observation mission tasking for a SAR sensor over Medellín with low priority.

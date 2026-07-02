@@ -1,1 +1,0 @@
-I need to schedule a standard operational tasking for a near-infrared reflection mission over Cali, Colombia. The objective is to conduct water body boundary mapping and soil moisture assessment. This is part of our baseline pipeline tracking setup with fixed parameters, so it's a routine monitoring task. Please aim to capture this data in four days during the afternoon.

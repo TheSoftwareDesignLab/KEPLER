@@ -1,2 +1,0 @@
-Tasking Request: 
-We require an active radar scan using microwave surface imaging to capture cloud-penetrating imagery of Santander de Quilichao, Colombia during the afternoon in three days. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.

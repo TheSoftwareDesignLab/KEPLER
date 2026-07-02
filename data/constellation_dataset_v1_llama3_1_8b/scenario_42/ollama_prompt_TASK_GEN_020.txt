@@ -1,5 +1,0 @@
-Tasking Request: Opportunistic Capture of Panama Canal Region
-
-We have a low priority importance request for opportunistic capture in the Panama Canal region, specifically targeting the city of Canal in Panama. The primary objective is to conduct a near-infrared reflection survey to assess water body boundary mapping and soil moisture assessment.
-
-This task is considered a non-essential background filler task with a flexible schedule, and we kindly request that it be dropped or rescheduled at convenience if other priorities arise. We aim to capture this data sometime today around mid-day, as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.

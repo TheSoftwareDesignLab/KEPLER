@@ -1,2 +1,0 @@
-Tomorrow evening, as part of our standard operational tasking, we need to conduct a multispectral vegetation analysis using near-infrared reflection in Rioblanco, Colombia. This routine monitoring is essential for assessing the chlorophyll absorption level and calculating the surface reflectance index. Please ensure this baseline pipeline tracking update is scheduled accordingly within our fixed parameters window.
-```

@@ -1,1 +1,0 @@
-I need a standard operational tasking for a high-resolution optical snapshot of El Toro, Colombia. This is part of our baseline pipeline tracking setup with fixed parameters, ensuring normal operational status. The mission should be scheduled for the day after tomorrow during the afternoon. Please proceed as per routine monitoring protocols.

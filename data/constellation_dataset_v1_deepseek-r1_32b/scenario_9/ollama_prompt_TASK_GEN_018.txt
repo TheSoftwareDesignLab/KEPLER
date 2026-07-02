@@ -1,1 +1,0 @@
-We need to capture multispectral vegetation data over the area around San Martín, Panamá. This is a low-priority, opportunistic task that can be scheduled for three days from now, specifically overnight. The goal is to assess chlorophyll absorption levels and calculate the NDVI index. Feel free to drop or reschedule this at convenience if higher priority tasks arise.

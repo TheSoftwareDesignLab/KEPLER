@@ -1,4 +1,0 @@
-```
-prompt
-We need to conduct a low priority importance task with a flexible schedule for opportunistic capture. We're looking at La Chorrera in Panamá for a near-infrared reflection task, focusing on water body boundary mapping and soil moisture assessment to discriminate gradients. This is a non-essential background filler task, so feel free to drop or reschedule at convenience - it's just a background survey or testbed tracking task. We'd like to capture this sometime today around mid-day.
-```

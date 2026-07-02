@@ -1,1 +1,0 @@
-"Please task the satellite to perform a multispectral vegetation analysis using VNIR in Canal, Panama, sometime today around mid-day. This is a low priority importance request with a flexible schedule for opportunistic capture, treating it as a background survey or testbed tracking task."

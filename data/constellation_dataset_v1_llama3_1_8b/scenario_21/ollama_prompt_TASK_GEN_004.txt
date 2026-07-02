@@ -1,5 +1,0 @@
-Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the satellite constellation planner.
-
-We require an absolute institutional priority for thermal mapping in Panamá, specifically in the Canal region. This is a critical payload capture that must be executed with utmost urgency due to its binding contract requirements. We need to capture a heat signature and surface temperature profile using active microwave surface imaging to pierce through heavy weather conditions. This tasking is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
-
-The mission must be executed in three days during the morning hours. This will allow us to obtain high-quality thermal data for our analysis. Please ensure that this task is given the highest priority and is executed without any delays or preemptions.

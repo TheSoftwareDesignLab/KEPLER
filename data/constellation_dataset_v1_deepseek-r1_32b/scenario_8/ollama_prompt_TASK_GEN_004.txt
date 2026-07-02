@@ -1,1 +1,0 @@
-Could you please schedule a VNIR sensor capture near Cristóbal, Panamá, for three days from now in the morning? This is a low-priority task, so feel free to drop or reschedule it if something more critical comes up. The goal is to capture multispectral vegetation data for assessing chlorophyll levels and calculating NDVI indices in that area.

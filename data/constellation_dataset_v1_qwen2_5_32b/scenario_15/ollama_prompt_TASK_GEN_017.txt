@@ -1,1 +1,0 @@
-Hey, we've got a low priority importance task coming up. It's a background survey for multispectral vegetation analysis over Cuevas, Colombia. We're looking at capturing chlorophyll absorption levels and calculating the NDVI index. This is flexible, so feel free to drop or reschedule it at convenience. The capture should happen tomorrow morning. Just slot it in when you can.

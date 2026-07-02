@@ -1,1 +1,0 @@
-I need to schedule a routine monitoring task for tomorrow overnight in Cali, Colombia. The focus is on thermal mapping to capture a surface temperature profile using TIR sensors. This is part of our baseline pipeline tracking with fixed parameters, ensuring normal operational status and a standard workflow update. Please coordinate this as a standard operational tasking.

@@ -1,1 +1,0 @@
-I need to schedule a routine monitoring task for thermal mapping over Onzaga, Colombia. The objective is to capture a surface temperature profile using thermal imaging. This should be executed three days from now during the overnight hours as part of our standard operational pipeline.

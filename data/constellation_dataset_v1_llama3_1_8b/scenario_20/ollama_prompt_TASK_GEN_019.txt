@@ -1,4 +1,0 @@
-```
-prompt
-We require a high-priority tasking for a critical payload capture involving multispectral vegetation analysis using VNIR sensors. This mission is an absolute institutional priority and a binding contract requirement for the region of Colombia, specifically targeting the city of Bojayá (Bellavista). We need to execute this tasking overnight on the day after tomorrow.
-```

@@ -1,1 +1,0 @@
-We require a thermal mapping task to capture a heat signature and surface temperature profile over La Uvita, Colombia, using a flexible schedule for opportunistic capture. This is a low priority importance request with a drop or reschedule at convenience option, treating it as a background survey or testbed tracking task. We aim to execute this task sometime today around mid-day.

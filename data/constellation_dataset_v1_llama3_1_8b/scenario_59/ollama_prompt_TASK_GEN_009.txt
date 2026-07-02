@@ -1,1 +1,0 @@
-We require a standard operational tasking for a commercial satellite mission, focusing on the region of San Pablo in Colombia. We need to conduct an active radar scan using microwave surface imaging to capture cloud-penetrating data during the afternoon of the day after tomorrow.

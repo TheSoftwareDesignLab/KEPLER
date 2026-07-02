@@ -1,1 +1,0 @@
-Hey, we've got a low priority importance request coming in for some opportunistic VNIR capture. We're looking to assess the chlorophyll absorption levels and calculate the NDVI index over Antón, Panamá. This is just a background survey task, so feel free to drop or reschedule it at convenience. Ideally, we'd like this done sometime today in the evening. Thanks!

@@ -1,1 +1,0 @@
-We need to set up a routine monitoring task for the Panama Canal area in three days during the morning. This will involve capturing near-infrared reflection to assess water body boundaries and soil moisture levels. It's part of our baseline pipeline tracking with fixed parameters, so just your standard operational tasking here.

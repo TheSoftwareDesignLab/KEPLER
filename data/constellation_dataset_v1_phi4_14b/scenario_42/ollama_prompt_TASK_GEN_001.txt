@@ -1,1 +1,0 @@
-I need to schedule a standard operational tasking for a multispectral vegetation analysis over Mutatá, Colombia. This is part of our baseline pipeline tracking with fixed parameters. The mission involves capturing chlorophyll absorption levels and calculating an NDVI index for the area. Please ensure this is done in three days around mid-day local time. Thank you.

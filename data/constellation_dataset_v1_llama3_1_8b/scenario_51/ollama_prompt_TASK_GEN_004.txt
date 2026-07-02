@@ -1,9 +1,0 @@
-Tasking Request: High-Resolution Optical Snapshot of Panama Canal
-
-This is a standard operational tasking for a commercial satellite mission, part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We require a high-resolution optical snapshot of the Panama Canal, specifically during the overnight period tomorrow.
-
-The location details are as follows: the mission will be focused on the region of Panama, targeting the city of Canal. This is a routine monitoring task, and we expect the satellite to capture clear optical imagery with true-color visual documentation.
-
-Please ensure that the mission allocation authority and asset contractual value are respected, as this tasking is part of our standard operational workflow update.
-
-Thank you for your prompt execution.

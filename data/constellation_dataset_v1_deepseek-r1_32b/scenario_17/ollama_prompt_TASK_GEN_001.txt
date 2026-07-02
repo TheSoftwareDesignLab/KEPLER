@@ -1,1 +1,0 @@
-We need to conduct a multispectral vegetation analysis over the area around San Martín, Colombia. This is a low-priority VNIR survey that can be dropped or rescheduled at convenience. The goal is to capture chlorophyll absorption levels and NDVI indices. Please prioritize this task four days from now, specifically in the morning.

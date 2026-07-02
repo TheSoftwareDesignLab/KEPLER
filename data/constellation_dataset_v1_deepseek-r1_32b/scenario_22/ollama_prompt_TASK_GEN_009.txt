@@ -1,1 +1,0 @@
-We have a standard operational tasking requiring multispectral vegetation analysis over the area around Rioblanco, Colombia. The objective is to assess chlorophyll absorption levels and calculate the NDVI index. This needs to be completed in three days during the evening. Please ensure the VNIR sensor is allocated accordingly for this routine monitoring.

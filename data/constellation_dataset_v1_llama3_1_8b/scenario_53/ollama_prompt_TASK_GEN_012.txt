@@ -1,1 +1,0 @@
-"Please conduct a thermal mapping task in Canal, Panamá, utilizing the TIR sensor for thermal anomaly detection and heat signature capture. This is a low priority importance request with a flexible schedule for opportunistic capture, treat it as a background survey or testbed tracking task to be completed sometime today around mid-day."

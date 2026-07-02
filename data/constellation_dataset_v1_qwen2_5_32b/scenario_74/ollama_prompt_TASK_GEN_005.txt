@@ -1,1 +1,0 @@
-We need to conduct a routine monitoring task for our baseline pipeline tracking setup in Andina, Colombia. This is part of our normal operational status and involves capturing a multispectral vegetation analysis to assess chlorophyll absorption levels. We're looking to gather this data around mid-day tomorrow, so please ensure it aligns with our fixed parameters.

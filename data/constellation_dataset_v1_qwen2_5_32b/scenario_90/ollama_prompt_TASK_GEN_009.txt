@@ -1,1 +1,0 @@
-We need to schedule a thermal mapping mission over Dagua, Colombia, as part of our routine monitoring. This is a standard operational tasking with fixed parameters, so we're looking at capturing the surface temperature profile overnight in three days.

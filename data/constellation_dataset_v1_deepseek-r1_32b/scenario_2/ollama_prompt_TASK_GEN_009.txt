@@ -1,1 +1,0 @@
-I need to schedule a low-priority request for capturing near-infrared reflections over the region near Otanche, Colombia. This is part of a flexible survey task that can be dropped or rescheduled at convenience. The target window is three days from now during the overnight hours.

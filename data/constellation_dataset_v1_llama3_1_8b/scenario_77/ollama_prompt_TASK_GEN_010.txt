@@ -1,9 +1,0 @@
-Tasking Request: Thermal Mapping and Heat Signature Detection in Panama Canal Region
-
-We require a high-resolution thermal mapping and heat signature detection task to be executed as part of our standard operational pipeline tracking setup with fixed parameters representing normal operational status. This task is a routine monitoring part of our baseline pipeline tracking setup, focusing on thermal anomaly detection and mapping heat emissions in the Panama Canal region.
-
-The target location for this task is the Panama Canal, specifically in the city of Canal within the country of Panamá. We need to capture a heat signature and surface temperature profile using active thermal sensing capabilities.
-
-This task has been designated as a standard operational tasking with a commercial tasking priority level. The mission allocation authority and asset contractual value indicate that this task is a normal operational status requirement, part of our routine monitoring setup.
-
-The target execution window for this task is sometime today around mid-day, allowing us to capture the thermal data during optimal conditions.

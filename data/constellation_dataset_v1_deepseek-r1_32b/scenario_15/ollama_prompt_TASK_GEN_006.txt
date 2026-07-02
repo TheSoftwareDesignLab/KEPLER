@@ -1,1 +1,0 @@
-I need a VNIR multispectral vegetation analysis over Panama City, Panama. This is a low-priority, opportunistic capture task that can be dropped or rescheduled at convenience. The goal is to assess chlorophyll absorption levels and calculate the NDVI index for the area. Please prioritize this as a background survey task. The target window is the day after tomorrow around mid-day.

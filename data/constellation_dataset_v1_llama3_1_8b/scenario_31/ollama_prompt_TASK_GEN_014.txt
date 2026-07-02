@@ -1,3 +1,0 @@
-Translate this raw physical simulation metadata into a highly realistic and conversational English request for the satellite constellation planner:
-
-We require an absolute institutional priority for thermal mapping in Panamá, specifically in the city of Canal, to capture a heat signature and surface temperature profile. This is a critical payload capture and mandatory directive that must be executed with an urgent operational execution and un-preemptable mission lock. Please allocate our assets accordingly and ensure this tasking is completed tomorrow morning.

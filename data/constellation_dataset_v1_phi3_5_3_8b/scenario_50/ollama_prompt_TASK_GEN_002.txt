@@ -1,2 +1,0 @@
-Tomorrow, I'd like to schedule a non-essential background filler task for opportunistic capture around midday in Tulú, Panamá. We aim to perform multispectral vegetation analysis to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance. This can be dropped or rescheduled at my convenience as it's of low priority importance.
-```

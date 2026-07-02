@@ -1,2 +1,0 @@
-Tasking Request for Thermal Mapping in Burunga, Panamá: 
-We require a thermal mapping task to capture the heat signature and surface temperature profile of the region around Burunga, Panamá. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We need this to be completed tomorrow afternoon, specifically during the late afternoon hours.

@@ -1,1 +1,0 @@
-We need to schedule a routine thermal mapping task for the Panama Canal area. This is part of our baseline pipeline tracking and should capture the surface temperature profile overnight on the day after tomorrow. Please ensure this standard operational tasking is included in the schedule.

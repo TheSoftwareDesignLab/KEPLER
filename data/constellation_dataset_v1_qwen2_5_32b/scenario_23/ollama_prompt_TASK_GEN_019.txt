@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking for thermal mapping over Páez, Colombia. This is part of our baseline pipeline tracking setup with fixed parameters, so it's important we maintain normal operational status. We're looking to capture the surface temperature profile in the evening tomorrow.

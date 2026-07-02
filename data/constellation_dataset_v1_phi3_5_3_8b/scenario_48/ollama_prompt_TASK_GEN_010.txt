@@ -1,1 +1,0 @@
-Tomorrow afternoon, I need a standard operational tasking to conduct multispectral vegetation analysis over La Esmeralda in Panamá. This routine monitoring will assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance. Please schedule this as part of our baseline pipeline tracking with fixed parameters representing normal operational status.

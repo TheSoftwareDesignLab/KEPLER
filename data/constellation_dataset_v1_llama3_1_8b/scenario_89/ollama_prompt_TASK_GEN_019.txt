@@ -1,5 +1,0 @@
-Tasking Request: Routine Monitoring for Baseline Pipeline Tracking
-
-We require a high-resolution optical snapshot of Valdivia, Colombia using multispectral vegetation analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index. This is part of our standard operational tasking, commercial tasking, and routine monitoring setup with fixed parameters representing normal operational status.
-
-The mission allocation priority for this tasking is a standard operational tasking, as per our baseline pipeline tracking setup. We need to capture this data sometime today around mid-day, specifically during the day after tomorrow's overnight period.

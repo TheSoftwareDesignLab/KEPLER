@@ -1,2 +1,0 @@
-Tasking Request: 
-We require a standard operational tasking for routine monitoring as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. This is a commercial tasking involving a critical payload capture using active radar scan for microwave surface imaging to pierce heavy weather and capture ground geometry in Uribe, Colombia. The mission allocation priority is moderate, and we expect the task to be executed within the day after tomorrow specifically overnight.

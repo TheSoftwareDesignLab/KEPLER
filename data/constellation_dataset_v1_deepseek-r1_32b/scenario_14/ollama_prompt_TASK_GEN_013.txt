@@ -1,1 +1,0 @@
-We need to capture a radar image over Suratá, Colombia, using active microwave imaging to penetrate any cloud cover and map the surface geometry. This is a low-priority request that can be scheduled as an opportunistic capture three days from now, specifically during the afternoon. If something more urgent comes up, feel free to drop or reschedule this task at your convenience.

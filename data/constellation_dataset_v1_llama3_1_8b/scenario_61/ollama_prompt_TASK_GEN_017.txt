@@ -1,5 +1,0 @@
-Tasking Request: Routine Monitoring of Near-Infrared Reflection in Colombia
-
-We require a standard operational tasking for routine monitoring of near-infrared reflection in Colombia. Specifically, we need to capture a high-resolution optical snapshot of near-infrared reflection in the city of Docordó, Colombia. This is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.
-
-Please allocate assets for this commercial tasking within the next three days during the afternoon. We expect a clear optical imagery with true-color visual documentation of near-infrared reflection patterns in the region.

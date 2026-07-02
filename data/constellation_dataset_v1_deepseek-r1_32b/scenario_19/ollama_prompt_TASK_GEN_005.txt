@@ -1,1 +1,0 @@
-We need to schedule a standard operational tasking for an active radar scan over San Vicente del Caguán, Colombia. This is part of our baseline pipeline tracking with fixed parameters. The objective is to perform a microwave surface imaging capture overnight the day after tomorrow. This is a routine monitoring request and should be treated as normal operational status.

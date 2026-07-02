@@ -1,1 +1,0 @@
-Tomorrow afternoon, as part of our routine monitoring, we need to schedule an active radar scan in Coello, Colombia. This task is a standard operational tasking aimed at cloud-penetrating capture and precise ground geometry mapping. Please ensure this fits into the baseline pipeline tracking with fixed parameters for normal operation status.

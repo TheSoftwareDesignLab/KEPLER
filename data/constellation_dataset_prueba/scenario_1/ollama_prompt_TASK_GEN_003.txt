@@ -1,2 +1,0 @@
-Tomorrow afternoon, I'd like to schedule a low priority importance task for thermal mapping over San José del Guaviare in Colombia. We aim to capture a heat signature and surface temperature profile during this time frame. If it conflicts with other operations or if there are better opportunities, please feel free to drop or reschedule at your convenience as we're looking at this as a non-essential background filler task for thermal anomaly detection.
-```

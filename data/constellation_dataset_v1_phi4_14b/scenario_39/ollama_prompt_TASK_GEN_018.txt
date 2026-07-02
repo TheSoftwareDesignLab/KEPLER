@@ -1,1 +1,0 @@
-I need a standard operational tasking for a multispectral vegetation analysis over the Canal area in Panamá. This is part of our baseline pipeline tracking, with fixed parameters to monitor chlorophyll absorption levels and calculate NDVI indices. The task should be scheduled for tomorrow overnight. Please ensure it's integrated into our routine monitoring schedule.

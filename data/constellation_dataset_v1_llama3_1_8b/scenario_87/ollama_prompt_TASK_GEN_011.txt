@@ -1,1 +1,0 @@
-We need to allocate a low priority importance task for opportunistic capture of an active radar scan using microwave surface imaging for cloud-penetrating capture, specifically in San Pablo, Colombia, sometime today around mid-day as part of a non-essential background filler task with a flexible schedule.

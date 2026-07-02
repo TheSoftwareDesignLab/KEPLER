@@ -1,1 +1,0 @@
-We need to conduct a routine multispectral vegetation analysis over Uribe, Colombia, as part of our standard operational tasking. This is a fixed parameter setup for normal operational status, so we're looking at capturing the chlorophyll absorption levels and NDVI index overnight on the day after tomorrow.

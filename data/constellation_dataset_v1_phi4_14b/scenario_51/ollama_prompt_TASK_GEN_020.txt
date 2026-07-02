@@ -1,1 +1,0 @@
-We have a standard operational tasking for Santa Isabel, Panamá. This involves thermal mapping to capture heat signatures and surface temperature profiles. It's part of our baseline pipeline tracking with fixed parameters that reflect normal operational status. We need this task completed the day after tomorrow, specifically overnight.

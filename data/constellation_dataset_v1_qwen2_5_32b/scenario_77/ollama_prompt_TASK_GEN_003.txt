@@ -1,1 +1,0 @@
-We need to conduct a routine monitoring task in Santa Rosa del Sur, Colombia. This is part of our baseline pipeline tracking setup with fixed parameters for normal operational status. The objective is to capture near-infrared reflection for water body boundary mapping. We're looking to execute this during the afternoon in three days.

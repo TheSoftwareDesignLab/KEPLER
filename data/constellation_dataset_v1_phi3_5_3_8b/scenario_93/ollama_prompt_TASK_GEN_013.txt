@@ -1,1 +1,0 @@
-Tomorrow morning, I need a standard operational tasking for multispectral vegetation analysis in Zaragoza, Colombia. This routine monitoring will assess chlorophyll absorption levels and calculate the NDVI index to understand surface reflectance. Please ensure this is slotted into our baseline pipeline tracking with fixed parameters representing normal operational status.

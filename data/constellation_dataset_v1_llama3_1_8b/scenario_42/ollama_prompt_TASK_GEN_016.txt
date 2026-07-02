@@ -1,7 +1,0 @@
-Tasking Request for Opportunistic Radar Scan in Cerro Cama, Panamá
-
-We're looking to conduct a low-priority importance task with a flexible schedule for opportunistic capture. This non-essential background filler task can be dropped or rescheduled at convenience, but we'd like to attempt a background survey or testbed tracking task sometime today around mid-day in Cerro Cama, Panamá.
-
-The objective is to perform an active radar scan using microwave surface imaging for cloud-penetrating capture, which will help us pierce heavy weather and capture ground geometry. We're treating this as a routine monitoring part of our baseline pipeline tracking setup with fixed parameters representing normal operational status, so please consider this a standard operational tasking.
-
-Please note that this is an opportunistic capture, and we'll be happy to reschedule or drop the task if the conditions aren't favorable.

@@ -1,1 +1,0 @@
-Tomorrow afternoon, we need to conduct a thermal mapping of Yopal in Colombia. This is part of our routine monitoring to capture surface temperature profiles and detect any thermal anomalies. Please ensure this task is slotted into the baseline pipeline tracking with fixed parameters for normal operational status.

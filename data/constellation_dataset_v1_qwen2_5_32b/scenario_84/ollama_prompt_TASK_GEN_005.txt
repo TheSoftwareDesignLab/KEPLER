@@ -1,1 +1,0 @@
-Hey, we've got a low priority importance task for the VNIR sensor. We need to conduct a multispectral vegetation analysis over El Bagre in Colombia. This is a non-essential background filler task, so feel free to drop or reschedule at convenience. The capture should happen the day after tomorrow during the afternoon.

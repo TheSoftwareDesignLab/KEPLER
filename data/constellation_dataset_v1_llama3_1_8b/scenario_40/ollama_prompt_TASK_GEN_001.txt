@@ -1,1 +1,0 @@
-We require a standard operational tasking for thermal mapping in Colombia, specifically targeting the city of Girardot. We need to capture a heat signature and surface temperature profile using our TIR sensor sometime today around mid-day as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status.

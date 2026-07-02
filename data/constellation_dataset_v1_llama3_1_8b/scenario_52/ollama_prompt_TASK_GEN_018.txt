@@ -1,4 +1,0 @@
-```
-prompt
-I'd like to task the satellite constellation for an active radar scan using microwave surface imaging, specifically targeting the Panama Canal region in Panama. This is a low priority importance request with a flexible schedule for opportunistic capture, and I'd like to treat it as a background survey or testbed tracking task. The target window is this afternoon sometime during the evening, when we can capture a cloud-penetrating image of the area.
-```

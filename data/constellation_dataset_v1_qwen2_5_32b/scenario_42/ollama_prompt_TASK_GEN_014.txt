@@ -1,1 +1,0 @@
-We need to schedule a routine monitoring task for the day after tomorrow, specifically overnight. The objective is to conduct a multispectral vegetation analysis over Taboga, Panamá. This is part of our baseline pipeline tracking with fixed parameters and represents normal operational status.

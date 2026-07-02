@@ -1,1 +1,0 @@
-Tomorrow, we're aiming for a multispectral vegetation analysis around midday in Yarumal, Colombia. This standard operational task will assess the chlorophyll absorption level and calculate the NDVI index to monitor surface reflectance. Please schedule this routine monitoring as part of our baseline pipeline tracking within normal working hours.

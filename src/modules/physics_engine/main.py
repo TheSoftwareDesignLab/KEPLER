@@ -3,7 +3,7 @@ import pathlib
 from datetime import datetime, timezone
 from typing import Optional
 from src.core.datatypes import CollectedContext
-from .pass_calculator import compute_infrastructure_passes, compute_target_passes
+from .pass_calculator import compute_target_passes, compute_infrastructure_passes
 
 __all__ = ["physics_engine_main"]
 
@@ -37,7 +37,9 @@ def physics_engine_main(
     simulation_start_utc: datetime,
     simulation_end_utc: datetime,
     output_path: str = "data/physics_passes_report.json",
-    step_seconds: int = 20
+    step_seconds: int = 20,
+    min_duration: int = 5,
+    max_duration: int = 30
 ) -> None:
     all_infra_passes = []
     for gs in context.ground_stations:
@@ -60,13 +62,15 @@ def physics_engine_main(
                 task=task,
                 simulation_start_utc=simulation_start_utc,
                 min_el_deg=10.0,
-                step_seconds=step_seconds
+                step_seconds=step_seconds,
+                min_duration=min_duration,
+                max_duration=max_duration
             )
             all_target_passes.extend(passes)
 
             if passes:
-                task.assigned_lvlh_pitch_deg = passes[-1]["lvlh_required_pitch_deg"]
-                task.assigned_lvlh_roll_deg = passes[-1]["lvlh_required_roll_deg"]
+                task.assigned_lvlh_pitch_deg = passes[-1]["lvlh_end_pitch_deg"]
+                task.assigned_lvlh_roll_deg = passes[-1]["lvlh_end_roll_deg"]
 
     _export_physics_report(
         all_infra_passes=all_infra_passes,

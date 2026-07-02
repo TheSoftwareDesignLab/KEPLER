@@ -7,7 +7,8 @@ simulation:
   tasks_k: 3
   seed: 2026
   ollama_model: "phi3.5:3.8b"
-  ollama_temperature: 0.4 
+  ollama_temperature: 0.4
+  semantic_enabled: true
 
 payload:
   sensors_pool:
@@ -19,33 +20,33 @@ payload:
   sensor_weights: [0.4, 0.2, 0.2, 0.1, 0.1]
 
   sensor_generation_rates:
-      SAR: 80.0
-      VISUAL: 40.0
-      VIS: 40.0
-      VNIR: 35.0
-      NIR: 20.0
-      TIR: 12.0
+    SAR: 80.0
+    VISUAL: 40.0
+    VIS: 40.0
+    VNIR: 35.0
+    NIR: 20.0
+    TIR: 12.0
 
   storage_capacity_pool_mb:
-      - 32000.0   # 32 GB 
-      - 128000.0  # 128 GB 
-      - 512000.0  # 512 GB 
-      - 1024000.0 # 1 TB 
+    - 32000.0   # 32 GB 
+    - 128000.0  # 128 GB 
+    - 512000.0  # 512 GB 
+    - 1024000.0 # 1 TB 
 
   storage_capacity_weights: [0.4, 0.2, 0.2, 0.1]
 
   bands_config:
     X:
       weight: 0.6
-      min_elevation_deg: 10.0
+      min_elevation_deg: 12.0
       downlink_rate_mb_s: 45.0
     S:
       weight: 0.2
-      min_elevation_deg: 5.0
+      min_elevation_deg: 7.0
       downlink_rate_mb_s: 2.0
     Ka:
       weight: 0.2
-      min_elevation_deg: 15.0
+      min_elevation_deg: 22.0
       downlink_rate_mb_s: 150.0
 
   min_sensors_per_sat: 1
@@ -121,3 +122,4 @@ task_generation:
 
 paths:
   gs_file_path: "data/ground_station.csv"
+  sat_file_path: "data/satellite_tle.csv"

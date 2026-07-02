@@ -1,5 +1,0 @@
-Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request for the automated satellite constellation planner.
-
-We need to capture a high-resolution optical snapshot of the region in Colombia, specifically in the city of Ubalá, using a multispectral vegetation analysis to assess chlorophyll absorption levels and calculate a vegetation NDVI index and surface reflectance. This is an absolute institutional priority, as it involves a critical payload capture with mandatory directives for urgent operational execution and un-preemptable mission lock.
-
-We require this tasking to be completed in three days, specifically around mid-day, to ensure timely data collection and analysis.

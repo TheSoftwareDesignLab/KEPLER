@@ -1,2 +1,0 @@
-Tomorrow, I need a thermal mapping of Zaragoza in Colombia during the afternoon to capture surface temperature profiles and identify any thermal anomalies. This is part of our routine monitoring for environmental studies. Please schedule this as a standard operational tasking within the usual workflow update times. Ensure that it aligns with today's remaining daylight hours before sunset, maintaining our baseline pipeline tracking setup.
-```

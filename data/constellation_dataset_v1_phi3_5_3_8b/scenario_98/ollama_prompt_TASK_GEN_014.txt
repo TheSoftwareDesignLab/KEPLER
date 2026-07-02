@@ -1,2 +1,0 @@
-Request Earth-observation team to conduct a thermal mapping over Ancón, Panamá, as part of our routine monitoring. This task is scheduled for tomorrow evening and falls under standard operational tasking within the baseline pipeline tracking setup. The focus will be on capturing surface temperature profiles and identifying any potential thermal anomalies in preparation for further analysis.
-```

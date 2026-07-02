@@ -1,1 +1,0 @@
-Tomorrow evening, as part of our routine monitoring in San Martín, Colombia, we need to schedule an active radar scan using microwave surface imaging. This task is a standard operational tasking aimed at cloud-penetrating capture and assessing ground geometry within the city limits. Please ensure this becomes a fixed parameter for today's baseline pipeline tracking update.

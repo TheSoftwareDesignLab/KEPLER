@@ -1,1 +1,0 @@
-We need to set up a standard operational tasking for thermal mapping in Santa Cruz de Chinina, Panamá. This is part of our baseline pipeline tracking with fixed parameters, so it's important we maintain normal operational status. We're looking to capture the surface temperature profile using thermal mapping. The task should be scheduled for the day after tomorrow in the evening.

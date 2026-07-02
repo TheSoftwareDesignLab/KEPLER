@@ -1,2 +1,0 @@
-Tomorrow night, I need a thermal mapping session over Nechí in Colombia to capture heat signatures and assess surface temperature profiles. This is part of our routine monitoring for thermal anomaly detection and will be conducted using true-color visual documentation. Please schedule this as a standard operational tasking within the baseline pipeline tracking setup with fixed parameters, reflecting normal operational status.
-```

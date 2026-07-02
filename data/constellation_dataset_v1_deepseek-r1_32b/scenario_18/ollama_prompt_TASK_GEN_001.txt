@@ -1,1 +1,0 @@
-This is an absolute institutional priority: we need a critical payload capture of multispectral vegetation analysis over Aguazul, Colombia, for chlorophyll absorption level assessment. This is a mandatory directive requiring urgent operational execution. The target window is tomorrow afternoon, so lock in the VNIR sensor for this high-priority tasking.

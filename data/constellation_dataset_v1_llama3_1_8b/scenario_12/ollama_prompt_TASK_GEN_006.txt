@@ -1,4 +1,0 @@
-```
-prompt
-We need to conduct a low-priority importance task with a flexible schedule for opportunistic capture. The objective is to perform a multispectral vegetation analysis using near-infrared reflection to assess chlorophyll absorption levels and calculate the vegetation NDVI index and surface reflectance in Canal, Panamá sometime today around mid-day.
-```

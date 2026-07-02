@@ -1,1 +1,0 @@
-I need to schedule a routine monitoring task for tomorrow morning over Llano Grande, Panamá. This is part of our baseline pipeline tracking with fixed parameters, focusing on near-infrared reflection. The objective is to map water body boundaries and assess soil moisture levels. Please ensure this fits into our standard operational workflow.

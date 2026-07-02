@@ -1,1 +1,0 @@
-We need to set up a standard operational tasking for a high-resolution optical snapshot over Panamá, specifically near Natá. This is part of our baseline pipeline tracking with fixed parameters, so we're looking at capturing this imagery in three days during the overnight period. Make sure it aligns with our normal operational status.

@@ -1,1 +1,0 @@
-We need to set up a routine monitoring task for tomorrow overnight over Puerto López, Colombia. The objective is to capture near-infrared reflection to assess water body boundaries and soil moisture conditions as part of our baseline pipeline tracking setup with fixed parameters.

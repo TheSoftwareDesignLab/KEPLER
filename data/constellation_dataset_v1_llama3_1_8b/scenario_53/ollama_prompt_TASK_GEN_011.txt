@@ -1,9 +1,0 @@
-Tasking Request for VNIR Multispectral Vegetation Analysis in Macaravita, Colombia
-
-This is a standard operational tasking, part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We require a high-resolution optical snapshot for daylight photography and true-color visual documentation of the region in Macaravita, Colombia.
-
-The location details are as follows: we are targeting the country of Colombia, specifically the city of Macaravita. This tasking is considered a commercial tasking with a routine monitoring objective, and it falls under our standard operational workflow update.
-
-We require this task to be executed sometime today around mid-day, during the afternoon. Please ensure that the multispectral vegetation analysis is conducted with the necessary parameters to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance.
-
-Please confirm receipt and execution of this tasking request.

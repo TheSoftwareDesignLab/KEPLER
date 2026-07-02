@@ -1,2 +1,0 @@
-Tomorrow morning, I'd like to schedule a non-essential background filler task for Monte Oscuro Abajo in Panama. We aim to capture multispectral vegetation analysis using near-infrared reflection to assess chlorophyll absorption levels and calculate the NDVI index around mid-day, whenever we find an opportunity that suits our current workload. This task can be dropped or rescheduled at your convenience as it's of low priority importance.
-```

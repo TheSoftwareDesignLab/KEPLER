@@ -1,1 +1,0 @@
-We need to acquire multispectral data over the Panama Canal area near the city of Canal using the VNIR sensor. This is a standard operational tasking to capture vegetation health metrics and calculate NDVI indices. The mission must be executed sometime today during the overnight hours as part of our routine monitoring pipeline.

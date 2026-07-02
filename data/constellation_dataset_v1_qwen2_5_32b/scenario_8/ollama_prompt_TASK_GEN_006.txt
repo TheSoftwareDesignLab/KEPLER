@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking for thermal mapping over the Panama Canal area. This is part of our baseline pipeline tracking with fixed parameters, so it should be treated as normal operational status. We're looking to capture the surface temperature profile overnight on the day after tomorrow.

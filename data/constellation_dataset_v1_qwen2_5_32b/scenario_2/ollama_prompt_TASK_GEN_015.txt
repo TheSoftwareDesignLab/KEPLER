@@ -1,1 +1,0 @@
-We need to set up a routine monitoring task for Gigante, Colombia. The objective is to capture near-infrared reflection to assess the water body boundaries and soil moisture in that area. This is part of our baseline pipeline tracking with fixed parameters, so it's business as usual. We're looking to execute this sometime during the afternoon in three days.

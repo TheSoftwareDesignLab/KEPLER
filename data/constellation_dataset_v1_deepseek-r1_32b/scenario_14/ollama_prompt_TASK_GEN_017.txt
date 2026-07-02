@@ -1,1 +1,0 @@
-We need to schedule a standard operational tasking for thermal mapping over Hobo, Colombia. This is a routine monitoring request as part of our baseline pipeline tracking. The objective is to capture the surface temperature profile using thermal imaging. Please execute this by the day after tomorrow in the evening.

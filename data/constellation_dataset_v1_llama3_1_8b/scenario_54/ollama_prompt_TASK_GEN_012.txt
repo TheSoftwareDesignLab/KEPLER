@@ -1,5 +1,0 @@
-Tasking Request: High-Resolution Optical Snapshot of Canal, Panamá
-
-We require a standard operational tasking for high-resolution optical snapshot capture in the Canal region of Panamá. This is a commercial tasking part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We need to capture clear optical imagery of the area using daylight photography techniques.
-
-Please execute this mission as part of your routine monitoring setup, with a focus on true-color visual documentation. The deadline for this tasking is tomorrow morning.

@@ -1,1 +1,0 @@
-Tomorrow evening, as part of our routine monitoring, we need to schedule an active radar scan using microwave surface imaging over Yondó in Colombia. This is a standard operational task that will help us penetrate any cloud cover and provide insights into the ground geometry for normal operational status tracking within our baseline pipeline setup.

@@ -1,1 +1,0 @@
-I'd like to schedule a low priority importance task for opportunistic capture, with a flexible schedule. We're looking to conduct a near-infrared reflection survey over Villamaría in Colombia sometime today around mid-day, as part of a background survey and testbed tracking task.

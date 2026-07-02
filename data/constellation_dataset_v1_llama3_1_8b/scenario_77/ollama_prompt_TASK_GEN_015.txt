@@ -1,1 +1,0 @@
-Capture a high-resolution optical snapshot of Andina, Colombia, using daylight photography for clear optical imagery. This is a standard operational tasking as part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The task should be completed today in the morning.

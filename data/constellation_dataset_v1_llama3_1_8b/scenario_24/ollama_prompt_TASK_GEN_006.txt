@@ -1,5 +1,0 @@
-Tasking Request: Multispectral Vegetation Analysis in Panamá
-
-We require a standard operational tasking for multispectral vegetation analysis in Panamá, specifically in the city of Donoso. This commercial tasking is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. We need to capture a high-resolution near-infrared reflection for water body boundary mapping and soil moisture assessment.
-
-Please allocate this task as a standard operational tasking, with a flexible schedule for opportunistic capture. The mission allocation priority is medium importance, and we expect routine monitoring within the next 24 hours, specifically during the afternoon tomorrow.

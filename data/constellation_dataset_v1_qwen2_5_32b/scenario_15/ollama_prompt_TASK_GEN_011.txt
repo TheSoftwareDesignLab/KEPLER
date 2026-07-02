@@ -1,1 +1,0 @@
-We need a standard operational tasking for an active radar scan over Jagua Arriba, Colombia, to capture cloud-penetrating imagery. This is part of our baseline pipeline tracking setup with fixed parameters and represents normal operational status. The mission should be executed tomorrow morning.

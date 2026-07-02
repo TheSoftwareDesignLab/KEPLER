@@ -1,1 +1,0 @@
-We need to schedule a routine monitoring task for a near-infrared reflection capture over Panama, specifically in the Santo Domingo area. This is part of our baseline pipeline tracking with fixed parameters. The request is for thermal mapping to assess water body boundaries or soil moisture conditions. We need this completed three days from now, specifically in the afternoon.

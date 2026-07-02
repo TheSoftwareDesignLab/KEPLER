@@ -1,1 +1,0 @@
-We need to conduct a standard operational tasking for a multispectral vegetation analysis over Donoso, Panamá. This is part of our baseline pipeline tracking with fixed parameters representing normal operational status. The goal is to assess the chlorophyll absorption level and calculate the NDVI index. We're looking to capture this data the day after tomorrow around mid-day.

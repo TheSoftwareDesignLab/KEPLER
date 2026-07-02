@@ -1,1 +1,0 @@
-We have a low-priority background survey task for VNIR multispectral vegetation analysis over Mapiripán, Colombia. This is an opportunistic capture to assess chlorophyll absorption levels and calculate the NDVI index. Please schedule this as a flexible task for the day after tomorrow, specifically overnight.

@@ -1,3 +1,0 @@
-Translate this raw physical simulation metadata into a single, highly realistic, and conversational English request:
-
-"Capture thermal mapping data in Uribe, Colombia, using an active thermal scan to detect heat signatures and surface temperature profiles. This is an absolute institutional priority, as it involves a critical payload capture and mandatory directive for our baseline pipeline tracking setup. Execute this mission during tomorrow's afternoon window."

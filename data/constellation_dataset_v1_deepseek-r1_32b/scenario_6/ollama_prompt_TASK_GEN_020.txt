@@ -1,1 +1,0 @@
-We need to schedule a standard operational tasking for multispectral vegetation analysis over the Panama Canal area in Panama. The primary objective is to capture chlorophyll absorption levels and NDVI index data. This needs to be executed the day after tomorrow in the evening as part of our baseline monitoring pipeline.

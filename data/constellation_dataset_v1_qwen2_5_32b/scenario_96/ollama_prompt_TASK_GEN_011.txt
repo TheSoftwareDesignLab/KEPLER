@@ -1,1 +1,0 @@
-Hey, we need to set up a standard operational tasking for tomorrow evening. The target is El Cerrito in Colombia. We're looking to conduct an active radar scan to ensure we capture the area with cloud-penetrating capabilities. This is part of our baseline pipeline tracking setup with fixed parameters, so make sure it's scheduled accordingly.

@@ -1,1 +1,0 @@
-We need to set up a standard operational tasking for thermal mapping over La Vega, Colombia. This is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. We're looking to capture the surface temperature profile. The mission needs to be executed the day after tomorrow in the morning.

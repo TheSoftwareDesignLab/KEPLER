@@ -1,1 +1,0 @@
-We have a low-priority thermal mapping task for the area around Apartadó, Colombia. The goal is to capture the heat signature and surface temperature profile of the region. We're targeting this for the day after tomorrow, specifically in the morning. Since it's a low-priority request, feel free to drop or reschedule it if needed.

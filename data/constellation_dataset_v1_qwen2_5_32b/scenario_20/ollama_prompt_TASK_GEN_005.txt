@@ -1,1 +1,0 @@
-We need to schedule a routine monitoring task for the area around Puerto Boyacá, Colombia. This is part of our baseline pipeline tracking setup with fixed parameters and represents normal operational status. The objective is to capture near-infrared reflection for water body boundary mapping in the region. We're looking to execute this overnight in three days.

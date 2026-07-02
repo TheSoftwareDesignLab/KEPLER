@@ -1,1 +1,0 @@
-We need to execute a standard operational tasking for a commercial client. The mission involves capturing a cloud-penetrating radar scan over Arraiján, Panamá. This is part of our baseline pipeline tracking with fixed parameters and represents normal operational status. We're looking to gather this data in three days during the afternoon.

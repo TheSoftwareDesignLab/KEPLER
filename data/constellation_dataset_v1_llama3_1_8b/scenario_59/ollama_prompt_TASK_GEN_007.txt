@@ -1,4 +1,0 @@
-```
-prompt
-We require a standard operational tasking for multispectral vegetation analysis in Colombia, specifically targeting the city of Tauramena. We need to capture a high-resolution optical snapshot using VNIR to assess chlorophyll absorption levels and calculate the NDVI index for surface reflectance. This is part of our baseline pipeline tracking setup with fixed parameters representing normal operational status. The task should be executed sometime today around mid-day.
-```

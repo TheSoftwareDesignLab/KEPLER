@@ -1,1 +1,0 @@
-We need to conduct a standard VNIR multispectral survey over the area around Jamundí, Colombia. The objective is to capture detailed vegetation data for assessing chlorophyll absorption levels and generating an NDVI index. This task should be scheduled for tomorrow morning as part of our routine monitoring pipeline.

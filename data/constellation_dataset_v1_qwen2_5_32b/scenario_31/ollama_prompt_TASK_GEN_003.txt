@@ -1,1 +1,0 @@
-Hey, we need to schedule a routine monitoring task for today around mid-day over San Luis, Colombia. This is part of our baseline pipeline tracking setup with fixed parameters, so we're looking at capturing near-infrared reflection to assess water body boundaries and soil moisture levels. Standard operational tasking, nothing urgent here, just keeping the workflow updated.

@@ -1,1 +1,0 @@
-We need to schedule a high-resolution optical snapshot over La Catalina, Colombia. This is part of our standard operational tasking and falls under our baseline pipeline tracking setup with fixed parameters for normal operational status. We're looking to capture this imagery in three days during the morning.

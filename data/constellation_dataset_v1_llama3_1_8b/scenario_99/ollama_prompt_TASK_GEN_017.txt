@@ -1,4 +1,0 @@
-```
-prompt
-We need to conduct a low priority importance task with a flexible schedule for opportunistic capture. The mission is to perform a multispectral vegetation analysis in Buenaventura, Colombia, using a high-resolution optical snapshot for daylight photography and true-color visual documentation. This is a non-essential background filler task where we can drop or reschedule at convenience. We'd like to capture this data sometime today around mid-day.
-```
